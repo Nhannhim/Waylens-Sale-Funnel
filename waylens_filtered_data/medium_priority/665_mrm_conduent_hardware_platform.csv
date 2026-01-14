@@ -1,0 +1,3 @@
+Hardware_Component,Product_Name,Architecture,Key_Features,Connectivity,Integration_Capability
+Onboard_Computer,IVU (Integrated Vehicle Unit),Open platform,"J-1939 connectivity, Vehicle health monitoring, Preventative maintenance alerts",Multiple radios; Public/private Wi-Fi; Cellular,"Video, Infotainment, Mobile routers, Fare boxes, Destination signs, Passenger counters"
+Mobile_Terminal,MDT (Mobile Data Terminal),Windows-based,"HD touchscreen, USB connectivity, Bluetooth, Panic button, Driver monitoring alarms",Integrated with IVU,"Speed alerts, Hard braking detection, Excessive idling monitoring"

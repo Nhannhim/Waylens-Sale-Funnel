@@ -1,0 +1,10 @@
+Company,Device_Model,Network_Technology,GPS_GNSS,Additional_Connectivity,Sensors,Special_Features,Page_Reference
+Verizon Connect,Vehicle Data Device,Cellular,Yes,Not specified,Not specified,Compact plug-and-play; IP67 protection (asset trackers),194
+Webfleet,LINK 245,Cellular,Yes,Bluetooth,Not specified,Plug-and-play self-install; Combustion and electric fleets,197
+Webfleet,LINK 740,Cellular,Yes,Not specified,CAN-bus interface,Works with driver terminals,197
+Trimble,Gateway,4G LTE,Yes,Wi-Fi,Not specified,Works with Samsung Tab A,190
+Road Ready,MCU (Master Control Unit),5G-Ready,GPS,Not specified,Not specified,Solar-powered or hardwired versions,212
+Road Ready,FL960,4G LTE-M/NB-IoT,GPS,Not specified,Not specified,8+ year battery life; 24 updates per day,212
+DCT,Syrus 4G,LTE worldwide with 3G/2G fallback,Multi-constellation enhanced GNSS,Wi-Fi and Bluetooth,3-axis accelerometer,Dual CAN-bus (J1939/J1708); Remote diagnostics; SDK/API tools,212
+CalAmp,Edge Devices,Varies by model,Yes,Varies,Varies,Asset tracking units; Mobile telematics; Wireless gateways,208
+Azuga,Equipment Beacon,Not specified (uses cellular via tracker),Not specified,Bluetooth Low Energy 5.1,Not specified,Light and compact; Durable; IP67 water protection,204

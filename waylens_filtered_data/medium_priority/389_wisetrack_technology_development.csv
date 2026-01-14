@@ -1,0 +1,12 @@
+Technology/Development Area,Development Type,Description
+Core Platform,In-House Development,All core functionality developed internally
+Mobile Applications,In-House Development,Multiple mobile apps developed by Wisetrack
+Web Platforms,In-House Development,Web-based platforms developed internally
+Proprietary Electronics,In-House Hardware Development,Custom electronics for cargo theft prevention
+Driver Behavior Analysis,In-House Algorithm,Advanced mathematical model for risk prediction
+ICR Formula,Proprietary Algorithm,Risky driving index calculation methodology
+Risk Classification System,Machine Learning,Driver risk prediction based on multiple data sources
+Data Sources for Risk Analysis,Multi-Source Integration,"Device data, road types, weather, external information"
+Fatigue Monitoring,Safety Technology,Driver fatigue detection and prevention
+ADAS Integration,Technology Platform,Advanced Driver Assistance Systems connectivity
+DMS Integration,Safety Platform,Driver Monitoring System integration

@@ -1,0 +1,3 @@
+Product Name,Monthly Fee COP,Monthly Fee USD,GPS Device Cost USD,Other IoT Device Cost USD,Key Features,Integration Capabilities
+Rastreo Basic,N/A,N/A,80,N/A,"Fleet management, Reporting, Alarms, Notifications","Web-based, Mobile app"
+Rastreo Flotas,45000,11,80,300,"Bidirectional communication, Customized reporting, Rest API integration, 600+ device brands supported, Cellular and satellite communications","Backend integration with other tracking platforms, Rest API protocols"

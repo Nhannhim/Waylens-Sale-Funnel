@@ -1,0 +1,22 @@
+Technology/Trend,Description,Impact,Status,Market Effect
+3G to 4G LTE Migration,Conversion from 3G to 4G devices,30%+ devices are 3G and need upgrade,Critical Issue,Major industry challenge
+OBD-II Adoption,Plug-in devices vs hardwired,Strong adoption increasing,Growing,Reduced hardware and installation costs
+SaaS Solutions,Cloud-based vs on-premise,Dominant in local fleet market,Mature,Increases TSP valuations
+On-Premise Solutions,"Server-based, customer-hosted","Public transit, paratransit, law enforcement, large fleets",Niche,Declining but still needed
+Artificial Intelligence,Simulates human intelligence,Enables effective video telematics,Mature,Critical for video solutions
+Machine Learning,Automates analytical model building,Supports AI applications,Mature,Enables advanced features
+Edge Computing,Processing closer to data sources,"Faster insights, better bandwidth",Emerging,Improving performance
+Telematics Marketplaces,Pre-integrated solutions from multiple suppliers,Expands TSP functionality,Growing,Geotab pioneered
+BLE (Bluetooth Low Energy),Low-power asset tracking,Up to 300 feet range,Mature,Ideal for asset tracking
+Cat M1,Low-power cellular for IoT,Designed for IoT projects,Emerging,Cost-effective connectivity
+LoRa/LoRaWAN,Long-range connectivity for IoT,"Rural, remote, offshore",Emerging,Niche applications
+NFC,Near-field communication,4cm range or less,Mature,Limited telematics use
+QR Codes,Machine-readable codes,Smartphone readable,Mature,Asset identification
+Network Virtualization,Software-based network resources,Flexible infrastructure,Emerging,Cost reduction
+Software-Defined Networks,Programmable network control,OpenFlow protocol,Emerging,Enhanced flexibility
+ADAS,Advanced Driver Assistance Systems,"Safety features: stability control, lane departure, adaptive cruise",Growing,OEM integration
+Autonomous Vehicle Technology,"Self-driving trucks and vehicles (TuSimple, Waymo, Kodiak)",Long-term transformation,Development,Future market disruption
+LiDAR,Light detection and ranging,3D mapping and sensing,Emerging,Autonomous vehicle enabler
+Cryptographic Security,CMVP validated modules,Government procurement standard,Required,Security compliance
+FIPS 140-2,Government security standard,Cryptographic module approval,Required,Federal market access
+FedRAMP,Federal cloud security program,Cloud product authorization,Required,Government market

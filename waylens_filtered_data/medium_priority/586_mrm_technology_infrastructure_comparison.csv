@@ -1,0 +1,15 @@
+Company,Hardware_Strategy,Software_Development,Cloud_Platform,Mobile_Support,API_Availability,Integration_Partners
+Omnitracs,Proprietary Active Mobile Gateway,In-house,Proprietary cloud,iOS and Android,Available,Multiple TMS and WMS providers
+Trimble,Proprietary TCU devices,In-house,Trimble cloud platform,iOS and Android,Extensive API library,Broad ecosystem
+Zonar,Proprietary V4 TCU,In-house,Proprietary cloud,Samsung Galaxy Tab Active2,Available,Vertical-specific integrations
+KeepTruckin,Proprietary and BYOD,In-house,Cloud-native,iOS and Android,Available,Growing partner ecosystem
+Platform Science,Black box router (proprietary),In-house and customer-developed,Android-based cloud,Android tablets and handsets,Extensive SDK and APIs,"Drivewyze, McLeod, Trimble MAPS, Zonar (DTNA)"
+EROAD,Proprietary Ehubo and OBD-II dongles,In-house,Proprietary cloud,iOS and Android (BYOD),Expanding API library,"TMS providers, fueling networks, insurance"
+J.J. Keller,Compliance Tablet and BYOD,In-house,Cloud-based,iOS and Android,Available,Geotab partnership for VideoProtects
+Rand McNally,Sourced devices (historically DriverTech),In-house (newer ELDs),Cloud-based,iOS and Android,Limited disclosure,Basic integrations
+Cheetah,Third-party (Android iOS Windows Mobile),In-house (30 years R&D),Proprietary LOOP cloud,Android iOS Windows Mobile,Open architecture,"TMS, WMS, ERP, PC*Miler (Trimble)"
+Gorilla Safety,Third-party outsourced,In-house software,Cloud-based,Android and iOS (BYOD),Not disclosed,Project44 (tracking platform)
+CyntrX,Geometris (4G LTE) and Gorilla Safety,VisTracks (ELD software),Cloud-based,iOS and Android,API for third-party integration,ProMiles OTS Idealease (IFTA)
+Vnomics,Can bundle with onboard computer,In-house (patented),Cloud analytics,Integrated with vehicle systems,Partner integration,TSP partner platforms
+Konexial,IOSiX sourced devices,In-house,Cloud-based,Android and iOS,Not disclosed,Cedar Electronics (camera - in development)
+Ford (OEM),Factory-installed modems (MY2020+),In-house Ford Commercial Solutions,Ford cloud platform,iOS and Android (Ford Telematics Drive app),Ford Data Services API,"Geotab, Verizon Connect, Fleet Complete, Samsara, Spireon, ARI, Linxup, Intellishift, Donlen"

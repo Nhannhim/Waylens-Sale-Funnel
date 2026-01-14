@@ -1,0 +1,10 @@
+Product/Feature,Type,Technology/Supplier,Launch Year,Key Capabilities
+Telematics Devices,Hardware,"Queclink, Teltonika, Jimi IoT",N/A,"Memory capacity, I/O, OTA updates, Sensor compatibility, Voice, CAN-bus support"
+Cold Chain Control,Solution,Accessories,N/A,Temperature monitoring for refrigerated transport
+Load Security,Solution,Accessories,N/A,Cargo security monitoring
+Safe Boxes,Solution,Accessories,N/A,Secure compartment monitoring
+Fuel Control,Solution,Accessories,N/A,Fuel management
+Software Platform,Application,Google Maps + proprietary cartography,N/A,"CAN-bus data access, Real-time routing, Historical reports, Management report subscriptions, Temperature/fuel management, Driver behavior, Maintenance, Web Services integration"
+Mobile Apps,Application,Proprietary,N/A,"Tracking, Location services, Driver behavior feedback, Load matching board"
+Video Telematics,Solution,Video systems,2023 (started),Safety monitoring with future AI features
+Control Tower,Platform Integration,Multi-provider integration,Recent,"Single interface for entire fleet (own vehicles + owner operators), Multi-telematics provider integration, TMS platform integration"

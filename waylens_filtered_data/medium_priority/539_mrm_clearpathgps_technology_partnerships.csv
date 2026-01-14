@@ -1,0 +1,6 @@
+Company,Partner,Partnership_Type,Product_Service,Date_Started,Date_Ended,Notes
+ClearPathGPS,Xirgo,Hardware supplier,In-vehicle devices,N/A,Current,Supplies Owlcam AI-powered camera
+ClearPathGPS,CalAmp,Hardware supplier,In-vehicle units,N/A,Current,Supports driver ID and Bluetooth
+ClearPathGPS,Outdoorsy,Integration partner,API integration,N/A,Current,RV rental tracking
+ClearPathGPS,DriveELD,ELD partner,ELD solution,May 2020,Current,Partnership for ELD offering
+ClearPathGPS,Vistracks,ELD partner,ELD solution,N/A,2020,"Discontinued when acquired by Omnitracs, replaced by DriveELD"

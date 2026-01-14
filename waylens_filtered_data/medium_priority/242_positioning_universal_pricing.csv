@@ -1,0 +1,6 @@
+Product_Service,Price_USD_Min,Price_USD_Max,Price_Type,Features_Included,Notes
+Connectivity Service,7,9,Monthly,Connectivity mapping user interface,Excluding video telematics
+FT7500 Gateway,169,169,One-time,Enterprise-level gateway device,Hardware cost
+GPS Device Options,49,109,One-time,Basic telematics GPS device,Does not support camera solutions
+Two-Camera Solution,Not specified,Not specified,System,Requires FT7500 gateway,Premium video option
+Multi-Camera Solution,Not specified,Not specified,System,Up to 5 cameras requires FT7500,Advanced video option

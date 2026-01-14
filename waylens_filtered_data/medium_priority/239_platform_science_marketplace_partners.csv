@@ -1,0 +1,16 @@
+Partner_Name,Partner_Type,Solution_Category,Integration_Type,Notes
+Drivewyze,Third-party App,PreClear,Marketplace integration,Weigh station bypass
+Trimble,Third-party App,CoPilot,Marketplace integration,Navigation solution
+Doran,Third-party App,360 TPMS,Marketplace integration,Tire pressure monitoring
+Vector,Third-party App,Capture,Marketplace integration,Document capture
+Tenstreet,Third-party App,True Fuel,Marketplace integration,Fuel management
+CAT Scale,Third-party App,Weigh My Truck,Marketplace integration,Truck weighing
+Luma,Third-party App,Learning,Marketplace integration,Driver training
+Uptake,System Integration,Predictive Analytics,Partner integration,Predictive analytics platform
+WeatherOptics,System Integration,Weather Alerts,Partner integration,Weather monitoring
+Motive,System Integration,Camera Integration,Partner integration,Video telematics
+Samsung,Hardware Integration,Tablet Integration,Partner integration,Driver tablet devices
+SkyBitz,System Integration,Tractor-Trailer Pairing,Partner integration,Asset tracking
+Phillips Connect,System Integration,Tractor-Trailer Pairing,Partner integration,Trailer connectivity
+Velociti,Service Integration,Installation,Partner integration,Installation services
+Fleetio,System Integration,Maintenance,February 2024,Maintenance and operations automation (via Lytx announcement)

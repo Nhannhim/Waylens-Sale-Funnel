@@ -1,0 +1,11 @@
+Feature_Category,Feature_Name,Description,Data_Sources,Transport_Modes
+Core_Platform,Real_Time_Visibility,Location and status tracking,Telematics devices; ELD; TMS; Dispatch systems; Mobile apps,"Over-the-road trucking, Rail, Air, Ocean, LTL, Last mile, Customs"
+Analytics,Predictive_ETA,Estimated time of arrival,AI-based analysis,All modes
+Monitoring,Temperature_Monitoring,Cold chain tracking,IoT sensors,Refrigerated transport
+Alerts,Notifications,Real-time alerts,Platform analytics,All modes
+AI,AI_Recommendations,Optimization suggestions,Machine learning,All modes
+Visibility,PO_SKU_Visibility,Purchase order and SKU tracking,System integration,All modes
+Tracking,Real_Time_Tracking,Live shipment tracking,GPS and telematics,All modes
+Reporting,Dashboards_Scorecards,Performance monitoring,Data aggregation,All modes
+Scheduling,Dock_Scheduling,Appointment management,Platform integration,Facility operations
+Capacity,Capacity_Matching,Freight broker tools,Network data,Carrier sourcing

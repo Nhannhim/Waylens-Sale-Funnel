@@ -1,0 +1,7 @@
+Company,Product_Service,Price_Low,Price_High,Unit,Year,Notes,Page
+GPS Insight,Hardware Devices,75,75,USD,2024,Starting price for tracking devices,225
+GPS Insight,Asset Tracking Monthly,9,15,USD per month,2024,Monthly service charge,225
+GPS Insight,Basic Vehicle Tracking Monthly,15,22,USD per month,2024,Monthly service charge,225
+GPS Insight,Basic Smart Camera Monitoring Monthly,21,26,USD per month,2024,Monthly service charge,225
+GPS Insight,Pricing Model,Term Subscription,text,text,2024,Hardware cost rolled into monthly subscription,225
+GPS Insight,Pricing Variation,Fleet Size Dependent,text,text,2024,Pricing depends on number of vehicles,225

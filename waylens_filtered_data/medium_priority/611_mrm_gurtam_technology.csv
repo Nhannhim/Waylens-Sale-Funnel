@@ -1,0 +1,8 @@
+Company,Technology_Component,Description,Provider
+Gurtam,GIS server,Own mapping server,In-house
+Gurtam,US maps,Licensed mapping data,HERE
+Gurtam,Canada maps,Licensed mapping data,CoreLogic
+Gurtam,Mobile apps,iOS and Android field monitoring,In-house
+Gurtam,Report Builder,Custom report development module,In-house
+Gurtam,Wialon platform,Core software platform,In-house (used by Assured Tracking for ELD)
+Gurtam,WiaTag,Driver tracking app,In-house (increased adoption during COVID)

@@ -1,0 +1,5 @@
+Partner,Partner Type,Integration,Use Case
+Fleetio,Fleet management solution provider,Zendrive SDK into Fleetio Go app (iOS & Android),Driver safety measurement using phone sensors
+Dashride,Mobile dispatch and booking platform,Zendrive SDK into smartphone app,Measure driver performance and safety for independent livery companies
+Booster Fuels,On-demand fuel delivery service,Zendrive SDK,Monitor and score fuel delivery driver performance through smartphones
+Insurance Companies,Multiple insurance partners,Private-label app,Consumer insurance programs

@@ -1,0 +1,18 @@
+Industry_Segment,Fleet_Size_Category,GPS_Fleet_Management_Penetration,Year,Source,Notes
+Landscaping,10+ vehicle fleets,30-35%,2021,MRM Report estimate,Percentage of vehicles equipped
+Landscaping,5+ vehicle fleets,Lower than large fleets,2021,MRM Report,Majority of small fleets don't use systems
+Towing,5+ truck fleets,35%,2021,MRM Report estimate,Large fleets have higher penetration
+Waste Disposal,All fleets,60%+,2021,MRM Report estimate,Trucks operating in U.S.
+Courier,All fleets,Varies widely,2021,MRM Report,UPS/FedEx fully equipped; many small operators not equipped
+Pest Control,Large fleets,High penetration,2021,MRM Report,Most large fleets use GPS or field service management
+Armored Car,All fleets,Majority,2021,MRM Report,Most operators use GPS; don't publicize for security
+Taxi,50+ vehicle fleets,High penetration,2021,MRM Report,AVL with mobile data terminals and CAD systems
+Limousine,All fleets,65%+,2021,MRM Report estimate,Vehicle-installed or handset-based
+School Bus,All school buses,67%,2021,MRM Report estimate,Two-thirds equipped
+Public Transit,Transit buses,91%,2019,APTA,AVL systems
+Public Transit,Transit buses (cameras),79%,2019,APTA,Security or CCTV cameras
+Motorcoach,All motorcoaches,70%,2021,MRM Report estimate,GPS/ELD/camera-based systems
+Paratransit,All fleets,75-80%,2021,MRM Report estimate,Including most large fleets
+Utilities,All utility fleets,50%+,2017,C.J. Driscoll & Associates Survey,2017-18 Survey
+Construction,All construction fleets,44%,2017,C.J. Driscoll & Associates Survey,GPS fleet management
+Construction,All construction fleets (handset),11%,2017,C.J. Driscoll & Associates Survey,Handset-based worker tracking

@@ -1,39 +1,54 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server'
+import { fetchAllNews } from '@/lib/google-news'
+import { categorizeArticles, generateSummary, CategorizedNews } from '@/lib/claude-summarizer'
+import { ALL_SEARCH_QUERIES } from '@/lib/news-config'
 
-export async function GET(request: NextRequest) {
-  const searchParams = request.nextUrl.searchParams;
-  const company = searchParams.get('company');
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
-  if (!company) {
-    return NextResponse.json({ error: 'Company name required' }, { status: 400 });
-  }
-
+export async function GET() {
   try {
-    // In a real implementation, you would call a news API here
-    // For now, we'll return a structure that can be populated
-    const newsQuery = `${company} fleet management telematics news 2024`;
-    
-    // This is a placeholder - in production, you'd integrate with:
-    // - NewsAPI
-    // - Google News API
-    // - Bing News API
-    // - Or your preferred news aggregator
-    
+    const articles = await fetchAllNews(ALL_SEARCH_QUERIES)
+
+    if (articles.length === 0) {
+      return NextResponse.json({
+        success: true,
+        data: {
+          competitors: [],
+          industry: [],
+          regulatory: [],
+          technology: [],
+        } as CategorizedNews,
+        summary: null,
+        fetchedAt: new Date().toISOString(),
+        articleCount: 0,
+      })
+    }
+
+    const categorizedNews = await categorizeArticles(articles)
+    const summary = await generateSummary(categorizedNews)
+
+    const totalCount =
+      categorizedNews.competitors.length +
+      categorizedNews.industry.length +
+      categorizedNews.regulatory.length +
+      categorizedNews.technology.length
+
     return NextResponse.json({
-      query: newsQuery,
-      company: company,
-      articles: [
-        {
-          title: `Search for: ${company}`,
-          description: 'Configure a news API to fetch real-time news articles',
-          url: `https://www.google.com/search?q=${encodeURIComponent(newsQuery)}`,
-          source: 'Google Search',
-          publishedAt: new Date().toISOString(),
-        },
-      ],
-    });
+      success: true,
+      data: categorizedNews,
+      summary,
+      fetchedAt: new Date().toISOString(),
+      articleCount: totalCount,
+    })
   } catch (error) {
-    console.error('Error fetching news:', error);
-    return NextResponse.json({ error: 'Failed to fetch news' }, { status: 500 });
+    console.error('Error in /api/news:', error)
+    return NextResponse.json(
+      {
+        success: false,
+        error: 'Failed to fetch news',
+      },
+      { status: 500 }
+    )
   }
 }

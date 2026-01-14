@@ -1,0 +1,12 @@
+Company,Integration Type,API SDK Availability,Third-Party Systems,Marketplace Ecosystem
+Fleet Complete,Web Services,Yes,Accounting billing third-party systems,Limited ecosystem
+Geotab,Open Platform,SDK and APIs available,External software systems business intelligence tools,300+ solutions in Geotab Marketplace
+Geotab,Data Connector,No-code integration,Power BI Tableau and other BI tools,Pre-built templates (launched Feb 2023)
+Geotab,IOX Expansion,IOX-CAN extender,Third-party devices via IOX port,Hardware Add-Ons: Bluetooth sensors driver ID USB charging
+Geotab,Third-Party Devices,Hardware-agnostic since 2017,Keep existing telematics devices,Platform supports non-Geotab hardware
+KORE,APIs,Full API support,Agnostic application integration,Application Marketplace for IoT solutions
+KORE,Custom Integration,Hardware integration services,Customer requirements for additional devices,Flexible integration approach
+Gurtam,Platform Agnostic,Compatible with 3500+ device models,700+ manufacturers supported,Hardware-agnostic architecture
+Gurtam,flespi,Universal API,Flexible API for telemetry data consumption,Data hub with device management over-the-air
+MICHELIN,Web Services,Integration available,Accounting billing systems,Regional platform differences
+MiX,APIs,Available,Third-party software integration,Partner ecosystem

@@ -1,0 +1,8 @@
+Product Category,Key Features,Technology Platform,Target Application
+Vehicle Trackers,Real-time tracking and monitoring,"4G LTE, BLE, LoRa, Satellite",Fleet tracking
+Sensors,Various sensor types for vehicle monitoring,Integrated sensors,Fleet monitoring
+Cargo Tracking,Real-time cargo monitoring,"Discrete bait devices, Multi-carrier SIM, RF redundancy",Cargo security
+CAN Reading Module,In-depth vehicle condition monitoring,CAN-bus integration,Vehicle diagnostics
+Driver Authentication,Driver identification,Android keyboards or RFID cards,Access control
+MDVR System,"ADAS, Fatigue monitoring",Video analytics,Fleet safety
+Fleet Management Tools,"Driver behavior monitoring, Performance reports, Operational efficiency",Advanced analytics platform,Fleet optimization

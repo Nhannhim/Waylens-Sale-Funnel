@@ -1,0 +1,15 @@
+Metric,Value,Year,Source,Category
+Plumbing Establishments,120000,2020,IBIS World,Plumbing
+Plumbing Annual Revenue,$113 billion,2020,IBIS World,Plumbing
+Plumbing Growth Rate,2.0-2.5% per year,2020,IBIS World,Plumbing
+HVAC Establishments,112000,2020,IBIS World,HVAC
+HVAC Annual Revenue,$100 billion,2020,IBIS World,HVAC
+HVAC Growth Rate,2.0-2.5% per year,2020,IBIS World,HVAC
+Plumbers in U.S.,490200,February 2021,U.S. Department of Labor Statistics,"Plumbing, pipelaying, pipefitting, steamfitting, standard plumbing"
+HVAC Mechanics and Installers,376800,2021,U.S. Department of Labor Statistics,"Heating, air conditioning, refrigeration, related categories"
+Average Employees per Business,3.7,2020,Calculated,Both plumbing and HVAC
+Total Plumbing/HVAC Vehicles,500000+,2021,Estimated,Combined estimate
+Fleet Vehicles (5+ vehicles),300000,2021,Estimated,Companies with 5 or more vehicles
+GPS Tracking Penetration,50-60%,2021,Estimated,Percentage of fleet vehicles monitored
+Large Fleet Penetration (50+ vehicles),80%+,2021,Estimated,Most large fleets use GPS fleet management
+Small Fleet Penetration,Lower,2021,Estimated,Many small fleets do not have systems

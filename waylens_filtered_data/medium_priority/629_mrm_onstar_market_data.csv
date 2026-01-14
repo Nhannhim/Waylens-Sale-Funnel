@@ -1,0 +1,5 @@
+Metric,Value,Time_Period,Notes
+Total_Fleet_Vehicles_Serviced,300000,End of 2020,Includes Vehicle Insights subscribers; Safety Services; API data services through partners; WiFi Services
+Price_Per_Vehicle,15.99,After trial period,USD per vehicle per month for Vehicle Insights
+Deployment_Type,Embedded OEM telematics,N/A,Factory-installed solution
+Technology_Platform,Internally-developed,2019,OnStar Vehicle Insights platform

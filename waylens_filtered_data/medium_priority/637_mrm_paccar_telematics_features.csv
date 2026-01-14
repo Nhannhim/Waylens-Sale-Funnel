@@ -1,0 +1,6 @@
+Feature_Category,Feature_Name,Description,Platform,Upgrade_Capability
+Core_Features,Fleet_Health_Monitoring,Overview of fleet health and service issues,ConnectedFleet Platform (cloud-based),Can upscale to additional Trimble/PeopleNet services
+Diagnostics,Automatic_Service_Notifications,Notify fleet managers and dealers of potential service events,SmartLINQ / TruckTech+,Yes
+Connectivity,Mobile_Gateway,Single hardware for all device connections and vehicle data access,PeopleNet Mobile Gateway (pre-installed),Yes
+Platform,Cloud_Platform,Web-based portal for fleet management,ConnectedFleet,Yes
+Real_Time_Info,Vehicle_Diagnostics,Real-time information forwarding,ConnectedFleet Platform,Yes

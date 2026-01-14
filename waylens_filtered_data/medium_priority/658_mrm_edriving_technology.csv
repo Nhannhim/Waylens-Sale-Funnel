@@ -1,0 +1,7 @@
+Technology,Description,Provider,Key_Features
+FICO Safe Driving Score,Predictive analytics platform,FICO,Identifies great/good/average/poor/risky drivers based on driving behaviors
+Smartphone Sensors,Mobile telematics,"Speeding, acceleration, braking, cornering, phone distraction",Platform compatible
+Driver Scoring,Behavior analysis,eDriving proprietary,Combined with collision and MVR history
+In-App Training,Micro-training modules,eDriving proprietary,Automated suggestions
+Gamification,Driver engagement,eDriving proprietary,Competitive elements
+Integration,Geotab connectivity,Geotab,Mentor TSP integration on Geotab Marketplace

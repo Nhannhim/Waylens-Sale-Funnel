@@ -1,0 +1,3 @@
+Hardware_Component,Product_Name,Version,Launch_Year,Key_Features,Expansion_Capability
+Integrated_Vehicle_Logic_Unit,IVLU,V8,2019 (began shipping),"GPS with dead reckoning, Urban canyon/tunnel positioning, API integration hub",Expansion slots for future capabilities
+Mobile_Data_Terminal,MDT,Current,N/A,"Windows OS, Enhanced interactive display, Driver interface",Integrated with IVLU V8

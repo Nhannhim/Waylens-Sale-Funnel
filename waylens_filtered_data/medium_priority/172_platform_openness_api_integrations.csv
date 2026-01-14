@@ -1,0 +1,8 @@
+Company,Platform_Name,Integration_Partners_Count,API_Availability,SDK_Availability,White_Label_Option,Key_Integrations,Page_Reference
+Trimble,Trimble Platform,150,Yes,Not specified,Not specified,"McLeod Software, Maptuit, Roadnet, Drivewyze, TMS products",192
+Verizon Connect,Verizon Connect Marketplace,45,Yes (API Toolkit),Not specified,Not specified,"Transportation management, fuel maintenance, supply chain, field service",195
+Webfleet,Webfleet Platform with App Center,Not specified,Yes (Open APIs),Yes (SDKs),Yes (Custom branding),"CRM, ERP, scheduling and planning software",198-199
+DCT,Pegasus IoT Cloud,8+ device manufacturers,Yes (Built on APIs),Yes,Yes (White-label),"Suntech, Atrack, Xirgo, CalAmp, Ruptela, Teltonika, Concox, Queclink",213
+CalAmp,Telematics Cloud (CTC),Not specified,Yes,Yes (EdgeCore and EdgeApps),Not specified,"AWS, Azure, Apache Kafka streaming",207-208
+Road Ready,Fus1on,12,Yes,Not specified,Not specified,LogIQ Smart Trailer Partner Network,211
+Azuga,Azuga Marketplace,Not specified,Not specified,Not specified,Not specified,"Routing & scheduling, towing, accounting & CRM, fuel cards",204

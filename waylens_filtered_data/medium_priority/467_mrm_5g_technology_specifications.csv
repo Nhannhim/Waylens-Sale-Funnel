@@ -1,0 +1,13 @@
+Specification,Value,Comparison,Source
+Maximum Speed,100 gigabits per second,100x faster than 4G,Verizon
+Latency,~1 millisecond,Faster than blink of eye,Verizon
+Data Speed,Far outstrips fastest home broadband,N/A,Verizon
+Network Efficiency,Higher spectrum efficiency,vs 4G,AT&T
+Network Latency,Lower latency,vs 4G,AT&T
+Network Capabilities,SDN and NFV enabled,Software-Defined Network and Virtualization,AT&T
+IoT Support,Large number of static and mobile devices,Diverse speed bandwidth QoS requirements,Industry
+Coverage,Remote and underground locations,Previously without Internet,Industry
+Autonomous Vehicles,Minimal latency essential,Critical for intelligent transportation,Industry
+Logistics,Real-time updates,Location inventory vehicle functions,Industry
+4G Relationship,Builds on rather than replaces 4G,4G speeds may increase on 5G networks,Industry
+4G Device Support,Operational for quite a few years,On 5G networks,Industry

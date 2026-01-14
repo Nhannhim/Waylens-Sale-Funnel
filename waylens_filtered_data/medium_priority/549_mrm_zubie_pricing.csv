@@ -1,0 +1,6 @@
+Company,Product,Plan_Name,Monthly_Price_USD,Contract_Length_Years,Features,Notes
+Zubie,Fleet Connect,Light,15,2,"GPS tracking and alerts, vehicle health monitoring, maintenance tracking",Base plan
+Zubie,Fleet Connect,Standard,20,2,"Light features + driver safety and efficiency insights, fleet dashboard and reports",Mid-tier
+Zubie,Fleet Connect,Premium,25,2,Standard features + API access,Top tier
+Zubie,Rental Connect,Custom,Customized,Custom,Customized based on deployment,Free trial available
+Zubie,General,Discounts,Varies,Varies,Volume and prepayment discounts,200+ vehicles and prepayments

@@ -1,0 +1,14 @@
+Feature_Category,Feature_Name,Description,Technology,Accuracy
+Core_Platform,Real_Time_Visibility,Shipment tracking via GPS devices,Links to 700+ GPS device models,N/A
+Predictive_Analytics,ETA_Prediction,Machine learning-based arrival prediction,Algorithms analyze real-time data,Within 2 hours on 4.5-day cross-country transit
+Transportation_Modes,Truckload_Visibility,Largest global network for truckload,GPS-based tracking,N/A
+Transportation_Modes,LTL_Visibility,Comprehensive LTL shipment tracking,Multi-modal integration,N/A
+Transportation_Modes,Rail_Visibility,Rail shipment tracking,Multi-modal integration,N/A
+Transportation_Modes,Air_Visibility,Air cargo tracking,Multi-modal integration,N/A
+Transportation_Modes,Ocean_Visibility,Ocean freight tracking,Multi-modal integration,N/A
+Transportation_Modes,Parcel_Visibility,Parcel shipment tracking,Multi-modal integration,N/A
+Network_Optimization,Lane_Connect,Reduce empty backhaul miles,Lane-by-lane analysis,N/A
+AI_Features,Recommendation_Engine,Optimize arrival and departure times,Identifies vulnerabilities in transit,N/A
+Facility_Management,Appointment_Manager,Collaborative appointment scheduling,Common platform for facilities/shippers/carriers,Industry-first
+Yard_Management,Dynamic_Yard,Real-time yard and warehouse management,Acquired from TrackX Holdings (March 2020),Real-time signals from trucks
+Driver_Tools,CarrierLink_App,Driver communication tool,Mobile application,Automatic check-in; Document upload; Availability communication
