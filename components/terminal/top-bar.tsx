@@ -33,20 +33,11 @@ export function TopBar({ selectedTicker, onTickerChange }: TopBarProps) {
   return (
     <header className="h-14 bg-[#2d2d2d] border-b border-[#3d3d3d] flex items-center px-6 gap-4">
       {/* Logo */}
-      <div className="w-8 h-8 bg-[#2d2d2d] rounded flex items-center justify-center flex-shrink-0 overflow-hidden">
+      <div className="w-8 h-8 bg-white rounded flex items-center justify-center flex-shrink-0 overflow-hidden p-1">
         <img 
-          src="/logo.svg" 
-          alt="Logo" 
+          src="/waylens-logo.svg" 
+          alt="Waylens Logo" 
           className="w-full h-full object-contain"
-          onError={(e) => {
-            // Fallback to icon if logo doesn't exist
-            const target = e.target as HTMLImageElement
-            if (!target.src.includes("icon.svg")) {
-              target.src = "/icon.svg"
-            } else {
-              target.style.display = "none"
-            }
-          }}
         />
       </div>
 

@@ -8,6 +8,7 @@ import {
   Newspaper,
   Phone,
   FileText,
+  Search,
   ChevronDown,
   ChevronRight,
 } from "lucide-react"
@@ -35,6 +36,7 @@ const navSections: NavSection[] = [
   {
     title: "MAIN",
     items: [
+      { id: "search", label: "Search", icon: <Search className="w-4 h-4" /> },
       { id: "overview", label: "Industry Overview", icon: <TrendingUp className="w-4 h-4" /> },
       { id: "summary", label: "Companies", icon: <FileText className="w-4 h-4" /> },
       { id: "clients", label: "Clients", icon: <Building2 className="w-4 h-4" /> },
@@ -47,6 +49,9 @@ const navSections: NavSection[] = [
         { id: "summary-reseller", label: "Reseller", icon: <Building2 className="w-3 h-3" /> },
         { id: "summary-insurtech", label: "Insurtech", icon: <Building2 className="w-3 h-3" /> },
       ],
+      "outreach": [
+        { id: "outreach-newsletter", label: "Newsletter", icon: <Newspaper className="w-3 h-3" /> },
+      ],
     },
   },
 ]
@@ -55,7 +60,8 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
   const [expandedSections, setExpandedSections] = useState<string[]>([
     "MAIN",
   ])
-  const [expandedItems, setExpandedItems] = useState<string[]>(["summary"])
+  const [expandedItems, setExpandedItems] = useState<string[]>(["summary", "outreach"])
+  const [isHovered, setIsHovered] = useState(false)
 
   const toggleSection = (title: string) => {
     setExpandedSections((prev) => (prev.includes(title) ? prev.filter((s) => s !== title) : [...prev, title]))
@@ -66,46 +72,47 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
   }
 
   return (
-    <aside className="w-64 bg-[#2d2d2d] border-r border-[#3d3d3d] flex flex-col h-full">
+    <aside 
+      className={`bg-[#2d2d2d] border-r border-[#3d3d3d] flex flex-col h-full transition-all duration-300 ease-in-out ${
+        isHovered ? 'w-64' : 'w-16'
+      }`}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       {/* Logo */}
-      <div className="p-4 border-b border-[#3d3d3d]">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-[#1e3a5f] rounded flex items-center justify-center overflow-hidden">
+      <div className="p-4 border-b border-[#3d3d3d] flex items-center justify-center">
+        <div className="flex items-center gap-3 overflow-hidden">
+          <div className="w-8 h-8 bg-white rounded flex items-center justify-center flex-shrink-0 p-1">
             <img 
-              src="/logo.svg" 
-              alt="Logo" 
+              src="/waylens-logo.svg" 
+              alt="Waylens Logo" 
               className="w-full h-full object-contain"
-              onError={(e) => {
-                // Fallback to icon if logo doesn't exist
-                const target = e.target as HTMLImageElement
-                if (!target.src.includes("icon.svg")) {
-                  target.src = "/icon.svg"
-                } else {
-                  target.style.display = "none"
-                }
-              }}
             />
           </div>
-          <div className="text-white font-semibold text-base">AlphaSense</div>
+          {isHovered && (
+            <div className="text-white font-semibold text-base whitespace-nowrap">Waylens</div>
+          )}
         </div>
       </div>
 
       {/* Main navigation */}
       <div className="flex-1 overflow-y-auto py-2">
         {navSections.map((section) => (
-          <div key={section.title} className="px-3 mb-2">
-            <button
-              onClick={() => toggleSection(section.title)}
-              className="flex items-center gap-1 text-xs font-bold text-white mb-1 hover:text-white transition-colors w-full"
-            >
-              {expandedSections.includes(section.title) ? (
-                <ChevronDown className="w-3 h-3" />
-              ) : (
-                <ChevronRight className="w-3 h-3" />
-              )}
-              {section.title}
-            </button>
-            {expandedSections.includes(section.title) && (
+          <div key={section.title} className={isHovered ? "px-3 mb-2" : "px-2 mb-2"}>
+            {isHovered && (
+              <button
+                onClick={() => toggleSection(section.title)}
+                className="flex items-center gap-1 text-xs font-bold text-gray-500 mb-1 hover:text-gray-400 transition-colors w-full"
+              >
+                {expandedSections.includes(section.title) ? (
+                  <ChevronDown className="w-3 h-3" />
+                ) : (
+                  <ChevronRight className="w-3 h-3" />
+                )}
+                {section.title}
+              </button>
+            )}
+            {(isHovered ? expandedSections.includes(section.title) : true) && (
               <div className="space-y-0.5">
                 {section.items.map((item) => {
                   const hasSubItems = section.subItems && section.subItems[item.id]
@@ -113,32 +120,38 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
                     <div key={item.id}>
                       <button
                         onClick={() => {
-                          if (hasSubItems) {
+                          if (hasSubItems && isHovered) {
                             toggleItem(item.id)
                           } else {
                             onSectionChange(item.id)
                           }
                         }}
+                        title={!isHovered ? item.label : undefined}
                         className={cn(
-                          "w-full text-left px-3 py-2.5 rounded text-sm transition-colors flex items-center gap-2",
+                          "w-full transition-colors flex items-center",
+                          isHovered ? "text-left px-3 py-2.5 rounded text-sm gap-2" : "justify-center py-3",
                           activeSection === item.id || activeSection.startsWith(item.id + "-")
                             ? "bg-[#3d3d3d] text-white"
                             : "text-gray-400 hover:bg-[#3d3d3d] hover:text-white",
                         )}
                       >
                         {item.icon}
-                        <span className="flex-1">{item.label}</span>
-                        {hasSubItems && (
-                          expandedItems.includes(item.id) ? (
-                            <ChevronDown className="w-3 h-3" />
-                          ) : (
-                            <ChevronRight className="w-3 h-3" />
-                          )
+                        {isHovered && (
+                          <>
+                            <span className="flex-1">{item.label}</span>
+                            {hasSubItems && (
+                              expandedItems.includes(item.id) ? (
+                                <ChevronDown className="w-3 h-3" />
+                              ) : (
+                                <ChevronRight className="w-3 h-3" />
+                              )
+                            )}
+                          </>
                         )}
                       </button>
                       
                       {/* Sub-items */}
-                      {hasSubItems && expandedItems.includes(item.id) && (
+                      {hasSubItems && isHovered && expandedItems.includes(item.id) && (
                         <div className="ml-6 mt-1 space-y-0.5">
                           {section.subItems![item.id].map((subItem) => (
                             <button
@@ -167,15 +180,25 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
       </div>
 
       {/* Bottom feedback section */}
-      <div className="p-3 border-t border-[#3d3d3d]">
-        <div className="bg-[#3d3d3d]/50 rounded p-3 mb-2">
-          <p className="text-xs text-white mb-2">Company Profile BETA</p>
-          <p className="text-[10px] text-gray-400 mb-2">How helpful is this experience?</p>
-          <button className="text-xs text-blue-400 hover:underline">Leave Feedback</button>
-        </div>
-        <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-xs font-semibold text-blue-400">
-          CB
-        </div>
+      <div className={`border-t border-[#3d3d3d] transition-all ${isHovered ? 'p-3' : 'p-2'}`}>
+        {isHovered ? (
+          <>
+            <div className="bg-[#3d3d3d]/50 rounded p-3 mb-2">
+              <p className="text-xs text-white mb-2">Company Profile BETA</p>
+              <p className="text-[10px] text-gray-400 mb-2">How helpful is this experience?</p>
+              <button className="text-xs text-blue-400 hover:underline">Leave Feedback</button>
+            </div>
+            <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-xs font-semibold text-blue-400">
+              CB
+            </div>
+          </>
+        ) : (
+          <div className="flex justify-center">
+            <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-xs font-semibold text-blue-400">
+              CB
+            </div>
+          </div>
+        )}
       </div>
     </aside>
   )
