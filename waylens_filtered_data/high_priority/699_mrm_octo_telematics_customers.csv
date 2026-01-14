@@ -1,0 +1,16 @@
+Customer,Type,Market,Region
+ALD,Fleet leasing,Large fleet customer,Multiple
+Arval,Fleet leasing,Large fleet customer,Multiple
+LeasePlan,Fleet leasing,Large fleet customer,Multiple
+Hertz,Rental company,Large fleet customer,Multiple
+FCA,Auto manufacturer,OEM customer,Multiple
+Toyota,Auto manufacturer,OEM customer,Multiple
+Renault,Auto manufacturer,OEM customer,Multiple
+Mitsubishi,Auto manufacturer,OEM customer,Multiple
+AXA,Insurance,Insurance customer,Multiple
+MAPFRE,Insurance,Insurance customer,Multiple
+Zurich,Insurance,Insurance customer,Multiple
+Automobile Association of America,Insurance,Insurance customer,US
+Liberty Mutual,Insurance,Insurance customer,US
+Nationwide,Insurance,Insurance customer,US
+The Hartford,Insurance,Insurance customer,US

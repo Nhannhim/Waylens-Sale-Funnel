@@ -1,0 +1,41 @@
+Category,Company,Product,Metric,Value,Year,Notes
+OEM Telematics,Volvo CE,CareTrack,Location,Shippensburg PA,2021,
+OEM Telematics,Volvo CE,CareTrack,Market Position,One of largest suppliers,2021,Heavy construction equipment global
+OEM Telematics,Volvo CE,CareTrack,Launch Year,2006,2006,
+OEM Telematics,Volvo CE,CareTrack,Free Service Period,3 years,2021,
+OEM Telematics,Volvo CE,ActiveCare Direct,Launch Year,2017,2017,Revolutionary telematics monitoring
+OEM Telematics,Volvo CE,ActiveCare Direct,Free Service Period,1 year,2021,
+OEM Telematics,Volvo CE,CareTrack,Connectivity,Cellular or satellite,2021,Majority cellular
+OEM Telematics,Volvo CE,CareTrack,US Units Estimate,100000 or fewer,2021,Estimate
+OEM Telematics,Volvo CE,ActiveCare Direct,Data Points,Thousands,2017,Monthly fleet reports
+OEM Telematics,Volvo CE,ActiveCare Direct,Features,Utilization operator behavior trends,2021,Work vs idle time
+OEM Telematics,Hitachi,ZXLink,Location,Kernersville NC,2021,
+OEM Telematics,Hitachi,ZXLink,Partnership,John Deere C&F Division,2002,Sales marketing support
+OEM Telematics,Hitachi,ZXLink,Launch Year,2006,2006,Strategic alliance with Qualcomm
+OEM Telematics,Hitachi,ZXLink,Configurations,2,2021,Cellular and satellite
+OEM Telematics,Hitachi,ZXLink Cellular,Features,Hours location maintenance geofencing,2021,
+OEM Telamatics,Hitachi,ZXLink Satellite,Features,Cellular plus remote monitoring,2021,
+OEM Telematics,Hitachi,ZXLink,Mobile App,iOS and Android,2021,
+OEM Telematics,Hitachi,ZXLink,Standard Equipment,Select excavators,2021,
+OEM Telematics,Hitachi,ZXLink,Subscription Change,No renewal needed,2021,July 2021 announcement
+OEM Telematics,Hitachi,ZXLink,New Activation Cost,0,2021,No extra charge
+OEM Telematics,Hitachi,ZX Secure,Integration,ZXLink connectivity,2021,Service plan
+OEM Telematics,Hitachi,ConSite,Division,Hitachi Wheel Loaders,2018,Separate division
+OEM Telematics,Hitachi,ConSite,Models Supported,12,2021,Wheel loaders
+OEM Telematics,Hitachi,ConSite,Cost,0,2021,No cost
+OEM Telematics,Hitachi,ConSite,Features,Geofencing hours fuel alerts,2021,Dashboard and mobile
+OEM Telematics,Hitachi,Partnership,Iridium long-term contract,2017,Satellite connectivity global
+OEM Telematics,John Deere,JDLink,Location,Moline IL,2021,
+OEM Telematics,John Deere,JDLink,Launch Year,2006,2006,Construction & Forestry
+OEM Telematics,John Deere,JDLink,Original Provider,Qualcomm GlobalTRACS,2006,
+OEM Telematics,John Deere,JDLink,TopCon Sale,Portion of GlobalTRACS,2009,
+OEM Telematics,John Deere,JDLink,Deere Acquisition,Remaining GlobalTRACS,Late 2009,Now in Urbandale IA
+OEM Telematics,John Deere,JDLink,Connectivity,Cellular or satellite,2021,Remote locations supported
+OEM Telematics,John Deere,JDLink,Features,Hours location geofencing curfew alerts,2021,
+OEM Telematics,John Deere,JDLink,Mobile App,iOS and Android,2021,
+OEM Telematics,John Deere,JDLink,CAN-Bus Integration,Yes,2021,Deere equipment only
+OEM Telematics,John Deere,JDLink,Advanced Features,Diagnostics utilization load fuel TPMS,2021,
+OEM Telematics,John Deere,JDLink,Subscription Change,No subscriptions or fees,2021,July 2021 announcement
+OEM Telematics,John Deere,JDLink,Partnership,LHP Telematics,2017,Custom telematics solutions
+OEM Telematics,John Deere,JDLink,US Units Estimate,200000+,2021,Most in US
+OEM Telematics,John Deere,Precision Construction,Portfolio,Technology suite,2021,Single to large multi-brand fleets

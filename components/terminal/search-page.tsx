@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 import { Search, Filter, X } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -10,6 +11,7 @@ interface SearchPageProps {
 }
 
 export function SearchPage({ ticker }: SearchPageProps) {
+  const router = useRouter()
   const [searchTerm, setSearchTerm] = useState("")
   const [showFilters, setShowFilters] = useState(false)
   const [selectedFilters, setSelectedFilters] = useState<string[]>([])
@@ -28,9 +30,24 @@ export function SearchPage({ ticker }: SearchPageProps) {
     )
   }
 
+  const handleSearch = () => {
+    if (searchTerm.trim()) {
+      router.push(`/search-results?q=${encodeURIComponent(searchTerm.trim())}`)
+    }
+  }
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      handleSearch()
+    }
+  }
+
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-120px)] px-4">
       <div className="w-full max-w-3xl">
+        {/* Heading */}
+        <h1 className="text-5xl font-bold text-center text-black mb-8">Find the Way...</h1>
+        
         {/* Search Bar */}
         <div className="relative mb-6">
           <div className="relative">
@@ -39,6 +56,7 @@ export function SearchPage({ ticker }: SearchPageProps) {
               placeholder="Search..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
+              onKeyDown={handleKeyDown}
               className="w-full pl-5 pr-14 h-14 text-base border border-gray-300 rounded-full shadow-sm focus:shadow-md focus:border-gray-400 transition-all"
             />
             

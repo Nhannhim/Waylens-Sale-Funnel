@@ -1,0 +1,14 @@
+Company,Video_Solution_Name,Launch_Year,Camera_Types,AI_Capabilities,Processing_Location,Max_Cameras_Per_Vehicle,Key_Features,In_Cab_Alerts,Driver_Coaching,Source_Page
+GPS Trackit,VidFleet,Pre-2021,Forward-facing only / Dual-facing / Multi-camera,AI-powered,Not specified,Not specified,Advanced video monitoring,Yes,Yes,127
+Spireon,CamCoach AI Dashcam,2020,Dual (forward and driver-facing),Advanced edge-computing AI,In-vehicle (edge),Not specified,"Live view, historical retrieval, driver-initiated capture, distracted driving detection",Yes,Yes,129
+Spireon,FL360 Integration,2020,Compatible with CamCoach,AI-powered,Edge computing,Not specified,Integrates with FL360 device,Yes,Yes,129
+NexTraq,DashCam,Pre-2021,HD 170° wide angle / Optional second camera,Not specified,Not specified,2,In-cab view option,Not specified,Not specified,131
+CalAmp,Crashboxx Vehicle Risk Management,2017 (launched),Not specified,AI for crash severity rating,"Instant crash notification, cloud",Not specified,"Instant crash notification, severity rating, automated incident reports, damage estimates",Yes,Yes,134
+Pedigree Technologies,CameraView,2019,Forward-facing or dual-facing,Distracted driving detection,Not specified,Not specified,Distracted driving detection,Yes,Not specified,136
+Forward Thinking Systems,FleetCam,Pre-2021,"Garmin Fleet 790 integration, up to 8 cameras",AI monitoring,In-vehicle (edge processing),8,"Live streaming (up to 6 cameras), unsafe driving monitoring",Yes (immediate),Yes,144-145
+Forward Thinking Systems,FleetCam 3.0,2021,"Multiple cameras, AI cameras",Advanced AI,In-vehicle (edge),8,"Fleet-wide dashboard, integrated driver coaching, in-cab alerts",Yes (audio alerts),Yes (integrated system),145
+Forward Thinking Systems,Camera Partners,NA,"RoscoVision, SmartWitness, Waylens, Digital Ally",Varies by partner,Varies,8 (FTS platform),Multiple partner integrations,Yes,Yes,144
+IntelliShift,AI-Video Solution,2021 (enhanced),Machine learning,Machine learning and AI,Cloud,Not specified,"Real-time video to cloud, continued enhancements throughout 2021",Yes,Yes,138
+Fleetilla,Platform Integration,NA,"RoscoVision, SmartWitness, Waylens, Digital Ally",Not specified,StreetEagle platform,Not specified,Hosts 4 different camera devices,Not specified,Not specified,144
+Insight Mobile Data,StreetEagle Platform,NA,"RoscoVision, SmartWitness, Waylens, Digital Ally",Not specified,StreetEagle platform,Not specified,Hosts 4 different camera devices,Not specified,Not specified,149
+Insight Mobile Data,LiveCam,Pre-2021,Not specified,Not specified,Streaming on demand,Not specified,Live streaming video capability,Not specified,Not specified,150

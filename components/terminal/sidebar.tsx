@@ -48,6 +48,7 @@ const navSections: NavSection[] = [
         { id: "summary-tsp", label: "TSP", icon: <Building2 className="w-3 h-3" /> },
         { id: "summary-reseller", label: "Reseller", icon: <Building2 className="w-3 h-3" /> },
         { id: "summary-insurtech", label: "Insurtech", icon: <Building2 className="w-3 h-3" /> },
+        { id: "summary-database", label: "Database", icon: <Search className="w-3 h-3" /> },
       ],
       "outreach": [
         { id: "outreach-newsletter", label: "Newsletter", icon: <Newspaper className="w-3 h-3" /> },

@@ -1,0 +1,14 @@
+Partner Type,Partner Name,Country/Region,Product/Service,Launch Year,Details
+Telecom,AT&T,United States,Channel distribution,2020,
+Telecom,TELUS,Canada,Channel distribution,2020,
+Telecom,Rogers,Canada,Channel distribution,2020,
+Telecom,Telstra,Australia,Channel distribution,2020,
+Telecom,Cosmote,Greece,Channel distribution,2020,
+OEM,General Motors,United States,GM Fleet,2020,OnStar-equipped vehicles - Chevrolet Buick GMC Cadillac
+OEM,General Motors,Canada,GM Fleet,2020,Extended to Canada
+OEM,General Motors,Mexico,GM Fleet,2021,Extended to Mexico
+OEM,Ford,United States,Ford Data Services,Mar 2020,Model year 2020+ Ford vehicles with telematics-ready hardware
+OEM,Ford,Canada,Ford Data Services,Aug 2020,Authorized Ford Data Services provider
+OEM,Toyota,Global,Toyota Connected,2020,
+OEM,Stellantis,North America,Mobilisights DaaS,Jan 2024,Connected vehicles through Stellantis Data-as-a-Service
+OEM,Mitsubishi Motors,Australia,OEM integration,2020,

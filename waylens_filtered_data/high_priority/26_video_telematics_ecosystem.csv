@@ -1,0 +1,13 @@
+Category,Company,Product_Name,Technology,Market_Position,Ownership,Valuation_Investment,Integration_Partners,Notes
+Video Specialist,Lytx,Lytx Video Services,AI-powered road + driver-facing cameras,Market leader - 2.1M drivers protected,Permira funds + co-investors (2020),$2.5B+ valuation (2020),"Daimler Truck North America (OEM integration 2022), Webfleet, Powerfleet, Nationwide Insurance",Pioneer in video telematics; acquired by GTCR 2016
+Video Specialist,SmartDrive,SmartDrive video platform,Video-based safety and intelligence,Major player,Solera Fleet Solutions (acquired 2020),$450M deal value,Integrated into Omnitracs/Solera ecosystem,Michelin was equity investor (2017) prior to Omnitracs acquisition
+Video Specialist,Netradyne,Driveri,AI dashcams with edge computing,Fast-growing newcomer,Private,N/A,"GPS Insight, Teletrac Navman, others",Focus on real-time AI analysis
+Video Specialist,Nauto,Nauto platform,AI-powered driver monitoring,Emerging player,Private,N/A,,
+Video Specialist,SmartWitness,SmartWitness cameras,Ruggedized video solutions,Established player,Xirgo Technologies (Sensata acquired 2021),N/A,,Now part of Xirgo (formerly Sensata INSIGHTS)
+FM Provider w/ Video,Samsara,Samsara AI Dash Cams,Dual-facing AI cameras,Leader in integrated video,Public (NYSE: IOT),N/A,Native integration with Samsara platform,In-house developed; major growth driver
+FM Provider w/ Video,Motive,Motive AI Dashcam,In-house designed dashcams,Strong uptake,Private,N/A,Native integration with Motive,Formerly KeepTruckin; in-house development
+FM Provider w/ Video,Verizon Connect,Video telematics,Partner-powered,Integrated offering,Verizon,N/A,Various partners,
+FM Provider w/ Video,Geotab,Video solutions,Partner integrations,Marketplace model,Private,N/A,Multiple video partners in Marketplace,Open ecosystem approach
+FM Provider w/ Video,Zonar Systems,Video integration,ContiConnect + video,Continental subsidiary,Continental (100% since 2019),N/A,Continental ecosystem,
+Insurance Telematics,Progressive,Smart Haul + Snapshot ProView,ELD data integration for UBI,Leading commercial auto insurer,Public,N/A,"Geotab, Motive, Omnitracs (preferred)",Discounts for ELD data sharing
+Insurance Telematics,Nationwide,Vantage 360 Fleet,Free telematics w/ insurance,Commercial lines insurer,Mutual company,N/A,"DriveWell Fleet (CMT), Lytx, Samsara",Free fleet management for small business policyholders

@@ -1,0 +1,20 @@
+Provider,Customer_Example,Market_Segment,Technology,Deployment_Size,Competitive_Position
+Geotab,GSA Fleet,Federal Government,Telematics,217000 vehicles,Largest single-source federal contract
+Geotab,Enterprise Truck Rental,Truck Rental,Telematics,Thousands of vehicles,Partnership for Enterprise Telematics
+Geotab,Ryder Truck Rental,Truck Rental,Telematics and ELD,,Partnership for Ryder Telematics
+Geotab,State of California,State Government,Telematics,Multiple state fleets,Single-source BPA after 2-year RFP
+Geotab,Penske Truck Leasing,Truck Rental/Leasing,Connected Fleet Platform,50000 vehicles,Device-neutral platform partner
+Geotab,Multiple,Government Agencies,Telematics,250000 vehicles globally,FedRAMP certified
+PowerFleet (I.D. Systems),Avis Budget Group,Car Rental,Wireless Fleet Management,125000 units,Rental fleet management system
+GPS Insight,State of Louisiana,State Government,GPS Fleet Management,Significant portion of 10543 vehicles,State fleet supplier
+GPS Insight,Commonwealth of Massachusetts,State Government,GPS Fleet Management,,State fleet supplier
+GPS Insight,County of San Mateo,County Government,GPS Fleet Management,,Municipal fleet supplier
+GPS Insight,City of Pasadena CA,Municipal Government,GPS Fleet Management,,Municipal fleet supplier
+Verizon Connect,Multiple,State/Municipal Government,Fleet Management,,Significant presence reported
+Lytx DriveCam,Manatee County FL EMS,EMS,Video-based Driver Performance,44 vehicles including 19 ambulances,Driver performance monitoring
+ORBCOMM,Multiple major fleets,Trucking/Logistics,Satellite + Cellular Asset Tracking,2200000 devices,Leading satellite M2M provider
+ORBCOMM,USPS,Federal Government,GPS Tracking,HCR fleet requirement,AT&T/ORBCOMM hardware requirement for trailers
+Omnitracs,Multiple,Trucking,Satellite + Cellular,Tens of thousands satellite units,First MRM/AVL solution (1988)
+KORE Wireless,Multiple,Fleet Tracking,MVNO/IoT Platform,3000000 subscribers,Largest independent MVNO
+Aeris,Multiple,Fleet/Telematics,Hybrid Carrier,15000000 devices (10M+ US),Owns mobile core network
+Kevadiya/ORBCOMM,VA Veterans Transportation Service,Federal Government - VA,Satellite + Cellular Tracking,,Routing and scheduling for veteran transport

@@ -1,0 +1,12 @@
+Partner_Name,Partner_Type,Industry,Integration_Type,Product_Service,Region,Status
+Avis,OEM,Vehicle Rental,Technology Integration,Fleet Management,Global,Active
+Jungheinrich,OEM,Industrial Vehicles,Technology Integration,Warehouse Equipment,Global,Active
+Walmart,Enterprise,Retail,Business Integration,Logistics Management,US,Active
+GreenMile,Technology,Logistics Software,API Integration,Last Mile Delivery,Global,Active
+International (Navistar),OEM,Commercial Vehicles,Technology Integration,Truck Telematics,US,Active
+Opel,OEM,Automotive,Technology Integration,Vehicle Data,Europe,Active
+Kia,OEM,Automotive,Technology Integration,Vehicle Data,Global,Active
+MG,OEM,Automotive,Technology Integration,Vehicle Data,Global,Active
+Hub Group,Enterprise,Logistics,Business Integration,Transportation,US,Active
+SAP,Technology,Enterprise Software,API Integration,ERP Integration,Global,Active
+McLeod Software,Technology,Transportation Software,API Integration,TMS Integration,US,Active

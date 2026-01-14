@@ -1,0 +1,13 @@
+Product_Name,Product_Type,Launch_Date,Features,Platform_Compatibility,Target_Market
+DriveCam Event Recorder,Video Telematics,Prior to 2021,ELD Service integration,Lytx Platform,Fleet Safety
+Lytx Driver App,Mobile Application,Current,Video self-coaching driver recognition ELD compliance DVIR driver ID Route Risk,iOS and Android,Driver Management
+Fleet Tracking,Telematics Service,Current,Real-time tracking maintenance scheduling,Lytx Platform,Fleet Management
+Preventative Maintenance,Fleet Management Feature,2021,Maintenance scheduling,Fleet Tracking,Fleet Operations
+ELD Service,Compliance Service,2021,Electronic Logging Device compliance,DriveCam integration,DOT Compliance
+DVIR Service,Compliance Service,June 2022,Driver Vehicle Inspection Reports,Lytx Driver App,Safety and Compliance
+Lytx Asset Tracking Service,Asset Management,July 2022,High-value asset management,Fleet Tracking,Asset Management
+Lytx Surfsight AI-12,Dual-facing Camera,Current,Video insights advanced risk detection,Lytx Vision Platform,Reseller Partners
+Lytx Surfsight,Video Telematics Solution,Current,AI-enabled video telematics,Lytx Vision Platform,Reseller Partners
+DriveCam SF500,Camera Solution,2022,OEM integration,Daimler Trucks,OEM Integration
+Driver Safety Program,Safety Service,Current,Professionally reviewed and curated,Lytx Platform,Fleet Safety
+DOT Compliance,Compliance Offering,Current,Regulatory compliance,Lytx Platform,Fleet Compliance

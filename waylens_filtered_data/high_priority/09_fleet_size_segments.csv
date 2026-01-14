@@ -1,0 +1,6 @@
+Fleet_Size_Category,Vehicle_Range,Ownership_Entity_Examples,Primary_Industries,FM_Solution_Likelihood,Target_Priority_for_Sales
+Micro,1-5,Individuals; Small businesses; Sole proprietors,Various small businesses,Low,Low - High cost to acquire
+Small,6-25,Medium businesses,Service companies; Small transport,Medium,Medium
+Medium,26-100,Small transport companies,Trucking; Logistics; Construction,High,High
+Large,101-500,"Medium transport; Construction; Public sector; Services; Distribution; Manufacturing",Transportation; Government; Construction; Distribution,Very High,Very High
+Enterprise,500+,"Rental/Leasing; Bus transportation; Retail; CEP; General freight; Large transport","Rental/Leasing; Transit; Retail; Delivery; Long-haul trucking",Extremely High,SWEET SPOT - Highest priority

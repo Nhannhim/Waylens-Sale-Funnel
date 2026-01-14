@@ -1,0 +1,7 @@
+Metric,Value,Unit,Year,Source,Notes
+Total public transit buses,71743,buses,2020,APTA,U.S. in service
+Number of public transit agencies,1241,agencies,2020,APTA,Operating transit buses
+AVL system penetration,91,percent,2019,APTA,Percentage of transit buses
+Security/CCTV camera penetration,79,percent,2019,APTA,Percentage of transit buses
+Service cuts due to COVID,65,percent,2020,APTA,Agencies forced to cut service
+Capital project delays/cancellations,28,percent,2020,APTA,Agencies impacted

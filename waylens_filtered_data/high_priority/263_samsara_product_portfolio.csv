@@ -1,0 +1,13 @@
+Product_Name,Product_Type,Launch_Date,Connectivity,Key_Features,Target_Segment
+Vehicle Gateway (VG),IoT Gateway,Prior to 2021,4G LTE Wi-Fi,Built-in cellular Wi-Fi hotspot OBD-II J1939 J1708,Light medium heavy-duty vehicles
+Samsara Driver App,Mobile Application,Prior to 2021,Mobile,ELD-ready HOS logging messaging document capture dispatching driver training and coaching,Drivers
+AI Dashcam Front-Facing,Video Telematics,Prior to 2024,4G LTE,AI-enabled front-facing HD automatic video upload,Safety applications
+AI Dashcam Dual-Facing,Video Telematics,Prior to 2024,4G LTE,AI-enabled dual-facing HD automatic video upload,Safety applications
+Temperature Sensor,Sensor,Prior to 2024,Wireless,Temperature monitoring,Cold chain
+Humidity Sensor,Sensor,Prior to 2024,Wireless,Humidity monitoring,Sensitive cargo
+Door Sensor,Sensor,Prior to 2024,Wireless,Door status monitoring,Security
+Cargo Sensor,Sensor,Prior to 2024,Wireless,Cargo monitoring,Logistics
+Card Reader,Accessory,Prior to 2024,Wired/Wireless,Driver identification,Fleet management
+Panic Button,Accessory,Prior to 2024,Wireless,Emergency alert,Driver safety
+Privacy Button,Accessory,Prior to 2024,Wireless,Privacy control,Driver privacy
+Asset Tag,Asset Tracker,June 2024,Bluetooth,Compact Bluetooth-enabled tracking for small tools and equipment,Tool and equipment tracking

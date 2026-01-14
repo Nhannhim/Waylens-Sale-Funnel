@@ -1,0 +1,11 @@
+Component,Specification,Vendor,Details
+Cameras,4 integrated HDR cameras,Omnivision,High dynamic range
+Wireless Module,4G LTE,Sierra Wireless,Cellular connectivity
+GPS,High accuracy GPS,Integrated,Location tracking
+Processor,SnapDragon,Qualcomm,Main processor
+GPU,NVIDIA platform,NVIDIA,Video analytics
+Connectivity,J-1939 and OBD-II,Standard,Vehicle data connection
+Cellular,T-Mobile certified,T-Mobile,4G LTE connectivity
+Wi-Fi,Yes,Integrated,
+Design,Netradyne designed,Contract manufactured,Custom design
+Mounting,Behind rear-view mirror,Windshield mount,Minimal obstruction

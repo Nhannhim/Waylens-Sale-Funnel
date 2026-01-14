@@ -1,0 +1,15 @@
+Category,Metric,Value,Year,Notes
+Company Overview,Location,Irvine CA,2021,
+Company Overview,Stock Exchange,NASDAQ,2021,Publicly traded
+Company Overview,Employees,882,2021,Approximate
+Product Portfolio,Trailer Types Monitored,Dry vans refrigerated other,2021,Majority dry vans
+Product Portfolio,Features,Cargo volume door status remote lock camera,2021,
+Product Portfolio,BLE Tags,Low cost,2021,For cargo visibility temperature
+Product Portfolio,PSI Partnership,Yes,2021,Tire pressure hub temp brakes weight
+Market Position,Total Customers,2140,2020,Late 2020
+Market Position,Total Trailers Monitored,137000,2020,Late 2020
+Market Position,US Trailers,120000,2020,Approximate
+Acquisitions,LoJack Acquisition,2016,2016,Acquired SCI Supply Chain
+Product Portfolio,CalAmp SC iOn,Supply Chain solution,2021,Formerly LoJack SCI
+Product Portfolio,Hardware Price Estimate,300-400,2021,USD estimate
+Product Portfolio,Monthly Service Estimate,7-10,2021,USD estimate

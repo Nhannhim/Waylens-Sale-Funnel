@@ -1,0 +1,26 @@
+Partner_Type,Partner_Name,Geography,Relationship,Notes
+Cellular Carrier,AT&T,U.S.,Key Distribution Partnership,
+Cellular Carrier,TELUS,Canada,Key Distribution Partnership,
+Cellular Carrier,Rogers,Canada,Key Distribution Partnership,
+Cellular Carrier,Telstra,Australia,Key Distribution Partnership,
+Cellular Carrier,Deutsche Telekom,Germany,Key Distribution Partnership,
+Cellular Carrier,T-Mobile,Multiple European countries,Key Distribution Partnership,
+Cellular Carrier,Cosmote,Greece,Key Distribution Partnership,Largest Greek telecom
+Cellular Carrier,Telia,Scandinavia,Key Distribution Partnership,
+Cellular Carrier,AT&T,Mexico,Key Distribution Partnership,
+OEM,Ford,Multiple,Telematics Partner,More business than any other Ford telematics partner per FC
+OEM,GM,Multiple,Telematics Partner,More business than any other GM telematics partner per FC
+Government,FirstNet,U.S.,Public Safety Communications Network,2019 partnership with AT&T for public safety agencies
+Product,Fleet Tracker,,"GPS tracking, driver behavior analytics, fuel economy reporting, geofencing, IFTA reporting",Cloud-based platform for fleet and asset tracking
+Product,Asset Tracker AT1,,"Battery-based hardware for non-powered/occasionally-powered assets: containers, trailers, bins, equipment",One of smallest and most cost-effective equipment trackers
+Product,BigRoad ELD,,"HOS and vehicle inspection compliance for U.S. and Canada, 100K+ paid units",Available from AT&T or directly from Fleet Complete; can comply with Canadian ELD via software update
+Product,Fleet Complete Vision,,"Dual facing AI-powered 4G LTE dash cam, real-time voice-based in-cab feedback, driver app",Advanced video telematics with ADAS
+Product,Vision 2.0,July 2021,"Dual-facing camera with ADAS, on-the-edge AI processing, on-board LTE connectivity, driver monitoring system",
+Product,CONNVEX,,"Global cloud platform for connected mobility ecosystem, enables third parties to leverage infrastructure",Off-shoot of Fleet Complete
+Target Markets,Government,,,
+Target Markets,Emergency Response,,,
+Target Markets,Freight,,,
+Target Markets,Field Service,,,
+Target Markets,Delivery,,,
+Target Markets,Construction,,,
+BigRoad,Units in Service,January 2021,"100,000+",Paid units; many operating with Fleet Complete fleet management solution

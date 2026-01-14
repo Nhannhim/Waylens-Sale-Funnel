@@ -1,0 +1,9 @@
+Channel_Type,Metric,Value,Unit,Coverage,Details
+In-warehouse Dealers,Network Size,600,Dealers,Global,Distribution network
+Sales Channels,Direct Sales,Yes,Boolean,Global,Direct sales to enterprises
+Sales Channels,Indirect Sales,Yes,Boolean,Global,Through dealer network
+Business Model,Subscription Type,SaaS,Model,Global,Subscription-based business model
+Business Model,Base Fee,Yes,Boolean,Global,Base access fee
+Business Model,Value-Added Module Fee,Yes,Boolean,Global,Fee per module
+Contract Terms,Minimum Period,3,Years,Global,Subscription period range
+Contract Terms,Maximum Period,5,Years,Global,Subscription period range

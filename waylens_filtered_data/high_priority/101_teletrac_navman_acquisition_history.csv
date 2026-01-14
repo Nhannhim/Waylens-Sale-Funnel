@@ -1,0 +1,9 @@
+Acquiring_Company,Target_Company,Date,Previous_Owner,Transaction_Value_USD_Million,Country,Strategic_Focus
+Trafficmaster,Teletrac,2001,Independent,N/A,United States,Fleet location and management
+Vector Capital,Trafficmaster Group,2010,Public,145,UK/US,Fleet management consolidation
+Danaher Corporation,Trafficmaster Group,2013,Vector Capital,N/A,Global,Strategic acquisition
+Danaher Corporation,Navman Wireless,2013,Prairie Capital,N/A,United States,Fleet management consolidation
+Teletrac Navman,Merger,Q1-2015,Danaher,N/A,Global,Combined Teletrac and Navman Wireless
+Fortive,Spin-off from Danaher,July 2016,Danaher,N/A,Global,New independent company
+Navman Wireless Australia,Transtech Driven,2016,Independent,N/A,Australia,Regional expansion
+Vontier,Spin-off from Fortive,October 2020,Fortive,N/A,Global,Transportation and mobility focus

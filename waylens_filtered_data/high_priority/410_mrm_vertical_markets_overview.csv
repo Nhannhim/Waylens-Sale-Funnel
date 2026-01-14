@@ -1,0 +1,31 @@
+Vertical Market,Description,Unique Requirements,Market Size,Penetration Level
+Public Transit,City buses and transit systems,"Passenger counting, stop announcements, AVL + CAD",Significant,High
+School Bus,Student transportation,"Ridership monitoring, parent tracking, student safety",Large,Moderate to High
+Public Safety,"Law enforcement, fire, EMS","CAD integration, real-time dispatch, secure communications",Significant,High
+Paratransit,Specialized transportation services,"Scheduling, accessibility, compliance",Moderate,Moderate to High
+Utilities/Telecom,Electric/gas/water utilities and telecom,"Field service management, outage response",Large,Moderate to High
+Construction,Construction vehicles and equipment,"Equipment monitoring, job site tracking",Large,Moderate
+Waste Management,Refuse collection vehicles,"Route optimization, container monitoring",Moderate,Moderate to High
+Oil & Gas,Energy sector vehicles and equipment,"Remote locations, harsh environments, safety",Moderate,Moderate
+Food & Beverage Distribution,Temperature-sensitive delivery,"Cold chain monitoring, FSMA compliance",Moderate,Moderate
+Taxi and Limousine,For-hire passenger transport,"Dispatch integration, fare management, passenger safety",Moderate,Moderate
+Rental Car and Truck,Vehicle rental fleets,"Fleet utilization, vehicle location, theft recovery",1.98M vehicles,Moderate
+Healthcare,Ambulances and medical transport,"Emergency response, patient safety, compliance",Moderate,High
+Government Fleets,Municipal and federal vehicles,"Compliance, accountability, diverse vehicle types",Large,Moderate
+HVAC,Heating and air conditioning service,"Field service, appointment scheduling, parts inventory",Moderate,Low to Moderate
+Plumbing,Plumbing service vehicles,"Field service, emergency response",Moderate,Low to Moderate
+Electrical Services,Electrical contractor fleets,"Field service, safety compliance",Moderate,Low to Moderate
+Landscaping,Lawn care and landscaping,"Equipment tracking, routing",Moderate,Low to Moderate
+Pest Control,Pest management services,"Routing, customer scheduling",Small to Moderate,Low to Moderate
+Pool Service,Pool maintenance fleets,"Routing, chemical tracking",Small,Low
+Courier and Delivery,Package and document delivery,"Real-time tracking, proof of delivery",Large,Moderate to High
+Last Mile Delivery,Final delivery to consumer,"Route density, time windows, customer communication",Growing,Moderate to High
+Propane Delivery,Fuel delivery services,"Tank monitoring, routing, safety",Moderate,Moderate
+Towing and Recovery,Vehicle towing services,"Dispatch, location tracking",Moderate,Moderate
+Armored Car,Cash transport services,"Security, routing, compliance",Small,High
+Construction Equipment Rental,Heavy equipment rental,"Equipment utilization, location tracking",Moderate,Moderate
+Pharmaceutical Distribution,Medicine delivery,"Temperature monitoring, security, compliance",Small to Moderate,Moderate to High
+Retail Chains,Store delivery and service,"Private fleet management, delivery tracking",Large,Moderate
+Wholesale Distribution,B2B distribution,"Route optimization, delivery management",Large,Moderate
+Manufacturing,Plant and warehouse vehicles,"Materials handling, safety compliance",Large,Moderate
+Agriculture,Farm equipment and vehicles,"Equipment monitoring, field mapping",Moderate,Low to Moderate

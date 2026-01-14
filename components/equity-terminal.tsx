@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Sidebar } from "./terminal/sidebar"
 import { TopBar } from "./terminal/top-bar"
 import { CompanyOverview } from "./terminal/company-overview"
@@ -12,10 +12,22 @@ import { NewsPage } from "./terminal/news-page"
 import { OutreachPage } from "./terminal/outreach-page"
 import { NewsletterPage } from "./terminal/newsletter-page"
 import { SearchPage } from "./terminal/search-page"
+import { CompanyDatabase } from "./terminal/company-database"
 
 export function EquityTerminal() {
   const [selectedTicker, setSelectedTicker] = useState("IOT")
-  const [activeSection, setActiveSection] = useState("summary-tsp")
+  
+  // Initialize with sessionStorage check - runs before first render
+  const [activeSection, setActiveSection] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const navSection = sessionStorage.getItem('navigateToSection');
+      if (navSection) {
+        sessionStorage.removeItem('navigateToSection');
+        return navSection;
+      }
+    }
+    return "summary-tsp";
+  })
 
   const renderContent = () => {
     switch (activeSection) {
@@ -30,6 +42,8 @@ export function EquityTerminal() {
         return <CompanySummary ticker={selectedTicker} companyType={activeSection} />
       case "summary-insurtech":
         return <InsurtechPage ticker={selectedTicker} />
+      case "summary-database":
+        return <CompanyDatabase />
       case "clients":
         return <ClientsPage ticker={selectedTicker} />
       case "news":
@@ -47,7 +61,9 @@ export function EquityTerminal() {
     <div className="flex h-screen bg-gray-100 overflow-hidden">
       <Sidebar activeSection={activeSection} onSectionChange={setActiveSection} />
       <div className="flex-1 flex flex-col overflow-hidden">
-        <TopBar selectedTicker={selectedTicker} onTickerChange={setSelectedTicker} />
+        {activeSection !== "search" && activeSection !== "summary-database" && (
+          <TopBar selectedTicker={selectedTicker} onTickerChange={setSelectedTicker} />
+        )}
         <main className="flex-1 overflow-auto p-4 bg-gray-100">
           {renderContent()}
         </main>

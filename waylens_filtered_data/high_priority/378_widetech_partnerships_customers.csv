@@ -1,0 +1,15 @@
+Name,Type,Relationship
+Queclink,Hardware Partner,Technology partner
+Suntech,Hardware Partner,Technology partner
+Teltonika,Hardware Partner,Technology partner
+Ruptela,Hardware Partner,Technology partner
+Streamax,Hardware Partner,Technology partner
+Wal-Mart,Customer,Reference client
+LALA,Customer,Reference client
+BMW,Customer,Reference client
+Equirent,Customer,Reference client
+Ecopetrol,Customer,Reference client
+Postobon,Customer,Reference client
+G4S,Customer,Reference client
+Bancolombia,Customer,Reference client
+Telefónica/Movistar,Customer,Reference client

@@ -1,0 +1,6 @@
+Technology_Component,Provider,Solution_Name,Application,Benefits_Reported
+GPS tracking hardware,Geotab,Geotab hardware devices,Entire fleet including local delivery vehicles,Remote vehicle diagnostics and driver performance
+Fleet management platform,Geotab,MyGeotab,Fleet-wide deployment,Development kit enabled custom applications
+Route optimization,UPS (internal),ORION,Driver tablets (DIAD),Dynamic routing to reduce miles and fuel consumption
+Telematics application,UPS (custom),Custom application,Built on Geotab platform,Maintenance cost reduction and fuel economy improvement
+Driver safety,UPS,Telematics safety reports,Risk reduction monitoring,Follow risk reduction activities and analyze high-risk indicators

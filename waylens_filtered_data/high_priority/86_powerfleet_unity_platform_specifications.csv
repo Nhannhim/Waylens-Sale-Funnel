@@ -1,0 +1,11 @@
+Platform_Component,Metric,Value,Unit,Category,Description
+Data Ingestion,Manufacturers Supported,130,Manufacturers,Integration,Device and data ingestion engine
+Data Ingestion,IoT Devices Supported,550,Devices,Integration,Telematics devices supported
+Data Ingestion,Protocols Supported,350,Protocols,Integration,Communication protocols
+Unity Platform,Modular Applications,6,Applications,SaaS,Enterprise SaaS applications
+Unity Platform,Application 1,Safety and Security,Name,SaaS,Real-time data for decision making
+Unity Platform,Application 2,Advanced Fuel Management,Name,SaaS,Fuel usage insights
+Unity Platform,Application 3,Sustainability,Name,SaaS,EV transition support
+Unity Platform,Application 4,Maintenance and Performance,Name,SaaS,Usage-based servicing
+Unity Platform,Application 5,Visibility and Resource Management,Name,SaaS,Asset and personnel efficiency
+Unity Platform,Application 6,Regulatory Management and Compliance,Name,SaaS,Automated compliance workflows

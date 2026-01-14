@@ -1,0 +1,21 @@
+Supplier,Customer,Customer Type,Customer Description,Deployment Details,Significance
+ORBCOMM,Oshkosh Airport Products,OEM,Aircraft rescue and firefighting vehicles manufacturer,Telematics solutions,OEM relationship
+ORBCOMM,JLG Industries,OEM,Leading supplier of access equipment (aerial work platforms|man lifts|telehandlers); Based in McConnellsburg PA,Telematics solutions,Major OEM customer
+ORBCOMM,Terex Corporation,OEM,Global manufacturer of lifting and material processing products/services; Based in Westport CT,Telematics solutions,Major OEM customer
+ZTR,United Rentals,Rental Company,World's largest rental company,Telematics solutions,Largest customer segment
+ZTR,Sunbelt Rentals,Rental Company,Major North American rental company,Telematics solutions,Major customer
+ZTR,Boels Rental,Rental Company,Europe-based rental company,Telematics solutions,European market
+ZTR,Tavant (Kubota),OEM,Equipment manufacturer,Telematics solutions,OEM relationship
+ZTR,Genie,OEM,Equipment manufacturer,Telematics solutions,OEM relationship
+Trackunit,United Rentals Inc.,Rental Company,World's largest equipment rental company,Active partnership for light and heavy equipment,Strategic partnership
+Trackunit,Ahern Rentals,Rental Company,Largest independently-owned rental company in North America,3-year deployment announced May 2020,Major independent rental company
+LHP Telematics,John Deere,OEM,Major agricultural and construction equipment manufacturer,MTG device for JD Link (private-label),Major OEM private-label relationship
+LHP Telematics,Vermeer,OEM & Dealer Network,Equipment manufacturer with 80 dealers,Partnership begun 2020,OEM and dealer network
+LHP Telematics,Cummins Certified Telematics,Technology Partner,Advanced analytics and predictive maintenance,Partnership begun 2020,Enhanced capabilities partnership
+Danlaw,ALD Automotive,Fleet Management Provider,ALD ProFleet service provider,DataLogger OBD-II devices and Bitbrew cloud platform,Preferred partnership announced April 2021
+Xirgo,Progressive Insurance,Insurance Carrier,Major insurance provider,Hundreds of thousands of units for Snapshot UBI program,Major UBI deployment
+Quake Global,Caterpillar,OEM,Major construction equipment manufacturer,Communication devices,OEM customer
+Quake Global,Komatsu,OEM,Major construction equipment manufacturer,Communication devices,OEM customer
+Quake Global,Hitachi,OEM,Major construction equipment manufacturer,Communication devices,OEM customer
+Quake Global,Johnson & Johnson,Pharmaceutical/Healthcare,Global healthcare company,Asset tracking solutions,High-value asset tracking
+Quake Global,Volvo,OEM,Major vehicle and equipment manufacturer,Communication devices,OEM customer

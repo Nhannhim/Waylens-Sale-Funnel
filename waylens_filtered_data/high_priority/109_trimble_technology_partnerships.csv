@@ -1,0 +1,7 @@
+Partner_Name,Partner_Type,Integration_Type,Product_Service,Industry,Status
+Iridium,Satellite Provider,Satellite Communications,Optional Satellite Connectivity,Fleet Management,Active
+Cummins,OEM,OTA Integration,Engine Firmware Updates,Commercial Vehicles,Active
+SpeedGauge,Technology Partner,Integration,Safety Center Integration,Fleet Safety,Active
+TMS Providers,Technology Partners,API Integration,Transportation Management Systems,Logistics,Active
+ERP Providers,Technology Partners,API Integration,Enterprise Resource Planning,Enterprise,Active
+Samsung,Hardware Provider,Device Partnership,Tab Active3 Tablets,Consumer Electronics,Active

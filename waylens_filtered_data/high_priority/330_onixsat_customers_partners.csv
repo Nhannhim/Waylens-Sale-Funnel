@@ -1,0 +1,10 @@
+Name,Type,Relationship,Details
+Wlog,Customer,Fleet Client,Transportation
+Rapidão Cometa,Customer,Fleet Client,Transportation
+PHD Logística,Customer,Fleet Client,Logistics
+Interflet Transporte Internacional,Customer,Fleet Client,International transport
+Seara Agronegócios,Customer,Fleet Client,Agribusiness
+Centro Logístico Eichenberg & Transeich,Customer,Fleet Client,Logistics
+Grupo Gelog,Customer,Fleet Client,Logistics group
+Inmarsat,Partner,Satellite Communications,Satellite connectivity partner
+ORBCOMM (SkyWave),Partner,Satellite Communications,Satellite connectivity partner

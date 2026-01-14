@@ -1,0 +1,4 @@
+Company,Network_Type,Satellites_Active,Coverage_Area,Subscribers_Devices,Technology,Key_Markets,Notes
+Omnitracs,Satellite + Cellular,Leased capacity,US + Canada + Mexico,Tens of thousands satellite units,C-band and Ku-band (SES); L-band (Viasat),Trucking fleets,Declining satellite usage due to cellular; deploying L-band
+ORBCOMM,Satellite + Cellular,31 LEO,Global (130+ countries),2200000 billable,OG2 next-gen satellites,"Heavy equipment OEMs, fleet tracking, asset monitoring",Only commercial satellite network fully dedicated to M2M
+Iridium Communications,Satellite,66 LEO,Global,,"Cross-linked mesh architecture, 700 MHz",Global voice and data,Interlinked satellite constellation

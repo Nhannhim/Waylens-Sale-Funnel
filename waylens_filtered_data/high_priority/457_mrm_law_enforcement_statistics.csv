@@ -1,0 +1,16 @@
+Category,Metric,Value,Year,Source
+Employment,Police and Sheriff Patrol Officers,654900,2020-05,US Bureau of Labor Statistics
+Fleet Size,Total Police Patrol Cars and Trucks,500000,2020,Automotive Fleet Fact Book Guide
+Technology,Estimated Vehicles with AVL,200000,2020,Industry Estimate
+Technology,AVL Adoption - Large Agencies,High,2020,Industry Observation
+Technology,AVL Adoption - Small Agencies,Low,2020,Industry Observation
+Fleet Size,New York Police Department,9000,2020,NYPD
+Fleet Size,NYPD Motorcycles,115,2020,NYPD
+Fleet Size,NYPD New Cars (2018-19 combined),2689,2019,NYPD
+Fleet Size,NYPD Marked New Cars,1790,2019,NYPD
+Fleet Size,NYPD Unmarked New Cars,899,2019,NYPD
+Technology,NYPD AVL Coverage,100%,2020,NYPD
+Fleet Size,Los Angeles Police Department,4700,2020,LAPD
+Fleet Size,Chicago Police Department,3854,2020,Chicago PD
+Fleet Size,Massachusetts State Police,3180,2020,Massachusetts State Police
+Technology,Massachusetts State Police AVL,100%,2020,Massachusetts State Police

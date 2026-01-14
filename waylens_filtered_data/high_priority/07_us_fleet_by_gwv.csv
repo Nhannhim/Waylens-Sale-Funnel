@@ -1,0 +1,11 @@
+GVW_Class,Weight_Range_lbs,In_Operation,In_Fleet_Use,Fleet_Percentage,Top_Business_Uses,Example_Vehicles
+GVW 1,≤6000,90919000,3993000,4.4%,Services; Government,"Minivan, Cargo Van, SUV, Pickup Truck"
+GVW 2,6001-10000,72827000,9547000,13.1%,Services; Government,"Minivan, Cargo Van, Full-Size Pickup, Step Van"
+GVW 3,10001-14000,4129000,1570000,38.0%,Services; Construction,"Walk-In, Box Truck, City Delivery, Heavy-Duty Pickup"
+GVW 4,14001-16000,922000,665000,72.1%,Rental/Leasing; Services,"Large Walk-In, Box Truck, City Delivery"
+GVW 5,16001-19500,934000,758000,81.1%,Services; Rental/Leasing,"Bucket Truck, Large Walk-In, City Delivery"
+GVW 6,19501-26000,1438000,1112000,77.3%,Rental/Leasing; Services,"Beverage Truck, Single Axle, School Bus, Rack Truck"
+GVW 7,26001-33000,1617000,1382000,85.5%,Bus Transportation; Rental/Leasing; General Freight,"Refuse, Furniture, City Transit Bus, Truck Tractor"
+GVW 8,>33000,4037000,3250000,80.5%,General Freight; Rental/Leasing; Services,"Cement Truck, Truck Tractor, Dump Truck, Sleeper"
+U (Unclassified),-,111556000,4894000,4.4%,Mixed Personal & Commercial,Passenger cars and unclassified vehicles
+Total,,288379000,27171000,9.4%,,
