@@ -1,0 +1,32 @@
+OEM Category,Manufacturer,Telematics Offering,Market Position,Strategy,Impact
+Heavy Truck OEM,Freightliner,Factory-installed telematics,Leading,Remote diagnostics with free period,Established
+Heavy Truck OEM,PACCAR,Factory-installed telematics,Major player,Remote diagnostics with free period,Established
+Heavy Truck OEM,Volvo,Factory-installed telematics,Major player,Remote diagnostics with free period,Established
+Heavy Truck OEM,Navistar,Factory-installed telematics,Major player,"Remote diagnostics, autonomous vehicle partnerships",Established
+Heavy Truck OEM,Hino Motors,Factory-installed telematics,Niche player,Following industry trend,Growing
+OEM Market Trend,Most heavy truck OEMs,Factory installation standard,Industry-wide,2-3 years free service typical,Mature
+OEM Units Active,Class 6-8 trucks,Several hundred thousand units,Significant,OEM-supplied telematics activated,Growing
+Light Commercial OEM,Ford Motor Company,Telematics for new and existing vehicles,Major player,Own solutions plus partners,Active
+Light Commercial OEM,General Motors/OnStar,Telematics solutions,Major player,Established telematics brand,Active
+Light Commercial OEM,Isuzu Commercial Truck,Telematics offerings,Niche player,Following industry trend,Growing
+Dual System Reality,New heavy trucks,Two telematics systems common,Industry norm,OEM diagnostics + aftermarket GPS,Redundancy issue
+OEM Service Model,Free initial period,2-3 years typical,Common practice,Then subscription required,Low retention
+Post-Free Period,Customer retention,Most decline to continue OEM service,Low retention,Prefer aftermarket solutions,Challenge for OEMs
+Primary OEM Focus,Remote diagnostics,Engine and vehicle health,Core value,"Maximize uptime, performance, longevity",Differentiation
+Aftermarket Preference,GPS fleet management,Productivity and compliance focus,Strong,Most large fleets use aftermarket,Competitive pressure
+Construction Equipment,Caterpillar,Factory telematics,Leading,Equipment monitoring,Established
+Construction Equipment,Komatsu,Factory telematics,Major player,Equipment monitoring,Established
+Construction Equipment,Volvo Construction,Factory telematics,Major player,Equipment monitoring,Established
+Construction Equipment,Hitachi,Factory telematics,Major player,Equipment monitoring,Established
+Construction Equipment,John Deere,Factory telematics,Major player,Equipment monitoring,Established
+Construction Equipment,CNH America,Factory telematics,Major player,Equipment monitoring,Established
+Construction Equipment,Doosan Infracore,Factory telematics,Player,Equipment monitoring,Growing
+Construction Equipment,Manitowoc Company,Factory telematics,Niche player,Equipment monitoring,Growing
+Trailer OEM,Great Dane,Telematics-ready trailers,Leading,Smart trailer capabilities,Emerging
+Trailer OEM,Thermo King,Refrigeration monitoring,Leading,Temperature monitoring,Established
+Trailer OEM,Carrier Transicold,Refrigeration monitoring,Leading,Temperature monitoring,Established
+Autonomous Development,TuSimple,Self-driving truck technology,"Partnerships with Navistar, UPS",Nasdaq IPO $1B April 2021,Development
+Autonomous Development,Waymo,Self-driving truck technology,Active hauling in Southwest U.S.,Google subsidiary,Development
+Autonomous Development,Kodiak Robotics,Self-driving truck technology,Active hauling in Southwest U.S.,Independent developer,Development
+ADAS Technology,WABCO (ZF Group),Advanced driver assistance,"Lane departure, automatic braking",Acquired by ZF Group,Established
+ADAS Technology,Bendix,Advanced driver assistance,Safety systems,Independent,Established

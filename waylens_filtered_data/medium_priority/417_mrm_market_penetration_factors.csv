@@ -1,0 +1,29 @@
+Factor,Description,Impact,Correlation,Penetration Pattern
+Fleet Size,Number of vehicles in fleet,Very High,Nearly linear relationship,Larger fleets have much higher penetration
+Fleet Category,Type of fleet operation,High,Varies by category,"Public safety high, small service fleets lower"
+Geographic Location,Urban vs rural,Moderate,Urban higher,Better connectivity and support
+Industry Vertical,Specific industry segment,High,Varies widely,"Trucking very high, landscaping lower"
+Regulatory Requirements,Compliance mandates,Very High,Direct,ELD mandate drove trucking adoption
+Company Size,Overall organization size,High,Positive correlation,Larger companies adopt faster
+ROI Awareness,Understanding of benefits,High,Positive,Educated buyers adopt faster
+Technology Sophistication,IT capabilities,Moderate,Positive,Tech-savvy companies adopt faster
+Insurance Requirements,Carrier mandates or incentives,Growing,Positive,Driving adoption
+Competitive Pressure,Industry norms,Moderate,Positive,Peer adoption influences decisions
+Capital Availability,Financial resources,Moderate,Positive,Budget constraints affect timing
+Management Buy-in,Leadership support,High,Critical,Executive support drives adoption
+Driver Acceptance,Workforce cooperation,Moderate,Can be barrier,Resistance can slow adoption
+Economic Conditions,Business environment,Moderate,Variable,Recession can slow adoption
+Technology Maturity,Solution availability,High,Positive,Better solutions drive adoption
+Price Point,Affordability,High,Negative correlation,Lower prices increase adoption
+Ease of Implementation,Installation and setup,Moderate,Positive,Plug-in devices increase adoption
+Support Quality,Vendor assistance,Moderate,Retention factor,Affects continued use
+Integration Capability,System compatibility,Moderate,Positive,Easy integration drives adoption
+Contract Flexibility,Terms and commitments,Moderate,Positive,Month-to-month appeals to SMBs
+Overall Local Fleet Penetration,Current market state,46%,Baseline,Room for continued growth
+Trucking Penetration,Commercial trucking,Very High,ELD-driven,Near saturation for required vehicles
+Small Fleet Penetration,Under 50 vehicles,Lower than average,Size-dependent,Significant growth opportunity
+Public Transit Penetration,City bus systems,High,Mission-critical,Mature market
+Public Safety Penetration,Emergency services,High,Mission-critical,Mature market
+Utility Fleet Penetration,Utility companies,Moderate to High,Operational need,Growing market
+Construction Penetration,Construction vehicles,Moderate,Equipment focus,Growing market
+Service Fleet Penetration,HVAC/plumbing/electrical,Low to Moderate,Price-sensitive,Growth opportunity

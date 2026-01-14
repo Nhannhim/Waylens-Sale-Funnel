@@ -1,0 +1,18 @@
+Technology,Use Cases,Providers Offering,Advantages,Typical Applications,Notes
+Cellular (2G),Legacy connectivity,Suntech (Latin America),Low cost|Wide coverage,Latin America markets|Legacy equipment,Being phased out in many markets
+Cellular (3G),Mid-tier connectivity,Trackunit (Europe)|Multiple providers,Good coverage|Moderate data rates,General fleet tracking,Being phased out in some markets
+Cellular (4G/LTE),Current standard,Most providers|Trackunit|Suntech|Queclink|CalAmp|Xirgo|Others,High data rates|Good coverage|Video capable,All modern applications|Video telematics,Current industry standard
+Cellular (5G),Next generation,Trackunit (U.S.)|Future deployments,Very high data rates|Low latency|Enhanced capacity,Advanced applications|High-data requirements,Emerging deployment
+LTE Cat-M1,Low power IoT,Suntech|Queclink,Low power consumption|Long battery life|IoT optimized,Asset tracking|Long-term monitoring,Growing adoption for IoT
+NB-IoT,Narrowband IoT,Suntech,Very low power|Deep coverage|Low cost,Simple tracking|Sensors,Alternative to LTE Cat-M1
+Satellite (ORBCOMM),Global coverage,ORBCOMM|Quake Global|LHP (historically),Coverage in remote areas,Remote equipment|Off-grid assets,Supplement to cellular
+Satellite (Iridium),Global coverage,Case|New Holland|Doosan|Quake Global,True global coverage|Polar regions,Remote/global operations,Premium service
+Bluetooth/BLE,Short-range connectivity,Trackunit|EquipmentShare|LHP|Danlaw|Suntech|Xirgo|Quake|Others,Low power|Tag tracking|Tool tracking,Equipment tags|Attachments|Tools|Driver apps,Growing for asset tagging
+Wi-Fi,Local connectivity|Data offload,LHP TP1|Suntech|Quake,High data rates|Free connectivity when available,Data downloads|Configuration|Updates,Supplement to cellular
+V2X (Vehicle-to-Everything),Vehicle communication,Quake Global,Safety|Coordination,Connected vehicle applications,Emerging technology
+RFID,Short-range identification,Xirgo|Trackunit|Quake,Access control|Tool tracking,Authentication|Equipment access|Tool management,Proven technology
+NFC (Near Field Communications),Very short-range,Queclink,Simple pairing|Security,Device pairing|Authentication,Convenience feature
+LoRa,Low-power wide-area,Queclink GL52LP,Long range|Low power|Low cost,Asset security monitoring,Emerging in telematics
+UHF,Radio frequency,Quake Global,Long range|Penetration,Specialized tracking,Niche applications
+ZigBee,Mesh networking,Xirgo,Low power|Mesh capability,Sensor networks,Declining in fleet
+Ethernet,Wired connectivity,LHP TP1,High reliability|High data rates,Stationary configuration|Data transfer,Support/diagnostic use

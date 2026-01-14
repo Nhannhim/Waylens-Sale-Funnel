@@ -1,0 +1,13 @@
+Company,Platform Name,Platform Type,Hardware Approach,Key Features,Launch/Update Year
+Fleet Complete,Fleet Complete Insights Solution Suite,SaaS - Big data IoT,Proprietary devices + OEM data,Fleet Tracker Asset Tracker Vision BigRoad,2022
+Geotab,MyGeotab,SaaS - Cloud-based,GO devices + Hardware-agnostic (since 2017),300+ marketplace apps SDK API,Continuous evolution
+Geotab,Geotab Ace,Generative AI Copilot,Integrated with MyGeotab,Natural language fleet insights,Feb 2024
+Geotab,Altitude,ITS Analytics Platform,Data aggregation,Transportation planning insights,2021
+Gurtam,Wialon Hosting,Cloud-based SaaS,Hardware-agnostic - 3500+ device models,Fleet management IoT,Continuous
+Gurtam,Wialon Local,Server-based,Hardware-agnostic - 3500+ device models,On-premises fleet management,Continuous
+Gurtam,flespi,IoT cloud backend,Hardware-agnostic,Telematics data hub API,Platform
+Gurtam,GPS-Trace,Modular platform,Hardware-agnostic,Consumer and small business,Platform
+KORE,Position Logic,LBS SaaS,Hardware-agnostic - hundreds of devices,Fleet vehicle asset person tracking,2007
+KORE,KORE VISTA,Next-gen mobility SaaS,Hardware-agnostic,Modular AI video ELD navigation routing,2022
+KORE,KORE Link,Data Capture Delivery,IoT cloud,Pre-integrated IoT products catalog,Late 2024
+MICHELIN,MyConnectedFleet,SaaS Platform,Proprietary devices,Rolling out globally,2024

@@ -1,0 +1,15 @@
+Category,Metric,Value,Year,Source
+Fleet Size,Total Vehicles,231541,2020,USPS
+Fleet Size,Total Vehicles,228940,2019,USPS
+Fleet Size,Leased Trailers,9544,2020-05,USPS
+Fleet Size,Owned Trailers,2905,2020-05,USPS
+Fleet Size,Leased Trailers Percentage,77%,2020-05,USPS
+Fleet Size,Owned Trailers Percentage,23%,2020-05,USPS
+Fleet Size,Trailers to Replace,2080,2021,USPS
+Procurement,Trailers Purchased,825,2020-05,USPS
+Procurement,Trailers Purchase Cost,24500000,2020-05,USPS
+Operations,Highway Contract Routes,8200,2016,USPS
+Operations,Highway Contract Routes Annual Spend,3000000000,2016,USPS
+Technology,GPS Requirement,All trailers and mail compartments,2017,USPS
+Technology,GPS Hardware Provider,ORBCOMM,2017,USPS
+Technology,Cellular Provider,AT&T,2017,USPS

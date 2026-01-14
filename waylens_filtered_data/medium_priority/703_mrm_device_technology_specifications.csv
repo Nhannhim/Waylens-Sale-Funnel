@@ -1,0 +1,17 @@
+Company,Product Name,Device Type,Communication Technologies,Special Features,Protocols Supported,Price Range,Target Applications
+CalAmp,N/A (Various),Asset trackers|Vehicle trackers|OBD devices|Gateways|Video cameras|Sensors,Cellular|Satellite,CAN-Bus connectivity|CTC Platform integration,AEMP,N/A,Enterprise/gov/K-12 fleets|Heavy equipment|Trucking|Trailer tracking
+Xirgo Technologies,N/A (Various),Hardwired units|OBD-II plug-in|Asset trackers,Cellular|ZigBee|RFID|Bluetooth,Application-specific design|Full-featured,N/A,N/A,Heavy passenger/commercial fleets|Light vehicles|Powered/unpowered equipment
+Danlaw,DataLogger line,OBD-II GPS/cellular devices,Cellular|Bluetooth,Real-time encrypted vehicle data|Bitbrew cloud platform integration,OBD-II,N/A,Automotive|UBI|Fleet management
+Suntech,ST4310 4G LTE,Vehicle tracker,2G (Latin America)|NB-IoT|LTE Cat M1,Driver behavior notifications|Crash notification|Ignition on/off|Polygonal geofencing|Remote firmware upgrades|BLE|Wi-Fi|In-board sensors,GPS|Glonass,N/A,Cold chain|General tracking
+Suntech,ST4500 series,OBD-II solutions,Cellular,N/A,OBD-II,N/A,Light vehicles
+Suntech,Battery devices,Self-contained trackers,Cellular,Up to 10 years storage capacity,N/A,N/A,Long-term asset tracking
+Geometris,whereQube,Hardwired telematics device,Cellular,HyperGPS technology|Enhanced GPS performance|Reduced time to first fix,OBD|J-1939|OBD-II Extended|J-1708|CAN Open|J-1939+OBD-II Extended|Auto-detection,N/A,Trucks|Buses|Heavy trucks|Construction equipment
+Geometris,whereQube AVL 68,Hardwired AVL device,Cellular,Two-wire installation|Two power outputs for relays/buzzers|Operating state detection,Same as whereQube,N/A,Vehicles and assets
+Queclink,GL52LP,Asset tracker,4G LTE|LoRa,First LoRa integrated tracking unit|Asset security monitoring,N/A,N/A,High-value asset security
+Queclink,GL50MG,Asset tracker,4G LTE,Smallest in 4G portfolio (<half pen height)|Covert installation capability,N/A,N/A,High-value assets|Stolen vehicle recovery
+Quake Global,QConnect,Ultra-compact integrated device,LTE/2G/3G/4G|Dual-band Wi-Fi|Bluetooth/BLE|V2X|Satellite,Real-time tracking|monitoring|control,N/A,N/A,Fixed and mobile assets
+LHP Telematics,TP1,Linux telematics device,Cellular|Bluetooth LE|Wi-Fi|Ethernet,Multiple CAN channels|Flagship product,N/A,Less than $200,Heavy equipment|Agriculture
+LHP Telematics,MTG device,Telematics gateway,N/A,Private-label for John Deere JD Link,N/A,$100-$500+,John Deere equipment
+Trackunit,Raw,Rugged telematics device,2G/3G/4G (Europe)|4G/5G (U.S.)|Bluetooth,CAN-Bus interface|Fast GPS-fix|Backup battery,J-1939|CAN Open,~$220-$225,Powered construction equipment
+Trackunit,Spot,Battery-operated tracker,Same as Raw,Battery-operated version of Raw,Same as Raw,~$220-$225,Non-powered machinery/assets/equipment
+Trackunit,Kin,Bluetooth tag,Bluetooth,Most durable Bluetooth tag (per Trackunit)|Communicates with smartphone or RAW,N/A,N/A,Machines|Attachments|Tools

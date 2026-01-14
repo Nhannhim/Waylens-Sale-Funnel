@@ -1,0 +1,32 @@
+Fleet Category,Sub-Category,Estimated Fleet Vehicles,Notes
+Home & Business Services,Plumbing Heating & A/C Contractors,300000,Service contractors
+Home & Business Services,Electrical Contractors,250000,Electrical service providers
+Home & Business Services,Landscapers,225000,Landscaping services
+Home & Business Services,Towing,80000,Towing services
+Home & Business Services,Waste Disposal,110000,Waste management fleets
+Home & Business Services,Couriers (Same Day and Overnight),320000,Courier and delivery services
+Home & Business Services,Pest Control,90000,Pest control services
+Home & Business Services,Armored Car,9000,Armored car services
+Transportation Services,Taxi,135000,Taxi services
+Transportation Services,Limousine,90000,Limousine services
+Transportation Services,School Bus,474194,School bus fleets
+Transit Fleets,Public transit,67153,Public transit vehicles
+Transit Fleets,Motorcoach,32825,Motorcoach services
+Transit Fleets,Paratransit,71299,Paratransit services
+Transit Fleets,Shuttles (College and Corporate),15000,Shuttle services
+Utility Fleets,Utilities,375000,Utility company fleets
+Utility Fleets,Telecom/Cable TV,325000,Telecommunications and cable TV
+Construction,Contractors and Building Trades,1500000,Construction contractors
+Construction,Ready-Mix Cement,55000,Ready-mix cement trucks
+Trucking Fleets,Truckload Carriers,1000000,For-hire truckload carriers
+Trucking Fleets,Less-than-Truckload (LTL),250000,LTL carriers
+Trucking Fleets,Private Trucking Fleets,2000000,Private fleet trucking
+Oil & Gas,Oil & Gas,300000,Oil and gas industry fleets
+Public Safety,Ambulance,48384,Ambulance vehicles
+Public Safety,Police,520000+,Police vehicles
+Public Safety,Fire,158150,Fire department vehicles
+Government,Federal,640918,Federal government fleets
+Government,State County & Municipal,3136683,State county and municipal government
+Rental,Cars,1780000,Rental car fleets
+Rental,Trucks,470000,Rental truck fleets
+Miscellaneous,Various,3800000,"Service fleets, delivery, retail, food delivery, medical labs, uniform delivery, e-commerce, sales fleets (pharmaceutical, insurance, etc.)"

@@ -1,0 +1,24 @@
+Category,Trend,Impact,Year,Source
+Regulation,ELD Mandate,Driving telematics adoption in trucking,2017,Industry
+Network Evolution,2G GPRS Shutdown AT&T,Hardware replacement churn,2017,AT&T
+Network Evolution,3G CDMA Shutdown Verizon,Hardware replacement required,2022,Verizon
+Network Evolution,3G Shutdown AT&T,Hardware replacement required,2023,AT&T
+Network Evolution,3G CDMA Shutdown T-Mobile,Hardware replacement required,2022,T-Mobile
+Network Evolution,5G Deployment,Higher speeds lower latency more IoT devices,2021+,Industry
+Network Evolution,4G LTE,Nearly ubiquitous coverage,2021,Industry
+Technology,GPS Tracking Frac Tanks,Prevent theft efficient relocation,2021,Oilfield rental companies
+Technology,AVL Integration with CAD,Common in large ambulance fleets,2020,Industry
+Technology,AVL Integration with MDT/MDC,Common in law enforcement,2020,Industry
+Technology,Dual-mode Satellite/Cellular,Launched December 2020,2020,ORBCOMM
+Technology,eSIM and iSIM,Advanced connectivity,2021,KORE
+Technology,Cloud-based CaaS,Container-based virtualization,2021,KORE
+Market,COVID-19 Impact on Rental Cars,Revenue down 27.4% Fleet down 12.4%,2020,Auto Rental News
+Market,COVID-19 Impact on Oil & Gas,Employment down 160000+ jobs,2020,Texas Independent Producers
+Market,Fracking Recovery,Reaching 12-month high March 2021,2021,Rystad Energy
+Market,Private Fleet Growth,Revenue $349B Tonnage 49%,2020,American Trucking Association
+Market,Truckload Market Decline,Revenue down 13.4% since 2017,2020,American Trucking Association
+Fleet Management,Transition to Alternative Fuels,Cities downsizing fleets EVs,2020,Industry
+Fleet Management,Telematics for Cost Optimization,Government fleets adopting,2019-2020,Government Fleet Magazine
+Safety,Driver Monitoring Video,Increasing adoption,2020,Industry
+Cost,MVNO Advantages,Lower airtime costs multi-carrier,2021,KORE Aeris
+Integration,FirstNet Broadband for Public Safety,2+ million connections 15000+ agencies,2021,FirstNet

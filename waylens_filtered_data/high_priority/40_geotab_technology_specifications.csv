@@ -1,0 +1,27 @@
+Product/Feature,Specification,Value,Details
+GO9+ Device,Processor,32-bit,Completely redesigned
+GO9+ Device,Memory RAM,256KB,
+GO9+ Device,Connectivity,LTE + Wi-Fi,Iridium satellite optional
+GO9+ Device,Sensors,Gyroscope,Enhanced location data accuracy
+GO9+ Device,OBD Support,OBD-II port,Plus J1939 J1708 GMLAN legacy CAN-based OBD-II WWH-OBD
+GO9+ Device,Expansion,IOX port,For third-party device integration
+GO9 Rugged,Ruggedization,IP68 IP69K,For harsh conditions and external installation
+GO Anywhere,Product Type,Asset tracker,Launched Feb 2024
+Platform,Data Processing,75 billion data points daily,
+Platform,Countries Supported,165,Global presence
+Platform,SDK Availability,Yes,Software Development Kit for customization
+Platform,API Availability,Yes,Application programming interfaces
+MyGeotab,Platform Type,SaaS,Cloud-based fleet management
+MyGeotab,Hardware Agnostic,Yes,Since 2017 - supports third-party telematics devices
+Geotab Marketplace,Total Solutions,300+,Fleet and asset-focused apps and solutions
+Geotab Cloud ELD,Compliance,FMCSA,Mobile app integration with GO device and MyGeotab
+Geotab Drive,Platform,Android iOS,Mobile application
+Geotab Ace,Technology,Generative AI,Launched Feb 2024 - copilot for MyGeotab
+Project G,Technology,Generative AI Beta,Launched Jun 2023 - privacy-by-design LLM integration
+Geotab Data Connector,Integration,Business Intelligence,Launched Feb 2023 - Power BI Tableau integration
+Altitude Platform,Business Unit,ITS,Intelligent Transportation Systems - launched 2021
+EVSA,Tool Type,EV Suitability Assessment,Launched 2020 - supports ~300 EV models
+Maintenance Center,Feature,MyGeotab Hub,Centralized maintenance management
+Safety Center,Feature,MyGeotab Hub,AI-powered safety analytics
+Citizen Insights,Solution Type,Government,Launched 2021 - public-facing service communication
+Geotab Public Works,Solution Type,Government Add-in,Launched 2020 North America

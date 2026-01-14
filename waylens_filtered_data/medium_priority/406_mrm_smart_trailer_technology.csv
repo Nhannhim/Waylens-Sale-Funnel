@@ -1,0 +1,16 @@
+Component,Description,Function
+Smart Trailer Gateway,Central hub for collecting and transmitting data,Acts as hub - may be as advanced as smartphone with SIM card GPS Bluetooth USB Wi-Fi time clock battery programmable apps accelerometers gyroscopes CAN-Bus communication
+Onboard CPU,Central processing unit,Processes data from trailer components
+Electrical Connection,Power source,Provides power to smart trailer systems
+Sensors,Various measurement devices,Collect precise measurements from trailer components
+SIM Card,Cellular connectivity,Enables wireless data transmission
+GPS Radio,Location tracking,Provides GPS positioning
+Bluetooth,Short-range wireless,Enables device connectivity
+USB,Wired connectivity,Physical connection option
+Wi-Fi,Wireless networking,Enables Wi-Fi connectivity
+Time Clock,Timing functions,Tracks time-based data
+Battery,Power storage,Provides backup/primary power
+Programmable Applications,Software platform,Runs custom applications
+Accelerometers,Motion sensing,Detects acceleration and movement
+Gyroscopes,Orientation sensing,Detects rotation and orientation
+CAN-Bus Communication,Vehicle network protocol,Communicates with vehicle systems

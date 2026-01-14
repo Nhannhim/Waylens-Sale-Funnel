@@ -1,0 +1,10 @@
+Company,Product_Name,Video_Resolution,AI_Capabilities,Launch_Year,Camera_Configuration,Key_Features,Integration_Partner,Page_Reference
+Trimble,Video Intelligence DVR,1080p HD,Yes (ADAS from 2021),"Pre-2021, enhanced 2021",Up to 4 cameras; Forward-facing; Pod cameras; Backup cameras,4G LTE and Wi-Fi; CIM; DCube alerts,In-house,191
+Trimble,ADAS Camera,1920x1080,Yes,2021,Forward-facing,Lane departure warnings; Forward collision notifications,In-house,191
+Trimble,DashCam,Not specified,Not specified,2023,Two-channel,Video Intelligence component,In-house,191
+Azuga,SafetyCam,HD,No,2019,Dual-facing (road and in-cab),Wi-Fi to 4G LTE IoT hub; Event-based recording,In-house,203
+Azuga,SafetyCam AI,HD,Yes,2020,Dual-facing (road and in-cab); Auxiliary cameras,"Live view; Automated driver assistance; Parking mode; Theft detection",In-house,203-204
+Webfleet,CAM 50,HD,Yes,2021,Road-facing and cabin-facing optional,Distracted driving detection; Mobile phone usage detection; Visual and audio alerts,Lytx,199
+CalAmp,Vision,Not specified,Yes (Advanced AI),Current,Road-facing and cabin-facing,AI-triggered in-cab alerts; Event-based and on-demand video; Coaching workflows,Not specified,206
+DCT,Multiple Partners,Varies,Yes,Current,Varies by partner,ADAS; DMS; Fatigue monitoring,"Lytx, Howen, Cipia",213
+Verizon Connect,Integrated Video,HD,Yes,Current,Driver and road-facing,ADAS; DMS; Real-time alerts; Video coaching,In-house,194

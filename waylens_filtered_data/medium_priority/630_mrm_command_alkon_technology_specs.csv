@@ -1,0 +1,12 @@
+Component,Specification,Vendor,Details
+Hardware,Samsung Galaxy Tab A,Samsung,Android-based tablet option
+Hardware,Samsung Galaxy Tab Active II,Samsung,Ruggedized Android tablet option
+Hardware,BYOD Support,Various Samsung tablets,Command Alkon-approved and solution-compatible
+Connectivity,Primary Carriers,AT&T and Verizon,Solutions primarily run on these networks
+Software,Platform Type,SaaS-based,Cloud-based fleet management
+Software,Features,"GPS tracking, routing, geofences, alerts, electronic timesheets, driver training, performance monitoring",
+Reporting,Fuel Usage Analytics,Yes,
+Reporting,Driver Performance Analytics,Yes,
+Reporting,Vehicle Health Analytics,Yes,
+Reporting,Non-productive Time Analysis,Yes,
+Reporting,Hours of Service,Yes,

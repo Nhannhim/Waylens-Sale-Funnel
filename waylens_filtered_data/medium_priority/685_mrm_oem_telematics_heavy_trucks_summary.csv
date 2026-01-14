@@ -1,0 +1,13 @@
+OEM_Manufacturer,Brand,Telematics_Solution,Technology_Partner,Trucks_Sold_2020,Vehicle_Classes,Market_Position,Free_Service_Period,Pricing_Model
+GM,OnStar,OnStar Vehicle Insights,Internal,N/A,Light commercial vehicles,300k fleet vehicles served,$15.99/month after trial,Subscription
+Stellantis,Ram,Ram Telematics,Verizon Connect,N/A,"Ram 1500-5500, ProMaster",$800 hardware + 12 months,3-year warranty,One-time + service
+Stellantis,PSA Group,Connect Fleet / Fleet Sharing,Kuantic,N/A,Various,300k vehicles globally (Oct 2019),N/A,N/A
+Isuzu,Isuzu,In development,Internal,23550,Class 3-7,N/A,N/A,Future offering
+Daimler,Freightliner,Detroit Connect,Platform Science / Zonar,115895,Class 4-8,Market leader,N/A,Integrated with vehicle
+Daimler,Western Star,Detroit Connect / Virtual Technician,Zonar,5507,Class 8,N/A,N/A,Integrated with vehicle
+PACCAR,Peterbilt,SmartLINQ,PeopleNet (Trimble),74277 (combined),Class 5-8,Second-largest US,2 years free,Subscription or finance
+PACCAR,Kenworth,TruckTech+,PeopleNet (Trimble),74277 (combined),Class 5-8,Second-largest US,2 years free,Subscription or finance
+Navistar,International,OnCommand Connection,Multiple partners,50817,Class 4-8,Major manufacturer,2 years free,N/A
+Volvo,Volvo Trucks,Geotab Drive + Fleet,Geotab,18636,Class 8,N/A,2 years diagnostics,Subscription
+Volvo,Mack Trucks,Omnitracs / Geotab,Omnitracs / Geotab,14509,"Class 6,7,8",N/A,N/A,Subscription
+Hino,Hino Trucks,Hino INSIGHT,Verizon Connect,8754,Class 4-7,Subsidiary of Toyota,1 year pre-paid,$25/month extended

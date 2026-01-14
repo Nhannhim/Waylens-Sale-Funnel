@@ -1,0 +1,11 @@
+Partner_Type,Partner_Name,Service_Provided,Integration_Type
+Fleet_Management_Company,ARI,Back office software integration,API connection
+Fleet_Management_Company,Donlen,Back office software integration,API connection
+Fleet_Management_Company,Element,Back office software integration,API connection
+Fleet_Management_Company,Wheels,Back office software integration,API connection
+Telematics_Service_Provider,Geotab,Telematics integration,API connection
+Telematics_Service_Provider,Verizon Connect,Telematics integration,API connection
+Fleet_Management_Company,Merchants Fleet,Fleet management integration,API connection
+Telematics_Service_Provider,Fleet Complete,Telematics integration,API connection
+Software_Platform,Salesforce,CRM/Business integration,API connection
+Telematics_Service_Provider,Spireon,Telematics integration,API connection

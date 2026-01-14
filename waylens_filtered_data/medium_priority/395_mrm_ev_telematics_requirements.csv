@@ -1,0 +1,6 @@
+Requirement Category,Feature,Description,Source
+Battery Management,State of Charge (SOC) Monitoring,Monitor battery level to determine vehicle range,Geotab
+Charging Infrastructure,Charging Station Location Viewer,View location of available charging stations,Geotab
+Route Optimization,Optimal Routes Based on Charging Requirements,Determine best routes considering charging needs,Geotab
+Battery Alerts,Critical Battery Level Notifications,Send driver notifications when battery reaches critical level,Geotab
+Hybrid Vehicle Optimization,Plug-in Hybrid Fuel Usage Alerts,Identify when PHEV running on fuel only and not optimizing electric cost-savings,Geotab

@@ -1,0 +1,13 @@
+Category,Item,Low_End_USD,Mid_Range_USD,High_End_USD,Pricing_Model,Notes
+Hardware,Basic Tracking Device,100,200,300,One-time purchase,GPS tracker with basic features
+Hardware,Mid-Range Device,400,500,600,One-time purchase,Enhanced connectivity and sensors
+Hardware,High-End On-Board Computer,800,1000,1500+,One-time purchase,Full-featured tablet/computer for cab
+Software Subscription,Entry-Level Monthly Fee,10,12.50,15,SaaS - per vehicle/month,Basic tracking and reporting
+Software Subscription,Standard Monthly Fee,20,30,40,SaaS - per vehicle/month,Comprehensive fleet management
+Software Subscription,Bundled Solution (Hardware + Software),50,75,100+,Solution-as-a-Service,All-inclusive monthly fee (SHaaS model)
+Installation,Professional Installation,50,100,200,One-time service,Varies by vehicle type and complexity
+Penalties & Fines,Distracted Driving Fine - Driver,0,1375,2750,Regulatory penalty,US FMCSA penalty for handheld phone use
+Penalties & Fines,Distracted Driving Fine - Carrier,0,5500,11000,Regulatory penalty,US FMCSA penalty for allowing violations
+Fuel Costs,Gasoline Price per Gallon,2.50,3.00,5.00,Market price,US average (peaked at $5 in mid-2022; current ~$3)
+Fuel Costs,Oil Price per Barrel,33,70,147,Market price,Historical range (current ~$70-75)
+ROI,Fuel Savings from FM System,6,10.5,15,Percent reduction,Typical fuel cost savings with proper implementation

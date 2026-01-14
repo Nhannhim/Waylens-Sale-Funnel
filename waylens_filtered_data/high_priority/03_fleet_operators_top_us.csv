@@ -1,0 +1,11 @@
+Rank,Company,Cars,Trucks,Others_Vans_SUVs,Total_Fleet,Industry_Vertical,Primary_Use,Notes
+1,United Parcel Service (UPS),0,87100,2840,89940,Logistics & Delivery,Package Delivery,Largest commercial fleet in US
+2,FedEx Corporation,1480,54030,13770,69270,Logistics & Delivery,Package Delivery,Second largest fleet
+3,AT&T,6120,27450,23480,57050,Telecommunications,Field Service,Telecom service fleets
+4,Quanta Services,1000,31000,3000,35000,Utilities & Services,Infrastructure Services,Utility contractors
+5,Comcast,240,10400,23970,34610,Telecommunications,Cable & Internet Service,Large van fleet for installations
+6,Verizon,1500,12890,10370,24770,Telecommunications,Field Service,Telecom service fleets
+7,PepsiCo,0,23640,10,23650,Food & Beverage,Distribution,Beverage distribution
+8,AutoZone,7240,8300,2450,17990,Retail,Parts Delivery,Auto parts retail & delivery
+9,Johnson Controls,4060,2500,10750,17300,Building Technology,Installation & Service,HVAC and building systems
+10,Cox Enterprises,2020,5340,8910,16270,Media & Telecom,Mixed Services,Diversified communications company

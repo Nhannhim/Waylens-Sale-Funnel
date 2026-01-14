@@ -1,0 +1,33 @@
+Customer,Vendor,Deployment Size,Asset Type,Announcement Date,Notes
+Schneider National,SkyBitz,Multi-thousand units,Trailers,Not specified,Large customer
+XTRA Lease,SkyBitz,Multi-thousand units,Trailers,Not specified,Leasing company
+CRST Expedited,SkyBitz,Multi-thousand units,Trailers,Not specified,Truckload operator
+Knight-Swift,SkyBitz,Multi-thousand units,Trailers,Not specified,Major carrier
+KKW,SkyBitz,Multi-thousand units,Trailers,Not specified,Truckload operator
+CR England,ORBCOMM,Multi-thousand units,Refrigerated,Not specified,From PAR acquisition
+Chiquita Banana,ORBCOMM,Not specified,Refrigerated,Not specified,From PAR acquisition
+Target Stores,ORBCOMM,Multi-thousand units,Refrigerated,Not specified,Retail cold chain
+Hapag-Lloyd,ORBCOMM,Not specified,Containers,Not specified,From PAR acquisition
+Golden State Foods,ORBCOMM,Not specified,Refrigerated,Not specified,From PAR acquisition
+Martin-Brower,ORBCOMM,Not specified,Refrigerated,Not specified,From PAR acquisition
+C&S Wholesale,ORBCOMM,Multi-thousand units,Refrigerated,Not specified,Wholesale distribution
+Hub Group Inc,ORBCOMM,90000,Intermodal containers,2013,Multi-year GT 2300 platform
+JB Hunt Transport,ORBCOMM,90000+,Intermodal and OTR trailers,Feb 2017,Solar GPS plus cargo sensor
+KLLM Transport,ORBCOMM,Multi-thousand units,Trailers,Not specified,
+Marten Transport,ORBCOMM,Fleet retrofit,Refrigerated and dry van,May 2021,Next gen dual-mode 3G sunset
+Prime Inc,ORBCOMM,Fleet retrofit,Refrigerated,Jul 2021,Largest refrigerated fleet NA
+Swift Transportation,ORBCOMM,Multi-thousand units,Trailers,Not specified,
+Tropicana,ORBCOMM,Multi-thousand units,Refrigerated,Not specified,Food and beverage
+Tyson Foods,ORBCOMM,Multi-thousand units,Refrigerated,Not specified,Food production
+Walmart,ORBCOMM,Multi-thousand units,Trailers,Not specified,Retail
+Werner Enterprises,ORBCOMM,Multi-thousand units,Trailers,Not specified,
+Ryder,ORBCOMM,Part of 200K dry van,Dry trailers,Not specified,Leasing and logistics
+Estes Express,Spireon,40000,Dry van trailers containers dollies,2021,LTL fleet
+Old Dominion Freight,Coretex,Not specified,Fleet,Not specified,LTL carrier
+Quality Custom Distribution,Coretex,Not specified,Refrigerated,Not specified,
+Titanium Transportation,BlackBerry Radar,1200,Trailers,Not specified,
+FedEx Custom Critical,BlackBerry Radar,1150,Various,Not specified,North America
+Contract Transport Services,BlackBerry Radar,1000,Various,Not specified,
+Axsun,BlackBerry Radar,Not specified,Intermodal,Not specified,Rail industry
+Matson Logistics,BlackBerry Radar,Not specified,Intermodal,Not specified,Rail industry
+Canadian Pacific Railway,BlackBerry Radar,Not specified,Rail,Not specified,Rail industry

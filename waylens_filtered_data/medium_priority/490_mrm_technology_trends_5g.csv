@@ -1,0 +1,7 @@
+Metric,Value,Source,Notes
+5G Speed vs 4G,Up to 100x faster,Verizon,Up to 100 gigabits per second
+5G Latency,Approximately 1 ms,Verizon,Faster than blink of an eye
+5G Benefits for IoT,Supports large number of diverse IoT devices,Report,"Diverse speeds, bandwidth, QoS requirements"
+5G Benefits for Logistics,Real-time data transfers,Report,"Locations, inventory, vehicle functions"
+5G Benefits for Fleet Management,Bandwidth for advanced applications,AT&T,"Firmware updates, mobile hotspots, video"
+5G and 4G Relationship,5G builds on 4G,Report,4G speeds may increase on 5G networks; 4G devices operational for years

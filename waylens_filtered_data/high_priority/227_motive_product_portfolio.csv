@@ -1,0 +1,13 @@
+Product_Name,Product_Type,Launch_Date,Connectivity,Key_Features,Target_Segment
+Vehicle Gateway (ELD),IoT Gateway,Prior to 2022,4G LTE Bluetooth,GPS vehicle data OBD-II J1939 J1708,All fleet sizes
+Motive Driver App,Mobile Application,Current,Mobile data,Electronic logs vehicle inspections load finding,Drivers
+Fleet Dashboard,Software Platform,Current,Web-based,Real-time GPS tracking safety coaching IFTA fuel efficiency maintenance,Fleet managers
+Smart Dashcam,Video Telematics,Prior to 2022,4G LTE,Road-facing or dual-facing video automated driver alerts,Safety-focused fleets
+AI Dashcam,Video Telematics,Current,4G LTE,Next-generation AI-powered road/dual-facing driver coaching risk scoring,Safety-focused fleets
+AI Omnicam,Video Telematics,Current,4G LTE,Side rear passenger cargo monitoring,Specialized applications
+Asset Gateway,IoT Gateway,Current,4G LTE,Real-time and historical tracking of trailers and equipment,Asset tracking
+Environmental Sensor,Sensor Device,Current,Wireless,Temperature monitoring for refrigerated transport,Cold chain
+Motive Card,Payment Card,2022,Integrated,Zero-fee corporate card integrated with fleet platform,Fleet payments
+Smart Load Board,Freight Marketplace,Current,Integrated,Open freight marketplace in platform,Carriers
+Safety Score,Analytics Feature,Current,Software,Driver performance scoring across 15+ behaviors customizable weights,Safety management
+Safety Hub,Management Tool,Current,Software,Identify best/worst drivers automated coaching,Safety management

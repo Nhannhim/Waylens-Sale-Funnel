@@ -1,0 +1,9 @@
+Product,Launch_Year,Description,Key_Features,Integrations
+ADAS System,2004,Retrofit advanced driver assistance,"Forward collision warning, lane departure, following distance, speeding, high beam control, turn signal reminder",
+Vision Sensor,2004,Windshield-mounted black box,"Never-distracted high resolution, toll tag size",
+EyeWatch Display,2004,In-cab visual/audio feedback,Corrective action prompts,
+Mobileye 8 Connect,2018,Telematics platform,"Road data collection (static/dynamic), cloud server upload, anonymized data",
+Data Platform Integration,2021,ArcGIS compatibility,Esri open data platform,Esri ArcGIS
+Fleet Management Integration,2021,Full integration,Geotab and Lytx (DriveCam),Geotab/Lytx
+Partial Integration,2021,Partial integration,Omnitracs and Trimble (PeopleNet),Omnitracs/Trimble
+Leasing Partner,2021,North American market,Element Fleet Management,Element

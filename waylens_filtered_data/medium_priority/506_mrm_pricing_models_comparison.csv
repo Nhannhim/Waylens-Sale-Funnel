@@ -1,0 +1,26 @@
+Company,Service_Type,Monthly_Price_Low,Monthly_Price_High,Hardware_Cost_Low,Hardware_Cost_High,Contract_Length,Hardware_Included,Special_Terms,Year,Source_Page
+GPS Trackit,BYOD ELD,$19.95,$19.95,NA,NA,No contract,No,NA,2021,127
+GPS Trackit,Bundled Solution,$23.95,$23.95,Included,Included,No contract,Yes,30-day money back guarantee,2021,127
+Spireon FleetLocate,Full Range,$8.00,$36.00,Varies,Varies,"Depends on contract, feature set",Varies,"Low-end for device-free (GM, Ford, asset monitoring)",2021,130
+NexTraq,Standard,$27.95,$27.95,Bundled,Bundled,3 years,Yes,NA,2021,132
+Pedigree Technologies,Cab-Mat Open (module),$20.00,$30.00,$219.00,$299.00,Typical,No,Pairs with driver smartphone/tablet,2021,137
+Pedigree Technologies,With Tablet,$20.00,$30.00,$399.00,$799.00,Typical,Yes,Ruggedized tablet at high end,2021,137
+IntelliShift,Bundled Subscription,Varies,Varies,Included,Included,Varies,Yes,Dependent on packages and contract length,2021,139
+Forward Thinking Systems,Basic Solution,Under $20,Under $20,Varies,Varies,"No contract to 4+ years",Varies,NA,2021,145
+Forward Thinking Systems,Full Featured,$60.00+,$60.00+,Varies,Varies,"No contract to 4+ years",Varies,Most are bundled (hardware lease + service),2021,145
+Rhino Fleet Tracking,OBD Plug-in,$16.95,$16.95,$39.95,$39.95,Month-to-month,No,Self-install,2021,148
+Insight Mobile Data,Basic Solution,$19.99,$19.99,Varies,Varies,Varies,Varies,NA,2021,150
+Insight Mobile Data,Full Solution (tablet),$80.00,$80.00,Bundled,Bundled,Varies,Yes,Includes routing/scheduling/dispatch,2021,150
+Insight Mobile Data,Camera Standalone,$44.99+,$44.99+,Device cost,Device cost,Varies,Varies,LiveCam (streaming video),2021,150
+Insight Mobile Data,Average Bundled,Under $33,Under $33,Bundled,Bundled,Varies,Yes,NA,2021,150
+Geotab,Via Resellers,Reseller-determined,Reseller-determined,Reseller-determined,Reseller-determined,Reseller-determined,Reseller-determined,White labeled solutions,2021,140
+Verizon Connect,Standard,$23.00,$28.00,Bundled,Bundled,2-3 years,Yes,$150 activation fee,2021,140
+Samsara,Annual License,$468.00 per year,$468.00 per year,Included,Included,Annual,Yes,"Includes hardware, cables, maintenance, cloud software, 24/7 support, cellular data",2021,140
+Fleet Complete,AT&T Bundle,$20.00,$59.00,Bundled,Bundled,AT&T bundled,Yes,$59/mo includes tracking+ELD+Enhanced PTT,2021,140
+Azuga,Standard,$22.99,$22.99,Varies,Varies,2 years,Varies,NA,2021,140
+Teletrac Navman,Standard,$30.00,$55.00,Bundled,Bundled,3 years,Yes,NA,2021,140
+Linxup,No Contract,$22.99,$22.99,$39.99,$39.99,None,No,NA,2021,141
+Linxup,2-Year Contract,$22.99,$22.99,$29.99,$29.99,2 years,No,NA,2021,141
+Linxup,3-Year Contract,$22.99,$22.99,Free,Free,3 years,Yes,NA,2021,141
+GPS Insight,Tracking Service,$20.00,$29.00,Varies,Varies,Standard,Varies,Field service management additional,2021,141
+CalAmp,Wide Range,Wide range,Wide range,Wide range,Wide range,Varies,Varies,Multiple solution types,2021,141

@@ -1,0 +1,8 @@
+Company,Solution Name,Features,Diagnostics Support,Alerts Notifications
+Fleet Complete,Maintenance Tracking,Maintenance scheduling tracking,Engine diagnostics,Maintenance alerts
+Geotab,Maintenance Center,Predictive and preventative maintenance planned/unplanned status vehicle availability TCO,Engine health diagnostics fault codes with severity,Maintenance notifications upcoming maintenance
+Geotab,Engine Diagnostics,J1939 J1708 GMLAN legacy CAN-based OBD-II WWH-OBD,Engine and battery health assessments,Proactive alerts
+MICHELIN,Fleet Maintenance,Maintenance management,Vehicle electronic systems monitoring,Scheduled maintenance alerts
+KORE,Performance Dashboard,Maintenance scheduling profitability tracking,Vehicle health monitoring,Maintenance alerts
+Gurtam,Fleet Maintenance,Niche app for fleet maintenance,Vehicle electronic systems,Configurable alerts
+Gurtam,Agricultural Business,Specialized maintenance for ag equipment,Equipment-specific diagnostics,Custom alerts

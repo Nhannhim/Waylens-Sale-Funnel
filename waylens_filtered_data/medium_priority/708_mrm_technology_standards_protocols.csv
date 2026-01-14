@@ -1,0 +1,11 @@
+Standard/Protocol,Description,Adopting Companies,Applications,Benefits
+AEMP (Association of Equipment Management Professionals),Standard API for telematics data,Case Construction|Verizon Connect|CalAmp|LHP Telematics,Heavy construction equipment telematics,Standardized data format for mixed fleet consolidation and analysis
+ISO 15143,International standard for telematics data,LHP Telematics,Heavy construction equipment,Compliance and standardization
+J-1939,Vehicle network protocol,Geometris|Advantech|Trackunit|LHP Telematics,Heavy-duty vehicles|Construction equipment|Trucks,Standard for vehicle diagnostics and monitoring
+J-1708,Legacy vehicle network protocol,Geometris,Heavy trucks|Construction equipment,Vehicle diagnostics (older equipment)
+OBD-II,On-board diagnostics standard,Xirgo|Danlaw|Suntech|Geometris|Advantech|Many others,Light vehicles|Some medium-duty,Standardized vehicle diagnostics access
+OBD-II Extended,Extended OBD protocol,Geometris,Trucks|Buses|Heavy trucks,Enhanced diagnostics beyond standard OBD-II
+CAN-Bus,Controller Area Network,CalAmp|LHP|Trackunit|Advantech|Most telematics providers,All vehicle types|Equipment,Core vehicle network for data access
+CAN Open,CAN-based communication protocol,Trackunit,Industrial equipment|Construction equipment,Equipment control and monitoring
+MIL-STD-810G,Military standard for environmental testing,Advantech TREK-60,Rugged vehicle applications,Shock and vibration resistance
+5M3 specification,Shock/vibration resistance standard,Advantech TREK-60,Heavy-duty vehicles,Durability in harsh environments

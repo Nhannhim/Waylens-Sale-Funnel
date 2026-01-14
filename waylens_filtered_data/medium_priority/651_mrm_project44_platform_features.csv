@@ -1,0 +1,7 @@
+Product_Component,Name,Description,Technology,Coverage
+Core_Platform,Advanced Visibility Platform,SaaS software for supply chain visibility,Cloud-based network applications,North America and Europe
+Dashboard,Visibility Operations Center (VOC),Real-time shipment monitoring,Web-based portal,Real-time location; Temperature; Geofencing; Order grouping
+Analytics,Predictive_ETA,Arrival time prediction for cargo,AI-based algorithms,Cargo loads
+Onboarding,National Management Center,Shipper onboarding application,Management tool,Platform access management
+Driver_App,DriveView,Mobile app for drivers,Mobile application,HOS and data transmission to ERP/TMS
+Data_Sources,ELD_Connections,Electronic logging device integrations,Device connectivity,98% of US ELDs; 4M drivers in NA and Europe

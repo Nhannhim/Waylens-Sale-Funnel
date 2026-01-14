@@ -1,0 +1,1334 @@
+================================================================================
+WAYLENS MARKET DATA FILTERING REPORT
+================================================================================
+
+PROJECT: Waylens Sales Funnel / Research Tool
+PURPOSE: Filter ~1,124 CSV files to only relevant data for sales prospecting
+
+--------------------------------------------------------------------------------
+FILTERING RESULTS
+--------------------------------------------------------------------------------
+
+Total files analyzed: 1111
+HIGH priority files: 419
+MEDIUM priority files: 271
+LOW priority (excluded): 421
+Total files included: 690
+
+--------------------------------------------------------------------------------
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+
+fleet_operators               :  239 files
+technology                    :  186 files
+competitors                   :  132 files
+partnerships                  :  123 files
+customer_references           :  106 files
+pricing                       :   59 files
+market_statistics             :   59 files
+vertical_markets              :   58 files
+video_telematics              :   42 files
+geographic                    :   19 files
+pain_points                   :    9 files
+
+--------------------------------------------------------------------------------
+RELEVANCE CRITERIA
+--------------------------------------------------------------------------------
+
+HIGH PRIORITY - Critical for sales funnel:
+  - Fleet operators (sales prospects)
+  - Competitor/vendor intelligence
+  - Customer references (who uses what)
+  - Video telematics market data
+  - Vertical market analysis
+  - Pain points and opportunities
+
+MEDIUM PRIORITY - Supporting intelligence:
+  - Market statistics and sizing
+  - Technology trends
+  - Pricing models
+  - Geographic market data
+  - Partnerships and M&A
+
+EXCLUDED:
+  - Index files and metadata
+  - Report structure documents
+  - Research contributor info
+  - Files with no clear relevance
+
+--------------------------------------------------------------------------------
+HIGH PRIORITY FILES
+--------------------------------------------------------------------------------
+
+02_fleet_management_vendors.csv
+  Categories: fleet_operators, competitors
+
+03_fleet_operators_top_us.csv
+  Categories: fleet_operators
+
+07_us_fleet_by_gwv.csv
+  Categories: fleet_operators
+
+08_canada_fleet_by_gwv.csv
+  Categories: fleet_operators, geographic
+
+09_fleet_size_segments.csv
+  Categories: fleet_operators
+
+100_teletrac_navman_company_overview.csv
+  Categories: competitors
+
+101_teletrac_navman_acquisition_history.csv
+  Categories: competitors, partnerships
+
+102_teletrac_navman_product_launches.csv
+  Categories: competitors
+
+103_teletrac_navman_technology_partnerships.csv
+  Categories: competitors, technology, partnerships
+
+104_teletrac_navman_customer_references.csv
+  Categories: fleet_operators, competitors, customer_references
+
+105_teletrac_navman_target_verticals.csv
+  Categories: competitors, vertical_markets
+
+106_trimble_company_overview.csv
+  Categories: competitors
+
+107_trimble_telematics_acquisitions.csv
+  Categories: competitors, technology, partnerships
+
+108_trimble_platform_science_transaction.csv
+  Categories: competitors, technology
+
+109_trimble_technology_partnerships.csv
+  Categories: competitors, technology, partnerships
+
+10_brazil_manufacturers_2023.csv
+  Categories: competitors
+
+111_trimble_partnership_integrations.csv
+  Categories: competitors, technology, partnerships
+
+112_trimble_video_intelligence_specs.csv
+  Categories: competitors, video_telematics
+
+113_trimble_product_launches.csv
+  Categories: competitors
+
+114_trimble_market_data.csv
+  Categories: competitors, market_statistics
+
+115_trimble_customer_references.csv
+  Categories: fleet_operators, competitors, customer_references
+
+116_trimble_target_segments.csv
+  Categories: competitors
+
+117_trimble_platform_science_acquisition.csv
+  Categories: competitors, technology, partnerships
+
+118_verizon_connect_company_overview.csv
+  Categories: competitors
+
+119_verizon_connect_geographic_presence.csv
+  Categories: competitors, geographic
+
+11_mobile_operators_americas.csv
+  Categories: fleet_operators
+
+120_verizon_connect_target_industries.csv
+  Categories: competitors
+
+121_verizon_connect_oem_partnerships.csv
+  Categories: competitors, partnerships
+
+122_verizon_connect_technology_capabilities.csv
+  Categories: competitors, technology
+
+123_webfleet_bridgestone_company_overview.csv
+  Categories: fleet_operators
+
+124_webfleet_acquisition_history.csv
+  Categories: fleet_operators, partnerships
+
+125_webfleet_bridgestone_milestone.csv
+  Categories: fleet_operators
+
+126_webfleet_geographic_markets.csv
+  Categories: fleet_operators, geographic
+
+127_webfleet_target_verticals_us.csv
+  Categories: fleet_operators, vertical_markets
+
+128_webfleet_product_specifications.csv
+  Categories: fleet_operators
+
+129_webfleet_video_partnership.csv
+  Categories: fleet_operators, video_telematics, partnerships
+
+132_azuga_major_customers.csv
+  Categories: fleet_operators, customer_references
+
+137_calamp_company_overview.csv
+  Categories: competitors
+
+138_calamp_acquisition_history.csv
+  Categories: competitors, partnerships
+
+139_calamp_enterprise_customers.csv
+  Categories: fleet_operators, competitors, customer_references
+
+140_calamp_service_tiers.csv
+  Categories: competitors
+
+141_calamp_geographic_distribution.csv
+  Categories: competitors, geographic
+
+153_road_ready_fleetilla_acquisition.csv
+  Categories: fleet_operators, partnerships
+
+155_dct_fleetmetriks_operations.csv
+  Categories: fleet_operators
+
+158_dct_video_solution_partners.csv
+  Categories: video_telematics
+
+161_competitive_landscape_summary.csv
+  Categories: competitors
+
+162_pricing_comparison_fleet_management.csv
+  Categories: fleet_operators, pricing
+
+164_video_telematics_solutions_comparison.csv
+  Categories: video_telematics, technology
+
+175_customer_support_strategies.csv
+  Categories: fleet_operators, customer_references
+
+17_top_30_fleet_management_vendors.csv
+  Categories: fleet_operators, competitors
+
+185_fleet_freedom_company_data.csv
+  Categories: fleet_operators
+
+186_fleet_freedom_hardware_partners.csv
+  Categories: fleet_operators
+
+187_fleeteye_company_data.csv
+  Categories: fleet_operators
+
+188_fleethunt_company_data.csv
+  Categories: fleet_operators
+
+18_trailer_telematics_vendors.csv
+  Categories: competitors, technology
+
+197_greenroad_customers_markets.csv
+  Categories: fleet_operators, customer_references
+
+19_pricing_models_fleet_management.csv
+  Categories: fleet_operators, pricing
+
+201_intellishift_notable_customers.csv
+  Categories: fleet_operators, customer_references
+
+205_isaac_instruments_notable_customers.csv
+  Categories: fleet_operators, customer_references
+
+20_financial_data_telematics_companies_2023.csv
+  Categories: fleet_operators, technology
+
+214_lytx_company_data.csv
+  Categories: competitors, video_telematics
+
+215_lytx_technical_capabilities.csv
+  Categories: competitors, video_telematics
+
+216_lytx_market_data.csv
+  Categories: competitors, market_statistics, video_telematics
+
+217_lytx_partnerships.csv
+  Categories: competitors, video_telematics, partnerships
+
+218_lytx_customers.csv
+  Categories: fleet_operators, competitors, customer_references, video_telematics
+
+219_lytx_product_portfolio.csv
+  Categories: competitors, video_telematics
+
+225_motive_company_data.csv
+  Categories: competitors
+
+226_motive_investors.csv
+  Categories: competitors
+
+227_motive_product_portfolio.csv
+  Categories: competitors
+
+228_motive_customers.csv
+  Categories: fleet_operators, competitors, customer_references
+
+229_motive_partnerships.csv
+  Categories: competitors, partnerships
+
+22_mobile_operator_partnerships.csv
+  Categories: fleet_operators, partnerships
+
+237_platform_science_customers.csv
+  Categories: fleet_operators, customer_references, technology
+
+245_positrace_customers.csv
+  Categories: fleet_operators, customer_references
+
+260_rastrac_customers.csv
+  Categories: fleet_operators, customer_references
+
+262_samsara_company_data.csv
+  Categories: competitors
+
+263_samsara_product_portfolio.csv
+  Categories: competitors
+
+264_samsara_company_metrics.csv
+  Categories: competitors
+
+265_samsara_partnerships.csv
+  Categories: competitors, partnerships
+
+266_samsara_customers.csv
+  Categories: fleet_operators, competitors, customer_references
+
+26_video_telematics_ecosystem.csv
+  Categories: video_telematics, technology
+
+273_zonar_customers.csv
+  Categories: fleet_operators, customer_references
+
+277_autotrac_customers.csv
+  Categories: fleet_operators, customer_references
+
+279_carrierweb_customers.csv
+  Categories: fleet_operators, customer_references
+
+281_cobli_customers.csv
+  Categories: fleet_operators, customer_references
+
+283_encontrack_customers_partners.csv
+  Categories: fleet_operators, customer_references
+
+285_fletrack_partners_customers.csv
+  Categories: fleet_operators, customer_references
+
+287_fulmar_partnerships_customers.csv
+  Categories: fleet_operators, customer_references, partnerships
+
+289_global_track_customers.csv
+  Categories: fleet_operators, customer_references
+
+28_ev_fleet_management_solutions.csv
+  Categories: fleet_operators
+
+290_golfleet_company_data.csv
+  Categories: fleet_operators
+
+291_golfleet_partners_customers.csv
+  Categories: fleet_operators, customer_references
+
+297_grupo_uda_customers.csv
+  Categories: fleet_operators, customer_references
+
+300_hawk_gps_customers.csv
+  Categories: fleet_operators, customer_references
+
+302_ituran_customers.csv
+  Categories: fleet_operators, customer_references
+
+315_maxtrack_pricing_references.csv
+  Categories: customer_references, pricing
+
+326_omnilink_partnerships_customers.csv
+  Categories: fleet_operators, customer_references, partnerships
+
+32_fleet_complete_company_profile.csv
+  Categories: fleet_operators
+
+330_onixsat_customers_partners.csv
+  Categories: fleet_operators, customer_references
+
+332_optimus_fleet_company_data.csv
+  Categories: fleet_operators
+
+333_optimus_fleet_product_pricing.csv
+  Categories: fleet_operators, pricing
+
+334_optimus_fleet_verticals_partnerships.csv
+  Categories: fleet_operators, vertical_markets, partnerships
+
+33_fleet_complete_acquisitions.csv
+  Categories: fleet_operators, partnerships
+
+34_fleet_complete_partnerships.csv
+  Categories: fleet_operators, partnerships
+
+351_satrack_customer_references.csv
+  Categories: fleet_operators, customer_references
+
+357_sighra_customer_references.csv
+  Categories: fleet_operators, customer_references
+
+35_geotab_company_profile.csv
+  Categories: competitors
+
+367_tracklog_products_customers.csv
+  Categories: fleet_operators, customer_references
+
+36_geotab_acquisitions.csv
+  Categories: competitors, partnerships
+
+370_ubicamovil_customer_references.csv
+  Categories: fleet_operators, customer_references
+
+378_widetech_partnerships_customers.csv
+  Categories: fleet_operators, customer_references, partnerships
+
+37_geotab_carrier_partnerships.csv
+  Categories: competitors, partnerships
+
+386_wisetrack_customer_list.csv
+  Categories: fleet_operators, customer_references
+
+387_wisetrack_vertical_markets.csv
+  Categories: vertical_markets
+
+38_geotab_oem_partnerships.csv
+  Categories: competitors, partnerships
+
+391_wisetrack_competitive_positioning.csv
+  Categories: competitors
+
+393_mrm_electric_trucks_manufacturers.csv
+  Categories: competitors
+
+393_mrm_landscaping_industry_major_companies.csv
+  Categories: fleet_operators, technology
+
+394_mrm_us_government_ev_fleet_data.csv
+  Categories: fleet_operators, vertical_markets
+
+396_mrm_video_driver_behavior_market_leaders.csv
+  Categories: video_telematics, pain_points
+
+397_mrm_field_service_management_market_data.csv
+  Categories: market_statistics, vertical_markets
+
+397_mrm_video_telematics_market.csv
+  Categories: video_telematics, technology
+
+397_mrm_waste_disposal_largest_fleets.csv
+  Categories: fleet_operators
+
+398_mrm_waste_disposal_technology_deployments.csv
+  Categories: customer_references, technology
+
+39_geotab_government_contracts.csv
+  Categories: competitors, vertical_markets
+
+400_mrm_largest_us_solution_providers.csv
+  Categories: fleet_operators, competitors
+
+400_mrm_ups_technology_deployment.csv
+  Categories: customer_references, technology
+
+401_mrm_competitive_landscape.csv
+  Categories: competitors
+
+402_mrm_local_fleet_market_growth_data.csv
+  Categories: fleet_operators, market_statistics
+
+403_mrm_pest_control_largest_companies.csv
+  Categories: fleet_operators
+
+403_mrm_trucking_market_growth_data.csv
+  Categories: fleet_operators, market_statistics, vertical_markets
+
+404_mrm_field_service_management_growth.csv
+  Categories: market_statistics, vertical_markets
+
+406_mrm_armored_car_largest_fleets.csv
+  Categories: fleet_operators
+
+406_mrm_market_drivers_barriers.csv
+  Categories: pain_points
+
+407_mrm_armored_car_technology_deployments.csv
+  Categories: customer_references, technology
+
+407_mrm_video_driver_behavior_market_growth.csv
+  Categories: market_statistics, video_telematics, pain_points
+
+409_mrm_key_success_factors.csv
+  Categories: pain_points
+
+40_geotab_technology_specifications.csv
+  Categories: competitors, technology
+
+410_mrm_local_fleet_detailed_projections.csv
+  Categories: fleet_operators, technology
+
+410_mrm_vertical_markets_overview.csv
+  Categories: vertical_markets
+
+411_mrm_fleet_categories_summary.csv
+  Categories: fleet_operators
+
+411_mrm_limousine_largest_fleets.csv
+  Categories: fleet_operators
+
+411_mrm_trucking_sector_revenue_projections.csv
+  Categories: fleet_operators, vertical_markets, pricing
+
+412_mrm_school_bus_industry_overview.csv
+  Categories: vertical_markets
+
+413_mrm_school_bus_largest_district_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+414_mrm_school_bus_largest_contractors.csv
+  Categories: fleet_operators, vertical_markets
+
+415_mrm_school_bus_technology_partnerships.csv
+  Categories: vertical_markets, technology, partnerships
+
+415_mrm_supplier_categories_pages_1_25.csv
+  Categories: competitors
+
+415_mrm_us_fleet_market_breakdown.csv
+  Categories: fleet_operators
+
+416_mrm_public_transit_industry_overview.csv
+  Categories: vertical_markets
+
+416_mrm_us_commercial_fleets_by_size.csv
+  Categories: fleet_operators
+
+417_mrm_largest_us_commercial_fleets.csv
+  Categories: fleet_operators
+
+417_mrm_public_transit_largest_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+418_mrm_fleet_categories_market_size.csv
+  Categories: fleet_operators, market_statistics
+
+419_mrm_motorcoach_largest_operators.csv
+  Categories: fleet_operators
+
+41_geotab_strategic_alliances.csv
+  Categories: competitors
+
+420_mrm_largest_plumbing_hvac_contractors.csv
+  Categories: fleet_operators
+
+420_mrm_motorcoach_technology_deployments.csv
+  Categories: customer_references, technology
+
+421_mrm_paratransit_industry_overview.csv
+  Categories: vertical_markets
+
+422_mrm_largest_electrical_contractors.csv
+  Categories: fleet_operators
+
+422_mrm_paratransit_largest_operators.csv
+  Categories: fleet_operators, vertical_markets
+
+423_mrm_paratransit_ridehailing_partnerships.csv
+  Categories: vertical_markets, technology, partnerships
+
+424_mrm_largest_landscaping_contractors.csv
+  Categories: fleet_operators, technology
+
+424_mrm_paratransit_technology_deployments.csv
+  Categories: customer_references, vertical_markets, technology
+
+428_mrm_utilities_largest_electric_gas_fleets.csv
+  Categories: fleet_operators
+
+430_mrm_utilities_technology_deployments.csv
+  Categories: customer_references, technology
+
+432_mrm_telecom_largest_fleets.csv
+  Categories: fleet_operators
+
+434_mrm_construction_industry_overview.csv
+  Categories: vertical_markets
+
+435_mrm_construction_employment_by_occupation.csv
+  Categories: vertical_markets
+
+436_mrm_construction_largest_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+438_mrm_ready_mix_cement_largest_fleets.csv
+  Categories: fleet_operators
+
+441_mrm_commercial_trucking_industry_overview.csv
+  Categories: fleet_operators, vertical_markets
+
+444_mrm_competitive_intelligence_technology_vendors.csv
+  Categories: competitors, technology
+
+445_mrm_market_trends_challenges.csv
+  Categories: pain_points, technology
+
+447_mrm_trucking_industry_workforce_statistics.csv
+  Categories: fleet_operators, vertical_markets
+
+448_mrm_iridium_partnerships_construction_equipment.csv
+  Categories: vertical_markets, partnerships
+
+448_mrm_largest_for_hire_carriers_fleet_size.csv
+  Categories: fleet_operators
+
+448_mrm_largest_us_for_hire_trucking_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+449_mrm_largest_truckload_carriers.csv
+  Categories: fleet_operators
+
+450_mrm_largest_ltl_general_freight_carriers.csv
+  Categories: fleet_operators
+
+450_mrm_largest_us_truckload_carriers.csv
+  Categories: fleet_operators
+
+451_mrm_supplier_categories_overview.csv
+  Categories: competitors
+
+451_mrm_top_500_private_trucking_fleets_by_category.csv
+  Categories: fleet_operators, vertical_markets
+
+452_mrm_geotab_company_profile.csv
+  Categories: competitors
+
+452_mrm_largest_ltl_general_freight_carriers.csv
+  Categories: fleet_operators
+
+452_mrm_largest_private_trucking_fleet_operators.csv
+  Categories: fleet_operators, vertical_markets
+
+453_mrm_geotab_partnerships_distribution.csv
+  Categories: competitors, partnerships
+
+453_mrm_private_trucking_fleet_market_data.csv
+  Categories: fleet_operators, market_statistics, vertical_markets
+
+454_mrm_geotab_products_technology.csv
+  Categories: competitors, technology
+
+454_mrm_largest_petroleum_gas_fleet_operators.csv
+  Categories: fleet_operators
+
+454_mrm_top_500_private_trucking_fleets_by_category.csv
+  Categories: fleet_operators, vertical_markets
+
+455_mrm_largest_us_private_trucking_fleet_operators.csv
+  Categories: fleet_operators, vertical_markets
+
+455_mrm_verizon_connect_company_profile.csv
+  Categories: competitors
+
+456_mrm_ambulance_major_companies.csv
+  Categories: fleet_operators
+
+456_mrm_verizon_connect_products_pricing.csv
+  Categories: competitors, pricing
+
+457_mrm_largest_us_petroleum_gas_fleet_operators.csv
+  Categories: fleet_operators
+
+457_mrm_law_enforcement_statistics.csv
+  Categories: fleet_operators
+
+457_mrm_samsara_company_profile.csv
+  Categories: competitors
+
+458_mrm_samsara_products_customers.csv
+  Categories: fleet_operators, competitors, customer_references
+
+459_mrm_fleet_complete_company_profile.csv
+  Categories: fleet_operators
+
+459_mrm_government_fleet_statistics.csv
+  Categories: fleet_operators, vertical_markets
+
+460_mrm_federal_government_largest_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+460_mrm_fleet_complete_partnerships_products.csv
+  Categories: fleet_operators, partnerships
+
+461_mrm_law_enforcement_fleet_statistics.csv
+  Categories: fleet_operators
+
+462_mrm_largest_us_police_fleets.csv
+  Categories: fleet_operators
+
+462_mrm_usps_fleet_statistics.csv
+  Categories: fleet_operators
+
+464_mrm_government_fleet_statistics.csv
+  Categories: fleet_operators, vertical_markets
+
+464_mrm_largest_car_rental_fleets.csv
+  Categories: fleet_operators
+
+465_mrm_largest_us_federal_government_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+465_mrm_rental_car_telematics_deployments.csv
+  Categories: customer_references, technology
+
+466_mrm_federal_fleet_breakdown.csv
+  Categories: fleet_operators
+
+467_mrm_gsa_geotab_telematics_contract.csv
+  Categories: competitors, technology
+
+468_mrm_us_postal_service_fleet_data.csv
+  Categories: fleet_operators
+
+469_mrm_state_government_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+470_mrm_major_municipal_government_fleets.csv
+  Categories: fleet_operators, vertical_markets
+
+471_mrm_municipal_fleet_telematics_adoption.csv
+  Categories: fleet_operators, customer_references, vertical_markets, technology
+
+472_mrm_rental_car_truck_fleet_statistics.csv
+  Categories: fleet_operators
+
+473_mrm_largest_us_car_rental_fleets.csv
+  Categories: fleet_operators
+
+474_mrm_industry_associations_trucking.csv
+  Categories: fleet_operators, vertical_markets
+
+474_mrm_rental_fleet_telematics_deployments.csv
+  Categories: fleet_operators, customer_references, technology
+
+478_mrm_mrm_technology_adoption_rates.csv
+  Categories: customer_references, technology
+
+479_mrm_major_technology_providers_competitive_intelligence.csv
+  Categories: competitors, technology
+
+480_mrm_market_drivers_trends.csv
+  Categories: pain_points, technology
+
+480_mrm_satellite_network_operators.csv
+  Categories: fleet_operators
+
+481_mrm_orbcomm_satellite_deployment.csv
+  Categories: customer_references
+
+482_mrm_orbcomm_key_customers.csv
+  Categories: fleet_operators, customer_references
+
+484_mrm_industry_associations_trucking.csv
+  Categories: fleet_operators, vertical_markets
+
+486_mrm_industry_associations_government.csv
+  Categories: vertical_markets
+
+489_mrm_major_fracking_companies.csv
+  Categories: fleet_operators
+
+48_michelin_connected_fleet_profile.csv
+  Categories: fleet_operators
+
+491_mrm_competitive_intelligence_telematics_providers.csv
+  Categories: competitors, technology
+
+492_mrm_market_adoption_rates_summary.csv
+  Categories: customer_references
+
+494_mrm_iridium_construction_equipment_partnerships.csv
+  Categories: vertical_markets, partnerships
+
+496_mrm_calamp_company_profile.csv
+  Categories: competitors
+
+497_mrm_supplier_categories_pages_101_125.csv
+  Categories: competitors
+
+498_mrm_geotab_company_profile_detailed.csv
+  Categories: competitors, technology
+
+499_mrm_fleet_management_market_summary_100k_units.csv
+  Categories: fleet_operators, market_statistics
+
+499_mrm_geotab_products_and_devices.csv
+  Categories: competitors
+
+49_michelin_acquisitions_fleet_management.csv
+  Categories: fleet_operators, partnerships
+
+500_mrm_geotab_software_platform_packages.csv
+  Categories: competitors, technology
+
+501_mrm_fleetilla_company_profile.csv
+  Categories: fleet_operators
+
+501_mrm_geotab_acquisitions_growth.csv
+  Categories: competitors, market_statistics, partnerships
+
+502_mrm_geotab_government_contracts.csv
+  Categories: competitors, vertical_markets
+
+502_mrm_rhino_fleet_tracking_profile.csv
+  Categories: fleet_operators
+
+503_mrm_verizon_connect_company_history.csv
+  Categories: competitors
+
+504_mrm_verizon_connect_products_services.csv
+  Categories: competitors
+
+505_mrm_verizon_connect_market_position.csv
+  Categories: competitors
+
+506_mrm_samsara_company_funding_history.csv
+  Categories: competitors
+
+507_mrm_samsara_company_operations.csv
+  Categories: competitors
+
+508_mrm_samsara_products_technology.csv
+  Categories: competitors, technology
+
+508_mrm_video_telematics_adoption.csv
+  Categories: customer_references, video_telematics, technology
+
+509_mrm_samsara_market_segments.csv
+  Categories: competitors
+
+510_mrm_samsara_growth_metrics.csv
+  Categories: competitors, market_statistics
+
+510_mrm_vertical_market_specialization.csv
+  Categories: vertical_markets
+
+511_mrm_competitive_intelligence_summary.csv
+  Categories: competitors
+
+511_mrm_samsara_partnerships_customers.csv
+  Categories: fleet_operators, competitors, customer_references, partnerships
+
+512_mrm_samsara_pricing_model.csv
+  Categories: competitors, pricing
+
+513_mrm_fleet_complete_company_profile.csv
+  Categories: fleet_operators
+
+514_mrm_fleet_complete_acquisitions.csv
+  Categories: fleet_operators, partnerships
+
+515_mrm_fleet_complete_distribution_partners.csv
+  Categories: fleet_operators
+
+516_mrm_fleet_complete_products.csv
+  Categories: fleet_operators
+
+517_mrm_fleet_complete_market_position.csv
+  Categories: fleet_operators
+
+51_mix_powerfleet_company_profile.csv
+  Categories: fleet_operators
+
+520_mrm_orbcomm_fleet_solutions.csv
+  Categories: fleet_operators
+
+530_mrm_linxup_customer_list.csv
+  Categories: fleet_operators, customer_references
+
+534_mrm_gps_insight_customers_pricing.csv
+  Categories: fleet_operators, customer_references, pricing
+
+535_mrm_webfleet_solutions_overview.csv
+  Categories: fleet_operators
+
+536_mrm_webfleet_customers.csv
+  Categories: fleet_operators, customer_references
+
+540_mrm_greenroad_customers.csv
+  Categories: fleet_operators, customer_references
+
+541_mrm_clearpathgps_customers.csv
+  Categories: fleet_operators, customer_references
+
+542_mrm_bransys_customers_segments.csv
+  Categories: fleet_operators, customer_references
+
+546_mrm_platform_science_customers.csv
+  Categories: fleet_operators, customer_references, technology
+
+547_mrm_trimble_transportation_overview.csv
+  Categories: fleet_operators, competitors
+
+548_mrm_trimble_acquisitions.csv
+  Categories: competitors, partnerships
+
+54_fleet_complete_customer_segments.csv
+  Categories: fleet_operators, customer_references
+
+550_mrm_zubie_customers.csv
+  Categories: fleet_operators, customer_references
+
+551_mrm_zonar_customers.csv
+  Categories: fleet_operators, customer_references
+
+552_mrm_zonar_school_bus_products.csv
+  Categories: vertical_markets
+
+554_mrm_keeptruckin_customers.csv
+  Categories: fleet_operators, customer_references
+
+555_mrm_cheetah_customers.csv
+  Categories: fleet_operators, customer_references
+
+555_mrm_teletrac_navman_company_data.csv
+  Categories: competitors
+
+556_mrm_teletrac_navman_target_markets.csv
+  Categories: competitors
+
+558_mrm_vecima_customers.csv
+  Categories: fleet_operators, customer_references
+
+55_geotab_customer_segments_industries.csv
+  Categories: fleet_operators, competitors, customer_references
+
+560_mrm_fleetup_company_profile.csv
+  Categories: fleet_operators
+
+561_mrm_fleetup_market_data.csv
+  Categories: fleet_operators, market_statistics
+
+562_mrm_fleetup_pricing.csv
+  Categories: fleet_operators, pricing
+
+563_mrm_fleetup_product_launches.csv
+  Categories: fleet_operators
+
+564_mrm_fleetup_customers.csv
+  Categories: fleet_operators, customer_references
+
+565_mrm_fleetup_covid_impact.csv
+  Categories: fleet_operators
+
+566_mrm_cyntrx_customers.csv
+  Categories: fleet_operators, customer_references
+
+569_mrm_onestepgps_customers.csv
+  Categories: fleet_operators, customer_references
+
+56_geotab_reference_customers.csv
+  Categories: fleet_operators, competitors, customer_references
+
+570_mrm_fleet_management_suppliers_summary.csv
+  Categories: fleet_operators, competitors
+
+570_mrm_vnomics_customers.csv
+  Categories: fleet_operators, customer_references
+
+574_mrm_assured_telematics_customers.csv
+  Categories: fleet_operators, customer_references, technology
+
+576_mrm_competitive_landscape_summary.csv
+  Categories: competitors
+
+585_mrm_competitive_positioning_map.csv
+  Categories: competitors
+
+585_mrm_usa_fleet_solutions_company_profile.csv
+  Categories: fleet_operators
+
+586_mrm_usa_fleet_partnership_history.csv
+  Categories: fleet_operators, partnerships
+
+587_mrm_usa_fleet_market_data.csv
+  Categories: fleet_operators, market_statistics
+
+588_mrm_usa_fleet_target_markets.csv
+  Categories: fleet_operators
+
+589_mrm_usa_fleet_covid_impact.csv
+  Categories: fleet_operators
+
+594_mrm_assured_techmatics_customers.csv
+  Categories: fleet_operators, customer_references
+
+59_competitive_positioning_summary.csv
+  Categories: competitors
+
+609_mrm_gurtam_video_partnerships.csv
+  Categories: video_telematics, partnerships
+
+61_ma_activity_fleet_management.csv
+  Categories: fleet_operators
+
+621_mrm_automile_customers.csv
+  Categories: fleet_operators, customer_references
+
+622_mrm_webfleet_company_history.csv
+  Categories: fleet_operators
+
+623_mrm_webfleet_brand_evolution.csv
+  Categories: fleet_operators
+
+624_mrm_webfleet_acquisitions.csv
+  Categories: fleet_operators, partnerships
+
+625_mrm_webfleet_geographic_coverage.csv
+  Categories: fleet_operators, geographic
+
+626_mrm_webfleet_hardware_products.csv
+  Categories: fleet_operators
+
+627_mrm_webfleet_market_positioning.csv
+  Categories: fleet_operators
+
+634_mrm_tenna_customers.csv
+  Categories: fleet_operators, customer_references
+
+635_mrm_video_driver_behavior_market_overview.csv
+  Categories: video_telematics, pain_points
+
+636_mrm_lytx_company_overview.csv
+  Categories: competitors, video_telematics
+
+637_mrm_lytx_investors_acquisitions.csv
+  Categories: competitors, video_telematics, partnerships
+
+638_mrm_lytx_product_portfolio.csv
+  Categories: competitors, video_telematics
+
+639_mrm_government_fleet_market_overview.csv
+  Categories: fleet_operators, vertical_markets
+
+639_mrm_lytx_technology_capabilities.csv
+  Categories: competitors, video_telematics, technology
+
+640_mrm_lytx_customers.csv
+  Categories: fleet_operators, competitors, customer_references, video_telematics
+
+641_mrm_lytx_distribution_channels.csv
+  Categories: competitors, video_telematics
+
+641_mrm_volvo_geotab_solution.csv
+  Categories: competitors
+
+642_mrm_vertical_markets_overview.csv
+  Categories: vertical_markets
+
+643_mrm_powerfleet_profile.csv
+  Categories: fleet_operators
+
+645_mrm_fleetmind_solutions_profile.csv
+  Categories: fleet_operators
+
+645_mrm_omnitracs_smartdrive_customers.csv
+  Categories: fleet_operators, customer_references
+
+647_mrm_nauto_company_overview.csv
+  Categories: video_telematics
+
+648_mrm_fourkites_customers.csv
+  Categories: fleet_operators, customer_references
+
+648_mrm_nauto_products_performance.csv
+  Categories: video_telematics
+
+649_mrm_fourkites_competitive_position.csv
+  Categories: competitors
+
+649_mrm_nauto_partnerships_customers.csv
+  Categories: fleet_operators, customer_references, video_telematics, partnerships
+
+650_mrm_nauto_technology_enhancements.csv
+  Categories: video_telematics, technology
+
+651_mrm_mobileye_company_overview.csv
+  Categories: video_telematics
+
+652_mrm_mobileye_oem_partnerships.csv
+  Categories: video_telematics, partnerships
+
+653_mrm_mobileye_fleet_products.csv
+  Categories: fleet_operators, video_telematics
+
+653_mrm_project44_customers.csv
+  Categories: fleet_operators, customer_references
+
+654_mrm_mobileye_customers.csv
+  Categories: fleet_operators, customer_references, video_telematics
+
+655_mrm_mobileye_mobility_partnerships.csv
+  Categories: video_telematics, partnerships
+
+656_mrm_descartes_customers.csv
+  Categories: fleet_operators, customer_references
+
+657_mrm_taxi_fleet_mrm_suppliers.csv
+  Categories: fleet_operators, competitors
+
+657_mrm_taxi_market_challenges.csv
+  Categories: pain_points
+
+658_mrm_dds_stratagen_customers.csv
+  Categories: fleet_operators, customer_references
+
+660_mrm_edriving_customers.csv
+  Categories: fleet_operators, customer_references
+
+660_mrm_mobile_knowledge_deployments.csv
+  Categories: customer_references
+
+662_mrm_public_transit_cost_breakdown.csv
+  Categories: vertical_markets, pricing
+
+662_mrm_public_transit_market_overview.csv
+  Categories: vertical_markets
+
+666_mrm_conduent_pricing_deployments.csv
+  Categories: customer_references, pricing
+
+668_mrm_netradyne_company_overview.csv
+  Categories: competitors, video_telematics
+
+668_mrm_trapeze_transitmaster_history.csv
+  Categories: vertical_markets
+
+669_mrm_netradyne_products.csv
+  Categories: competitors, video_telematics
+
+66_video_telematics_solutions.csv
+  Categories: video_telematics, technology
+
+670_mrm_netradyne_technology_specs.csv
+  Categories: competitors, video_telematics, technology
+
+671_mrm_netradyne_customers.csv
+  Categories: fleet_operators, competitors, customer_references, video_telematics
+
+672_mrm_netradyne_distribution.csv
+  Categories: competitors, video_telematics
+
+672_mrm_trapeze_competitive_landscape.csv
+  Categories: competitors
+
+672_mrm_trapeze_customers.csv
+  Categories: fleet_operators, customer_references
+
+673_mrm_netradyne_competitive_position.csv
+  Categories: competitors, video_telematics
+
+673_mrm_trapeze_related_companies.csv
+  Categories: fleet_operators
+
+676_mrm_init_customer_metrics.csv
+  Categories: fleet_operators, customer_references
+
+679_mrm_clever_devices_customers.csv
+  Categories: fleet_operators, customer_references
+
+680_mrm_cubic_transportation_company_profile.csv
+  Categories: fleet_operators
+
+681_mrm_cubic_nextbus_deployments.csv
+  Categories: customer_references
+
+683_mrm_cubic_major_customers.csv
+  Categories: fleet_operators, customer_references
+
+684_mrm_public_transit_pricing_summary.csv
+  Categories: vertical_markets, pricing
+
+685_mrm_supply_chain_visibility_competitive_landscape.csv
+  Categories: competitors, technology
+
+686_mrm_public_transit_suppliers_comparison.csv
+  Categories: competitors, vertical_markets
+
+68_ev_fleet_management_capabilities.csv
+  Categories: fleet_operators
+
+691_mrm_heavy_equipment_telematics_suppliers_market_data.csv
+  Categories: competitors, market_statistics, technology
+
+691_mrm_rosco_vision_company_profile.csv
+  Categories: video_telematics
+
+691_mrm_rosco_vision_products.csv
+  Categories: video_telematics
+
+692_mrm_rosco_vision_customers.csv
+  Categories: fleet_operators, customer_references, video_telematics
+
+693_mrm_calamp_trailer_data.csv
+  Categories: competitors, technology
+
+693_mrm_fleet_insurance_market_data.csv
+  Categories: fleet_operators, market_statistics
+
+694_mrm_fleet_insurance_spending.csv
+  Categories: fleet_operators
+
+694_mrm_insurance_telematics_vendors.csv
+  Categories: competitors, technology
+
+695_mrm_verizon_connect_heavy_equipment.csv
+  Categories: competitors
+
+696_mrm_calamp_heavy_equipment_profile.csv
+  Categories: competitors
+
+696_mrm_cmt_customers.csv
+  Categories: fleet_operators, customer_references
+
+696_mrm_cmt_products_deployment.csv
+  Categories: customer_references
+
+698_mrm_heavy_construction_market_data.csv
+  Categories: market_statistics, vertical_markets
+
+698_mrm_teletrac_navman_heavy_equipment.csv
+  Categories: competitors
+
+699_mrm_octo_telematics_customers.csv
+  Categories: fleet_operators, customer_references, technology
+
+701_mrm_att_fleet_solutions.csv
+  Categories: fleet_operators
+
+701_mrm_telematics_device_manufacturers_profiles.csv
+  Categories: competitors, technology
+
+701_mrm_volvo_hitachi_deere_construction.csv
+  Categories: vertical_markets
+
+702_mrm_device_manufacturer_market_metrics.csv
+  Categories: competitors
+
+702_mrm_tmobile_fleet_solutions.csv
+  Categories: fleet_operators
+
+703_mrm_field_service_management_competitors.csv
+  Categories: competitors, vertical_markets
+
+704_mrm_mdt_display_manufacturers_profiles.csv
+  Categories: competitors
+
+705_mrm_actsoft_deployment.csv
+  Categories: customer_references
+
+706_mrm_competitive_intelligence_trailers.csv
+  Categories: competitors, technology
+
+707_mrm_clevest_customers.csv
+  Categories: fleet_operators, customer_references
+
+707_mrm_clevest_customers_metrics.csv
+  Categories: fleet_operators, customer_references
+
+707_mrm_major_fleet_customers_trailers.csv
+  Categories: fleet_operators, customer_references, technology
+
+710_mrm_key_customers_deployments.csv
+  Categories: fleet_operators, customer_references
+
+711_mrm_allgeo_customers.csv
+  Categories: fleet_operators, customer_references
+
+711_mrm_allgeo_deployment.csv
+  Categories: customer_references
+
+712_mrm_trimble_fsm_products.csv
+  Categories: competitors
+
+712_mrm_trimble_fsm_profile.csv
+  Categories: competitors
+
+713_mrm_market_segments_target_customers.csv
+  Categories: fleet_operators, customer_references
+
+714_mrm_competitive_positioning_summary.csv
+  Categories: competitors
+
+714_mrm_workwave_deployment.csv
+  Categories: customer_references
+
+715_mrm_workwave_customers.csv
+  Categories: fleet_operators, customer_references
+
+72_safety_driver_management.csv
+  Categories: pain_points
+
+78_mix_powerfleet_merger_financials.csv
+  Categories: fleet_operators, partnerships
+
+82_mix_north_america_customers.csv
+  Categories: fleet_operators, customer_references
+
+83_powerfleet_company_overview.csv
+  Categories: fleet_operators
+
+84_powerfleet_acquisitions_history.csv
+  Categories: fleet_operators, partnerships
+
+85_powerfleet_fleet_complete_acquisition.csv
+  Categories: fleet_operators, partnerships
+
+86_powerfleet_unity_platform_specifications.csv
+  Categories: fleet_operators, technology
+
+87_powerfleet_technology_partnerships.csv
+  Categories: fleet_operators, technology, partnerships
+
+88_powerfleet_fleet_composition_americas.csv
+  Categories: fleet_operators
+
+89_powerfleet_fortune_500_penetration.csv
+  Categories: fleet_operators, market_statistics
+
+90_powerfleet_distribution_network.csv
+  Categories: fleet_operators
+
+91_solera_fleet_solutions_overview.csv
+  Categories: fleet_operators
+
+93_solera_fleet_solutions_brands.csv
+  Categories: fleet_operators
+
+99_solera_target_verticals.csv
+  Categories: vertical_markets
+
+
+--------------------------------------------------------------------------------
+USAGE
+--------------------------------------------------------------------------------
+
+Files are organized into two folders:
+  - high_priority/  : Start here - most critical for sales funnel
+  - medium_priority/: Supporting data for deeper analysis
+
+Next Steps:
+1. Process high_priority files first with the PDF extraction pipeline
+2. Review FILTERING_SUMMARY.txt to understand data organization
+3. Use medium_priority files for additional market intelligence
+4. Feed extracted data into the Waylens sales funnel database
+

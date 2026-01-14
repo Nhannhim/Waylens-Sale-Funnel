@@ -1,0 +1,13 @@
+Metric,Value,Source,Notes,Market Segment
+Industry Average SaaS Pricing,$30/month,Industry sources,Hardware and service bundled,Heavy construction equipment telematics
+Trackunit Monthly Service,Mid-to-high teens,Trackunit,Varies by data collection frequency|functions monitored|other factors,Heavy construction equipment
+Trackunit Average Hardware,$225,Trackunit,N/A,Heavy construction equipment
+Trackunit Hardware,$220,Trackunit (alternate source),N/A,Heavy construction equipment
+EquipmentShare Average Hardware,$220,EquipmentShare,N/A,Heavy construction equipment
+EquipmentShare Pricing Model,Hardware bundled with monthly service,EquipmentShare,Includes all Track features and cellular connectivity; Contract terms vary,Heavy construction equipment
+LHP Hardware Price Range,$100-$500+,LHP Telematics,Other components range,Heavy construction equipment
+LHP Flagship TP1,Less than $200,LHP Telematics,Linux device with multiple features,Heavy construction equipment
+Garmin dēzl OTR1000,N/A,Garmin,10-inch display; Optional ELD functionality additional,Commercial vehicles/trucking
+Case SiteWatch,N/A,Case Construction,Standard on some equipment; Optional on others; Uses AEMP API,Construction equipment OEM
+New Holland FleetForce,N/A,New Holland,Optional; Available as Basic and Advanced subscription,Construction equipment OEM
+Doosan Telematics,Standard 3-year subscription included,Doosan,Included on all new qualifying machines,Construction equipment OEM

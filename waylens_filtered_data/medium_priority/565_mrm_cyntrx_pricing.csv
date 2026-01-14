@@ -1,0 +1,5 @@
+Company,Product,Pricing_Model,Price_To_Channel,Typical_End_User_Price,Hardware_Bundle_Fee,Contract_Terms,Key_Features
+CyntrX,Basic ELD Solution,Service Fee to Channel,$10/month,$15+/month,N/A,Month-to-month (no contract),Basic ELD compliance
+CyntrX,Additional Functionality,Add-on Service,$5+/month,Varies,N/A,Month-to-month,Advanced features beyond basic ELD
+CyntrX,Bundled Solution,Hardware + Service,$10/month above service fee,Varies,Included,Month-to-month,Hardware and service package
+CyntrX,Video Solution,Bundled with AT&T data plan,$15/month (to resellers),$45/month (to fleets),$499 (camera retail),Month-to-month,"ADAS, driver monitoring, real-time video"

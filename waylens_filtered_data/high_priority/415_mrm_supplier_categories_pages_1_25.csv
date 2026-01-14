@@ -1,0 +1,25 @@
+Supplier Category,Section Start Page,Description,Key Characteristics,Market Segment
+GPS Fleet Management - Local Fleets (100K+ Units),104,Large suppliers serving local fleet market,"Geotab, Verizon Connect, Samsara, Fleet Complete, ORBCOMM, Azuga, LinxUp, GPS Insight, GPS Trackit, Spireon, NexTraq, CalAmp, Pedigree, IntelliShift",SMB and Enterprise
+GPS Fleet Management - Local Fleets (10-100K Units),143,Mid-size suppliers,"FTS, Fleetilla, Rhino, IMD, ClearPathGPS, Zubie, Vecima, FleetUp, One Step GPS",SMB focused
+Resellers of GPS Fleet Management,161,Reseller and distributor companies,"Assured Telematics, EnVue, RMJ/Predictive Coach, USA Fleet Solutions, Assured Techmatics",Distribution channel
+White Label Solution Providers,167,Platform providers for private labeling,"KORE Position Logic, Gurtam",Technology partners
+U.S. Suppliers Based Outside North America,172,International suppliers in U.S. market,"Automile, Webfleet Solutions, Quartix, GreenRoad, Bransys, Satrack USA",Global expansion
+MRM Solutions for Trucking and Logistics,184,Trucking-focused suppliers,"Omnitracs, Trimble Transportation, Zonar, KeepTruckin, Teletrac Navman, J.J. Keller, Rand McNally, Platform Science, EROAD, Cheetah, Gorilla Safety, CyntrX, Vnomics, Konexial",ELD and compliance
+Commercial Vehicle OEM Telematics,222,Vehicle manufacturer solutions,Light and heavy commercial vehicle OEMs,Factory-installed
+Light Commercial Vehicle OEMs,223,"Ford, GM/OnStar, Isuzu",OEM telematics,
+Heavy Commercial Vehicle OEMs,228,"Freightliner, PACCAR, Navistar, Volvo Trucks, Hino",Factory telematics,
+Supply Chain Visibility Platforms,234,"FourKites, project44, Descartes Systems",Logistics visibility,Supply chain
+MRM Solutions for Taxi Fleets,240,"DDS Wireless, Mobile Knowledge, Curb, MTData",Taxi dispatch,For-hire transport
+Public Transit Fleet Solutions,242,"Conduent, Trapeze Group, INIT, Clever Devices, Cubic",Transit AVL/CAD,Public transportation
+Public Safety Fleet Solutions,251,"Motorola Solutions, Northrop Grumman, Hexagon, CentralSquare, ZOLL, Ford Commercial",Emergency services,Police/Fire/EMS
+Oil & Gas Solutions,258,"MiX Telematics, Geoforce, CompassCom, LB Technology",Energy sector,Remote operations
+Other Vertical Markets,268,"PowerFleet, Synovia, FleetMind, Command Alkon, Tenna",Specialized industries,Various verticals
+Video and Driver Behavior Management,280,"Lytx, Omnitracs SmartDrive, Nauto, Mobileye, eDriving, SmartWitness, TRUCE, Netradyne, idrive, Waylens, Zendrive, Lightmetrics, Rosco",Driver safety,All fleet types
+Fleet Insurance Telematics,305,"Cambridge Mobile Telematics, Octo Telematics, Progressive",Usage-based insurance,Insurance integration
+Cellular Carrier MRM Programs,312,"AT&T, Verizon Wireless, T-Mobile, Sprint",Carrier partnerships,Distribution channel
+Field Service Management,316,"Actsoft, Clevest, Abaqus, Trimble FSM, WorkWave, Service Fusion",Mobile worker management,Service industries
+Trailer and Container Monitoring,326,"SkyBitz, ORBCOMM, Spireon, Omnitracs, CalAmp, Coretex, BlackBerry Radar, Thermo King, Carrier Transicold, Great Dane",Asset tracking,Trailer fleets
+Heavy Construction Equipment,345,OEMs and aftermarket,"Caterpillar, Komatsu, Volvo CE, Hitachi, John Deere, CNH, Doosan, Manitowoc",Equipment monitoring
+Construction Equipment Aftermarket,353,"ORBCOMM, EquipmentShare, ZTR Control, Verizon Connect, CalAmp, LHP, Teletrac Navman, Trackunit, Topcon Tierra",Aftermarket solutions,Construction
+MRM Equipment Suppliers,362,Hardware manufacturers,"CalAmp, Xirgo, Danlaw, Suntech, Geometris, Queclink, Quake Global",Device manufacturing
+Mobile Data Terminals and Displays,367,"Garmin, Advantech",In-cab displays,All commercial vehicles

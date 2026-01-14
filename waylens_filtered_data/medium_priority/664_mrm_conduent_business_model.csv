@@ -1,0 +1,6 @@
+Revenue_Stream,Description,Service_Type
+Implementation,End projects hardware and software,One-time
+Maintenance_Services,Ongoing system maintenance,Recurring
+Repair,System repairs,As-needed
+Spare_Parts,Component replacement,As-needed
+Fare_Collection_Operations,Building and operating fare collection systems,Recurring

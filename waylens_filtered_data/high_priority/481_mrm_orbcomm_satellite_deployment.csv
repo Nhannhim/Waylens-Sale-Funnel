@@ -1,0 +1,5 @@
+Satellite_Generation,Total_Satellites,Launch_Year,Status,Performance_vs_OG1,Investment,Notes
+OG1 (First Generation),25,Pre-2014,Phased out,Baseline,,"LEO satellites, 825 km orbit"
+OG2 (Next Generation) - First Launch,6,2014,Operational,6x data access; 2x transmission rate,$230 million total program,First deployment
+OG2 (Next Generation) - Final Launch,11,2016,Operational,Same as above,$230 million total program,Final 11 operational
+OG2 Total,17,2014-2016,12 operational (5 lost),Significant capacity increase,$230 million,Lost communication with 5 satellites by end of 2019

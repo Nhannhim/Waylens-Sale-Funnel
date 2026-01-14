@@ -1,0 +1,20 @@
+Customer_Type,Company_Name,Industry,Service_Type
+OEM,Caterpillar Inc.,Heavy Equipment,Equipment tracking
+OEM,Doosan Infracore America,Heavy Equipment,Equipment tracking
+OEM,Hitachi Construction Machinery Co. Ltd.,Heavy Equipment,Equipment tracking
+OEM,John Deere,Heavy Equipment,Equipment tracking
+OEM,Komatsu Limited,Heavy Equipment,Equipment tracking
+OEM,Volvo Construction Equipment,Heavy Equipment,Equipment tracking
+Fleet/Logistics,J.B. Hunt,Trucking,Asset tracking
+Fleet/Logistics,C&S Wholesale Grocers,Wholesale Distribution,Asset tracking
+Fleet/Logistics,Canadian National Railways,Rail,Asset tracking
+Fleet/Logistics,CR England,Trucking,Asset tracking
+Fleet/Logistics,Hub Group,Logistics,Asset tracking
+Fleet/Logistics,KLLM Transport Services,Trucking,Asset tracking
+Fleet/Logistics,Marten Transport,Trucking,Asset tracking
+Fleet/Logistics,Swift Transportation,Trucking,Asset tracking
+Fleet/Logistics,Target,Retail,Asset tracking
+Fleet/Logistics,Tropicana,Food & Beverage,Asset tracking
+Fleet/Logistics,Tyson Foods,Food & Beverage,Asset tracking
+Fleet/Logistics,Walmart,Retail,Asset tracking
+Fleet/Logistics,Werner Enterprises,Trucking,Asset tracking

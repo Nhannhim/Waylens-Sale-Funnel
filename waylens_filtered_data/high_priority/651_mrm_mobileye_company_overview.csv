@@ -1,0 +1,19 @@
+Category,Metric,Value,Year,Notes
+Company,Company Name,Mobileye,2021,
+Company,Address,"1350 Broadway, New York, NY 10018",2021,
+Company,Phone,(877) 867-4900,2021,
+Company,Website,www.mobileye.com,2021,
+Company,Contact,Jennifer Kruger - Marketing Manager,2021,
+History,Founded,1999,2021,By Amnon Shashua (Hebrew University professor)
+History,Fleet ADAS Launch,2004,2021,Retrofit version for fleets
+History,OEM ADAS Launch,2007,2021,Technology for vehicle manufacturers
+History,Acquired By,Intel Corp.,2017-08,For $15.3 billion
+History,Acquired,Moovit (Israeli mobility app),2020-06,For $900 million
+Leadership,Founder/President/CEO,Amnon Shashua,2021,Remained after Intel acquisition
+Financial,Acquisition Price by Intel,$15.3 billion,2017-08,
+Financial,Moovit Acquisition Price,$900 million,2020-06,
+Market,OEM Installations,40+ million vehicles,2021,EyeQ chips in new vehicles
+Market,Fleet Business Revenue Share,30%,2021,Intelligent Mobility Solutions
+Market,OEM Business Revenue Share,70%,2021,Tier 1 supplier business
+Pricing,Hardware,Mobileye 8 Connect for $800,2018,
+Pricing,Monthly Subscription,$15 per month,2018,Fleet vehicle data collection

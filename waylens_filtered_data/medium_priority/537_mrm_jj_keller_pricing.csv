@@ -1,0 +1,5 @@
+Company,Product,Package_Level,Monthly_Price_Per_Driver,Features,Hardware,Hardware_Price,Hardware_Usage_Rate
+J.J. Keller,Encompass,Essential,$5.95,Driver and vehicle compliance,,N/A,N/A
+J.J. Keller,Encompass,Premium,$25.95,All compliance and ELD data features,,N/A,N/A
+J.J. Keller,Encompass,Platinum,$34.95,ELD and dashcam features,,N/A,N/A
+J.J. Keller,Compliance Tablet,Hardware Device,$7.00 per month (3-year lease),Pre-loaded ELD app with optional ALK CoPilot navigation,Compliance Tablet,$299.00,Used by 1/3 of ELD customers (2/3 use BYOD)

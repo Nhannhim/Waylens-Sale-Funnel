@@ -1,0 +1,7 @@
+Feature,Launch_Year,Description,Technology
+AI Detection,2021-06,Four new high-risk behaviors,"Real-time tracking and analysis, automatic detection, preventative warnings"
+Collision Prediction,2017,Pattern matching for imminent collisions,AI analysis of driver/traffic/vehicle/contextual data
+Real-time Alerts,2017,In-cab driver warnings,Collision avoidance before incidents
+Driver Scoring,2017,Performance evaluation over time,Risk and liability assessment
+Video Review,2017,Immediate event video access,"Distractions, near-collisions, high-risk events"
+Autonomous Vehicle Learning,2017-ongoing,Deep learning algorithms for AVs,Human driving behavior adaptation

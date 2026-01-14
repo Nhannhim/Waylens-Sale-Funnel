@@ -1,0 +1,11 @@
+Company,Product_Service,Category,Price,Currency,Period,Contract_Term,Notes
+Omnitracs,Telematics Gateway (TG),Hardware,0,USD,One-time,With Contract,Free with signed contract - basic plug-and-play
+Omnitracs,Omnitracs Relay,Hardware,0,USD,One-time,With Contract,Free with signed contract - mobile-enabled relay
+Omnitracs,Active Mobile Gateway (AMG-C),Hardware,475,USD,List Price,,Mobile-enabled gateway with 4G LTE
+Omnitracs,Intelligent Vehicle Gateway (IVG),Hardware,799,USD,List Price,,Dedicated gateway 8-inch touchscreen
+Omnitracs,Telematics Plan,Service,22.95,USD,Month,2-5 years,Starting price - includes data - basic track and trace
+Omnitracs,Compliance Basic,Service,26.95,USD,Month,2-5 years,Starting price - basic compliance
+Omnitracs,Compliance Robust,Service,38.95,USD,Month,2-5 years,Includes driver safety vehicle diagnostics workflow
+Omnitracs,Critical Event Video (CEV),Video,Varies,USD,,,Based on device configuration
+Omnitracs,SmartDrive,Video,Not Disclosed,USD,,,Advanced video safety with 360-degree capability
+Omnitracs,Contract Structure,Terms,Co-terminus,,,,"All contracts expire together, easy to add/remove vehicles"

@@ -1,0 +1,22 @@
+Category,Metric,Value,Year,Notes
+Company Overview,Location,Rolling Meadows IL,2021,US subsidiary
+Company Overview,Parent Company,Komatsu Ltd Japan,2021,
+Company Overview,Market Position,Second largest earth-moving equipment manufacturer,2021,Global
+Company Overview,US Market Position,Second largest heavy construction,2021,After Caterpillar
+Product Portfolio,KOMTRAX Launch,2001,2001,GPS and ORBCOMM satellite
+Product Portfolio,Standard Equipment,Most new construction and mining,2021,KOMTRAX or KOMTRAX Plus
+Product Portfolio,Free Monitoring Historical,5 years,Historical,First five years
+Product Portfolio,Free Monitoring Current,Lifetime,2021,No charge for equipment lifetime
+Product Portfolio,Retrofit Availability,Yes,2021,Older Komatsu and non-Komatsu
+Product Portfolio,Standalone Product Launch,Late 2020,2020,For non-Komatsu machines
+Product Portfolio,Electrical System Compatibility,12V or 24V,2021,Any brand
+Product Portfolio,Non-Komatsu Functionality,Limited,2021,Service meter location on/off engine lock
+Market Position,Connected Assets Global,600000,2020,End of year (Nikkei Asia)
+Technology,Hardware Development,In-house,2021,Komatsu develops own
+Technology,Software Platform,Web-based,2021,In-house development
+Technology,Communication,ORBCOMM satellite,2021,Primary connectivity
+Features,KOMTRAX Standard,Location hours fuel consumption alerts,2021,
+Features,KOMTRAX Reporting,Daily and monthly,2021,Status reports
+Features,KOMTRAX Plus,Mining equipment standard,2021,Enhanced for mining
+Features,Pay Load Meter,Mining and quarry haul trucks,2021,Carry weight haul cycles
+Features,System Norms,Machine-specific,2021,Deviation alerts for proactive maintenance

@@ -1,0 +1,8 @@
+Company,Partner_Type,OEM_Partner,Region,Integration_Type,Status,Product,Launch_Details
+MiX Telematics,OEM Integration,Ford,US,Cloud-to-cloud,Active,MiX OEM Connect,Device-agnostic integration
+MiX Telematics,OEM Integration,Hino,North America,Cloud-to-cloud,Active,MiX OEM Connect,Authorised Hino data services partner
+MiX Telematics,OEM Integration,International (Navistar),US,Cloud-to-cloud,Active,MiX OEM Connect,Device-agnostic integration
+MiX Telematics,OEM Integration,Isuzu,Global,Cloud-to-cloud,Active,MiX OEM Connect,Device-agnostic integration
+MiX Telematics,OEM Integration,Scania,Global,Cloud-to-cloud,Active,MiX OEM Connect,Device-agnostic integration
+MiX Telematics,OEM Integration,Mercedes-Benz,Global,Cloud-to-cloud,Active,MiX OEM Connect,Device-agnostic integration
+MiX Telematics,Technology Partner,Trimble,Global,Acquisition,Completed August 2022,Field Service Management,Added scale to subscriber base

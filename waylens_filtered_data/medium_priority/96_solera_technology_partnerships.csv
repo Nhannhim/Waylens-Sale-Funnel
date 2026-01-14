@@ -1,0 +1,13 @@
+Partner_Name,Partner_Type,Integration_Type,Product_Service,Industry,Status
+SpeedGauge,Technology Partner,Full Integration,Speed Monitoring and Reporting,Fleet Safety,Active
+Drivewyze,Technology Partner,Integration,Weigh Station Bypass,Compliance,Active
+Cummins,OEM Partner,OTA Integration,Engine Firmware Updates,Commercial Vehicles,Active
+Pana-Pacific,Distribution Partner,Reseller,Equipment Distribution,Fleet Equipment,Active
+Wired Truck,Distribution Partner,Reseller,Fleet Solutions,Fleet Management,Active
+Cetacea,Distribution Partner,Reseller,Fleet Solutions,Fleet Management,Active
+Gentrifi,Distribution Partner,Reseller,Fleet Solutions,Fleet Management,Active
+Targipsum,Distribution Partner,Reseller,Fleet Solutions,Fleet Management,Active
+Autotrac,Distribution Partner,Reseller,Fleet Solutions,Brazil,Active
+Planifi-k,Strategic Partner,Sales Partner,Fleet Solutions,Latin America,Active
+TMS Providers,Technology Partner,API Integration,Transportation Management,Logistics,Active
+ERP Providers,Technology Partner,API Integration,Enterprise Resource Planning,Enterprise,Active

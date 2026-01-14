@@ -1,0 +1,24 @@
+Category,Technology,Company,Launch Date,Key Features,Market Impact
+Smart Trailers,Road Ready,Clarience Tech/Truck-Lite,Not specified,Advanced digital IoT integrated,20000 units leading solution
+Smart Trailers,Phillips Connect,Phillips Industries,Not specified,Smart trailer capabilities,Growing adoption
+Smart Trailers,FleetPulse,Great Dane,2021,First OEM factory-installed standard,Industry first Aug 2021
+Smart Trailers,Peterson Pulse,Peterson Industries,Not specified,Smart trailer features,
+Smart Trailers,HT LinkSense,Hyundai Translead/PowerFleet,Sep 2021,LV-300 gateway sensor flexibility,Dry van initially then reefer flatbed
+Cargo Sensing,IntelliScan,Spireon,Jul 2018,Optical laser TOF AI 99% accuracy,Superior to ultrasonic
+Cargo Sensing,Image Capture,Spireon,Mar 2020,Visual proof AI/ML,Detention claims load shift theft
+Cargo Sensing,Volumetric Sensor,SkyBitz,Fall 2019,High-res camera space calculation,Load planning visibility
+Cargo Sensing,Camera Cargo Sensor,ORBCOMM,2020,BLE machine learning image recognition,Dual camera inside/outside
+Cargo Sensing,CoreTemp,Coretex,Not specified,Product temp not return air FSMA,Food safety quality assurance
+Connectivity,3G to 4G Migration,Multiple vendors,2020-2021,Network sunset preparation,Industry-wide transition
+Connectivity,Dual-Mode Satellite,ORBCOMM,2020,Cellular + satellite backup,Remote areas reliability
+Connectivity,BLE Sensors,ORBCOMM,2020,Temp humidity trailer ID fuel,Low power wireless
+Connectivity,Iridium Satellite,Hitachi,2017,Global coverage long-term contract,Worldwide equipment monitoring
+Software,Events 2.0 Alerting,BlackBerry Radar,Feb 2021,Custom dashboards actionable intelligence,Operational efficiency
+Software,Managed Services,Spireon,Jul 2021,Aggregate data benchmarking,Industry best practices
+Software,Rules Engine,Coretex,Not specified,Customizable rule sets,Enterprise flexibility
+Software,360 Platform Upgrade,Coretex,2021,Improved usability and speed,Multi-vertical optimization
+Hardware,Solar Charging,Multiple vendors,2020-2021,3-month operation without sunlight,Reduced maintenance
+Hardware,Modular Design,Spireon FL Flex,2017-2021,Fast install embedded solar integrated sensors,Industry first modular
+Hardware,Stealth Installation,SkyBitz,Not specified,Hidden placement options,Security enhancement
+Standards,AEMP 2.0 ISO 15143-3,Industry,2019,Common data format easier integration,Mixed fleet single portal
+Standards,API Integration,Multiple vendors,Ongoing,TMS ERP system connectivity,Workflow automation

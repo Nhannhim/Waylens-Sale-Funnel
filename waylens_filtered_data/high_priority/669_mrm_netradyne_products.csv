@@ -1,0 +1,9 @@
+Product,Launch_Year,Description,Key_Features,Performance
+Driveri,2017,Vision-based driver recognition platform,"Intelligent camera device, analytics software, cloud connectivity",
+Driveri Device,2017,Four-camera system mounted behind mirror,"360° view, traffic signs/signals, following distance, vehicles, pedestrians",Continuous capture
+Edge Computing/AI,2017,On-device processing,Event reporting within minutes,Real-time analysis
+GreenZone,2017,Driver recognition system,"Measures total hours safe driving, proactive driving, alerts for critical situations/milestones/coaching needs",Driver-first philosophy
+DriverStar,Post-2017,Advanced AI feature,Alerts when driver self-corrects in difficult situations,
+EventAccess,2017,Video retrieval,Up to 100 hours GPS-tagged raw video on device,Event reconstruction
+RealTime Coach,2018,In-cab alerts,"Dynamic following distance, excessive speeding, stop sign compliance, distracted driving",Real-time notifications
+DriveriHub,2021-02,Gateway for auxiliary cameras,Supports up to 4 additional cameras,360° truck view

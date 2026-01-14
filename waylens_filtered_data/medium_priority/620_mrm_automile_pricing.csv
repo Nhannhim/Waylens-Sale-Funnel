@@ -1,0 +1,8 @@
+Company,Plan_Name,Hardware_Cost_USD,Monthly_Price_USD,Contract_Type,Max_Users,Max_Vehicles,Real_Time_Tracking,Additional_Features
+Automile,Starter Plan,99,5.90,Month-to-month or annual,3,3,No,Mileage and expense management logs only
+Automile,Pro Plan,Bundled,19.90,No contract,N/A,N/A,Yes,"Real-time tracking, alerts, route display, messaging, driver ID, geofences, environmental reporting. Discounts for 11+ vehicles"
+Automile,Enterprise Plan,Bundled,25.90,Annual,N/A,N/A,Yes,"Pro features + speed violation reporting, intelligent speed adaption, driver profile reporting, vehicle utilization reporting, route planning, 24/7 phone support"
+Automile,Field Service Management,N/A,10 (1-10 users),N/A,N/A,N/A,N/A,"Scheduling, dispatching, field estimates, GPS, job progress monitoring, customer communication"
+Automile,Field Service Management,N/A,7 (11-30 users),N/A,N/A,N/A,N/A,Same features as above
+Automile,Field Service Management,N/A,5 (31-50 users),N/A,N/A,N/A,N/A,Same features as above
+Automile,Field Service Management,N/A,4 (50+ users),N/A,N/A,N/A,N/A,Same features as above

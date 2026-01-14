@@ -1,0 +1,10 @@
+Product,Launch_Year,Description,Key_Features,Performance_Metrics
+Nauto Platform,2017,AI-powered driver safety platform,"Multi-sensor device, AI software, driver behavior analysis, traffic elements, vehicle movement, contextual data",
+Nauto Device,2017,In-vehicle camera system,"Two video cameras, collision prediction, real-time alerts",
+Web Application,2017,Fleet management portal,"Driver scoring, high-risk driver identification, coachable events, video viewing, performance tracking over time",
+Collision Avoidance,2020-05,Alerting system,Real-time collision prevention,
+Driver Coach,2020-05,Behavior management,Coaching and training,
+Claims Management,2020-05,Incident reporting,Post-incident documentation,
+Mobile App,2019,Driver interface,Driver access and engagement,
+Risk Detection,2019,AI-powered behavior alerts,"10 distracted/unsafe behaviors, real-time detection",4 of 5 drivers reduced risky behavior without manager intervention
+Distraction Reduction,2019,Behavior improvement metrics,"Frequency, duration, distance reduction",40%+ reduction in distracted driving

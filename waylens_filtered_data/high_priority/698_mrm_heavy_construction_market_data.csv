@@ -1,0 +1,14 @@
+Category,Metric,Value,Year,Notes
+Market Size,Heavy Construction Equipment US,1500000,2021,Bulldozers off-highway trucks etc
+Market Size,Total Including Small Equipment,3000000+,2021,Includes skid steers Bobcats older non-CAN
+Market Size,Average Equipment Life,8-10 years,2021,Excluding compressors and generators
+Market Position,GPS Monitoring Units 2018,625000,2018,US installed base
+Market Position,GPS Monitoring Units 2021,850000,2021,US installed base (current)
+Market Composition,Factory-Installed Units,Majority,2021,From OEMs like CAT Komatsu Hitachi
+Market Composition,OEM Telematics Strategy,Standard equipment,2021,3+ years free service common
+Crime Impact,Equipment Theft Annual Value Low,300,2021,USD millions (NER estimate)
+Crime Impact,Equipment Theft Annual Value High,1000,2021,USD millions (NER estimate)
+Standards,AEMP Telematics Standard,ISO 15143-3,2016,Published
+Standards,AEMP 2.0 Standard,ISO 15143-3,2019,Adopted - improved data flow
+Market Trend,Recovery Period,Last half of 2020,2020,COVID recovery began
+Market Trend,Demand Outlook,Increasing,2021,Customer confidence and projects

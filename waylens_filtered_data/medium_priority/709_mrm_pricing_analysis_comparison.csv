@@ -1,0 +1,27 @@
+Category,Company,Product,Hardware Cost USD,Monthly Service USD,Total 3-Year TCO USD,Total 5-Year TCO USD,Notes
+Dry Van Basic,SkyBitz,Cellular device,300,7,552,720,Basic tracking
+Dry Van Basic,CalAmp,Asset Outlook,350,8.5,656,860,Estimate
+Dry Van Basic,BlackBerry Radar,H2 device,245,10,605,845,3-year contract
+Dry Van Basic,Omnitracs,TT150,300,7.95,586.2,777,Peel and stick
+Dry Van Advanced,Spireon,FL Flex Capex,400,8.49,705.64,909.4,Optional sensors extra
+Dry Van Advanced,Spireon,FL Flex SaaS,0,13.99,503.64,839.4,Device cost bundled
+Tethered,Omnitracs,TTID,0,4,144,240,Lowest cost option
+Refrigerated,ORBCOMM,Reefer solution,550,18,1198,1630,Estimate advanced features
+Refrigerated,Coretex,CoreTemp platform,550,18,1198,1630,Estimate FSMA compliance
+Refrigerated,Thermo King,TracKing,Included,10-15,360-540,600-900,OEM standard equipment estimate
+Refrigerated,Carrier Transicold,eSolution Basic,Included,10,360,600,OEM Monitor tier
+Refrigerated,Carrier Transicold,eSolution Advanced,Included,25-30,900-1080,1500-1800,OEM Monitor+Enhanced tier
+Satellite,SkyBitz,Galaxy series,400,9,724,940,Global coverage
+Intermodal,ORBCOMM,GT 2300,550,18,1198,1630,Hub Group platform
+Smart Trailer,Great Dane,FleetPulse,Standard,Standard,Included,Included,New trailers Aug 2021
+Smart Trailer,Great Dane,FleetPulsePRO,Optional upgrade,Not specified,Not specified,Not specified,Full sensor suite
+Smart Trailer,Great Dane,FleetPulseGO,Not specified,Not specified,Not specified,Not specified,Pre-owned trailers low-cost
+Pre-Owned,BlackBerry Radar,H2 retrofit,245,10,605,845,Any asset type
+OEM Construction,Caterpillar,Product Link,Included,Optional fees,Varies,Varies,Some enhanced features extra
+OEM Construction,Komatsu,KOMTRAX,Included,0,0,0,Lifetime free
+OEM Construction,Volvo CE,CareTrack,Included,0 for 3 years,0,Varies,Then optional renewal
+OEM Construction,Volvo CE,ActiveCare Direct,Included,0 for 1 year,Varies,Varies,Then optional renewal
+OEM Construction,Hitachi,ZXLink,Included,0,0,0,No renewal needed Jul 2021
+OEM Construction,John Deere,JDLink,Included,0,0,0,No subscriptions Jul 2021
+OEM Construction,CNH,SiteWatch Basic,Included,Not specified,Not specified,Not specified,
+OEM Construction,CNH,SiteWatch Advanced,Included,Not specified,Not specified,Not specified,

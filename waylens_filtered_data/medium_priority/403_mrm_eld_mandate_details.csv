@@ -1,0 +1,24 @@
+Aspect,Details,Value,Date
+Regulation Agency,Federal Motor Carrier Safety Administration (FMCSA),U.S. Department of Transportation,
+Rule Publication Date,ELD mandate rules published,December 10 2015,2015-12-10
+Compliance Deadline,U.S. ELD mandate deadline,December 16 2019,2019-12-16
+Affected Vehicles - Weight,Trucks weighing 10001+ pounds,Interstate commerce,
+Affected Vehicles - Buses,Buses transporting 16+ people,Or 9 people for compensation,
+Affected Vehicles - Hazmat,Vehicles hauling hazardous materials,Requiring placards,
+FMCSA Estimate - Vehicles,Vehicles affected by ELD regulations,3100000,
+FMCSA Estimate - Drivers,Drivers affected by ELD regulations,3400000,
+Applicability,Most motor carriers and drivers with RODS requirements,Drive >100 air miles from base,
+International Scope,Canada and Mexico-domiciled drivers,Cross-border operations,
+Key Recording Requirements,"Date, time, location, engine hours, vehicle miles, driver ID",Automatic recording,
+Engine Sync Requirement,Must sync with vehicle engine,Record on/off time,
+Data Transfer Methods,"Wireless web services, email, USB 2.0, Bluetooth",Roadside inspection capability,
+Certification Requirement,Provider-certified and FMCSA registered,Mandatory for compliance,
+Wireless Connectivity,Not required to have broadband wireless,Optional feature,
+Market Impact,U.S. commercial trucks equipped with telematics,3000000 units,Post-mandate
+ELD Sales Trend,Sales declined after deadline,Post December 2019,
+Canadian ELD Mandate,Official effective date,June 12 2021,2021-06-12
+Canadian Enforcement,Progressive enforcement period,Education and awareness phase,
+Canadian Compliance,No penalties until mid-2022,Delayed strict enforcement,2022
+Canadian Certification,Manufacturer must submit for testing,Official certification body,
+AOBRD,Automatic On-Board Recording Device,Predecessor to ELD,Legacy
+Exemptions,Various based on vehicle age and use,Multiple categories,

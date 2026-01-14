@@ -1,0 +1,21 @@
+Product,Launch_Date,Key_Features,Technology,Notes
+GO8,Before March 2019,Previous generation device,4G LTE,Superseded by GO9
+GO9,March 2019,"Gyroscope, enhanced accelerometer, GNSS module (GPS+GLONASS), improved OTA updates",4G LTE,Supports new vehicle makes/models including EVs
+GO9+,January 2021,"GO9 functionality + on-board Wi-Fi hotspot, Multi-device support",4G LTE,Wi-Fi can stay active hours after engine off
+GO Device Features,,"In-vehicle alerts, engine diagnostics, trip memory, accident data recording, accessory expansion port",,
+GO Device Add-ons,,GO Talk (spoken word driver coaching),,
+GO Device Integration,,NFC driver identification,,
+GO Device Integration,,CAN-Bus/Serial/USB integration,,
+GO Device Backup,,Iridium satellite modem option,,For backup communication outside cellular coverage
+MyGeotab,,"Web-based platform, 4 feature packages (Base, Regulatory, Pro, ProPlus)",,Available to all Geotab customers
+MyGeotab - Base,,"GPS location, VIN, Driver ID, basic IOX support",Available Worldwide,
+MyGeotab - Regulatory,,"Base features + HOS, IFTA, temperature monitoring",U.S. and Canada,Includes FSMA compliance
+MyGeotab - Pro,,"Regulatory features + engine data, accelerometer data, fuel management, advanced driver coaching",Available Worldwide,
+MyGeotab - ProPlus,,"Greatest functionality including Active Tracking, lifetime warranty, advanced IOX, premium services, EV data",Available Worldwide,
+Geotab Drive,,"ELD compliance, DVIR, Driver ID, Messaging, additional functionality",Mobile App,Tablet or smartphone
+Geotab Marketplace,July 2015,140+ applications and add-ons,,Ecosystem of technology partners
+IOX Expansion Technology,,Add-ons for integration with third-party providers,,Each IOX performs simple task and relays info to/from GO device
+Acquisition,FleetCarma,June 2018,Electric Vehicle telematics specialization,,Leadership position in EV telematics
+Acquisition,BSM Technologies,June 2019,"165K+ vehicles, CAN $59.7M FY2018 revenue",Canada & U.S.,Government service rail construction markets
+Government Contract,GSA Fleet,March 2019,"217K non-tactical federal vehicles, 5-year contract",,Largest single-source telematics contract to date
+Geographic Expansion,European Offices,,"UK, France, Germany, Spain, Italy",,Strong European business growth

@@ -1,0 +1,15 @@
+Customer_Name,Customer_Type,Industry
+FedEx,Logistics Provider,Parcel and Freight
+UPS,Logistics Provider,Parcel and Freight
+DHL,Logistics Provider,International Shipping
+XPO Logistics,Logistics Provider,Transportation and Logistics
+Worldwide Express,Freight Broker,Freight Brokerage
+NTG,Freight Broker,Freight Brokerage
+Echo,Freight Broker,Freight Brokerage
+Total Quality Logistics,Freight Broker,Freight Brokerage
+Toyota,Shipper,Automotive Manufacturing
+Gerdau,Shipper,Steel Manufacturing
+Goodman,Shipper,Manufacturing
+Moen,Shipper,Manufacturing
+Albertsons,Shipper,Retail/Grocery
+Hormel Foods,Shipper,Food Processing
