@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "waylens-sales-funnel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start",
-    "generate-dataset": "tsx scripts/generate-dataset.ts"
+    "generate-index": "npx tsx scripts/generate-csv-index.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -43,7 +43,6 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
-    "csv-parse": "^6.1.0",
     "date-fns": "4.1.0",
     "embla-carousel-react": "8.5.1",
     "input-otp": "1.4.1",

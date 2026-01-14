@@ -41,7 +41,7 @@ const navSections: NavSection[] = [
       { id: "summary", label: "Companies", icon: <FileText className="w-4 h-4" /> },
       { id: "clients", label: "Clients", icon: <Building2 className="w-4 h-4" /> },
       { id: "news", label: "News", icon: <Newspaper className="w-4 h-4" /> },
-      { id: "outreach", label: "Wayland's Outreach", icon: <Phone className="w-4 h-4" /> },
+      { id: "outreach", label: "Outreach", icon: <Phone className="w-4 h-4" /> },
     ],
     subItems: {
       "summary": [
@@ -81,13 +81,13 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* Logo */}
-      <div className="p-4 border-b border-[#3d3d3d] flex items-center justify-center">
+      <div className="p-4 border-b border-[#3d3d3d] flex items-center justify-start">
         <div className="flex items-center gap-3 overflow-hidden">
-          <div className="w-8 h-8 bg-white rounded flex items-center justify-center flex-shrink-0 p-1">
-            <img 
-              src="/waylens-logo.svg" 
-              alt="Waylens Logo" 
-              className="w-full h-full object-contain"
+          <div className="w-8 h-8 bg-white rounded flex items-center justify-center flex-shrink-0">
+            <img
+              src="/waylens-logo.png"
+              alt="Waylens Logo"
+              className="w-full h-full object-cover"
             />
           </div>
           {isHovered && (
@@ -180,26 +180,13 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
         ))}
       </div>
 
-      {/* Bottom feedback section */}
+      {/* Bottom section */}
       <div className={`border-t border-[#3d3d3d] transition-all ${isHovered ? 'p-3' : 'p-2'}`}>
-        {isHovered ? (
-          <>
-            <div className="bg-[#3d3d3d]/50 rounded p-3 mb-2">
-              <p className="text-xs text-white mb-2">Company Profile BETA</p>
-              <p className="text-[10px] text-gray-400 mb-2">How helpful is this experience?</p>
-              <button className="text-xs text-blue-400 hover:underline">Leave Feedback</button>
-            </div>
-            <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-xs font-semibold text-blue-400">
-              CB
-            </div>
-          </>
-        ) : (
-          <div className="flex justify-center">
-            <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-xs font-semibold text-blue-400">
-              CB
-            </div>
+        <div className={isHovered ? "" : "flex justify-center"}>
+          <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center text-xs font-semibold text-blue-400">
+            CB
           </div>
-        )}
+        </div>
       </div>
     </aside>
   )

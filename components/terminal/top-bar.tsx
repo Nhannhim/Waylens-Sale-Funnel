@@ -2,9 +2,8 @@
 
 import type React from "react"
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Search, ChevronDown, Bell } from "lucide-react"
+import { Search, Bell } from "lucide-react"
 
 interface TopBarProps {
   selectedTicker: string
@@ -32,15 +31,6 @@ export function TopBar({ selectedTicker, onTickerChange }: TopBarProps) {
 
   return (
     <header className="h-14 bg-[#2d2d2d] border-b border-[#3d3d3d] flex items-center px-6 gap-4">
-      {/* Logo */}
-      <div className="w-8 h-8 bg-white rounded flex items-center justify-center flex-shrink-0 overflow-hidden p-1">
-        <img 
-          src="/waylens-logo.svg" 
-          alt="Waylens Logo" 
-          className="w-full h-full object-contain"
-        />
-      </div>
-
       {/* Search Bar */}
       <div className="relative flex-1 max-w-2xl">
         <Input
@@ -77,14 +67,6 @@ export function TopBar({ selectedTicker, onTickerChange }: TopBarProps) {
         )}
       </div>
 
-      {/* Ticker Dropdown */}
-      <div className="flex items-center gap-2">
-        <button className="flex items-center gap-1 px-3 py-1.5 bg-white/10 hover:bg-white/20 rounded text-sm text-white">
-          {selectedTicker}
-          <ChevronDown className="w-4 h-4" />
-        </button>
-      </div>
-
       {/* Right side icons */}
       <div className="flex items-center gap-2 ml-auto">
         <button className="w-8 h-8 rounded flex items-center justify-center text-white hover:bg-white/10 transition-colors">
@@ -96,9 +78,6 @@ export function TopBar({ selectedTicker, onTickerChange }: TopBarProps) {
         <button className="w-8 h-8 rounded flex items-center justify-center text-white hover:bg-white/10 transition-colors">
           <Bell className="w-4 h-4" />
         </button>
-        <Button className="h-8 px-4 bg-white text-[#2d2d2d] hover:bg-white/90">
-          Live Help
-        </Button>
       </div>
     </header>
   )
