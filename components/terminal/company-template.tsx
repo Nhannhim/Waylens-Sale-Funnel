@@ -141,8 +141,13 @@ export function CompanyTemplate({ ticker }: CompanyTemplateProps) {
               </div>
               <div className="bg-gray-50 p-3 rounded">
                 <p className="text-xs text-gray-700 font-medium mb-1">
-                  <span className="font-bold">Description:</span> {company.name} is a leading provider in the fleet management and telematics industry, 
-                  offering comprehensive solutions for fleet operations, vehicle tracking, and connected operations.
+                  <span className="font-bold">Description:</span> {company.name} {company.business.industry ? 
+                    `is a ${company.business.industry.toLowerCase()} company` : 
+                    'is a leading provider in the fleet management and telematics industry'
+                  }{company.business.products && company.business.products.length > 0 ? 
+                    `, offering ${company.business.products.slice(0, 3).join(', ')}.` : 
+                    ', offering comprehensive solutions for fleet operations, vehicle tracking, and connected operations.'
+                  }
                 </p>
                 <div className="flex items-center gap-4 mt-2 text-xs">
                   {company.geography.headquarters && (

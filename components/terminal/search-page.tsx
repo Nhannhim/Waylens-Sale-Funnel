@@ -1,11 +1,13 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { Search, Loader2, Building2, TrendingUp, Users, Truck, Video, Globe, Cpu, MapPin } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { CSVResultCard } from "./csv-result-card"
 import { SearchSummaryCard } from "./search-summary-card"
+import { useCompanyData } from "@/lib/use-company-data"
+import { CompanyData } from "@/lib/data-processor"
 
 interface SearchPageProps {
   ticker?: string
@@ -102,6 +104,7 @@ const colorClasses: Record<string, { bg: string; text: string; border: string }>
 
 export function SearchPage({ ticker }: SearchPageProps) {
   const router = useRouter()
+  const { dataset, loading: datasetLoading } = useCompanyData()
   const [searchTerm, setSearchTerm] = useState("")
   const [results, setResults] = useState<CSVSearchResult[] | null>(null)
   const [summary, setSummary] = useState<SearchSummary | null>(null)
@@ -109,6 +112,14 @@ export function SearchPage({ ticker }: SearchPageProps) {
   const [error, setError] = useState<string | null>(null)
   const [totalMatches, setTotalMatches] = useState(0)
   const [hasSearched, setHasSearched] = useState(false)
+  const [allCompanies, setAllCompanies] = useState<CompanyData[]>([])
+  
+  // Load all companies from dataset
+  useEffect(() => {
+    if (dataset) {
+      setAllCompanies(dataset.companies)
+    }
+  }, [dataset])
 
   const handleSearch = async (query: string) => {
     if (!query.trim()) return
@@ -148,10 +159,9 @@ export function SearchPage({ ticker }: SearchPageProps) {
     }
   }
 
-  const handleCompanyClick = (companyName: string) => {
-    // Navigate to company page with company name as slug
-    const slug = companyName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
-    router.push(`/companies/${slug}`)
+  const handleCompanyClick = (companyId: string, companyName: string) => {
+    // Navigate to company page with company ID
+    router.push(`/companies/${companyId}`)
   }
 
   const handleClear = () => {
@@ -162,14 +172,35 @@ export function SearchPage({ ticker }: SearchPageProps) {
     setError(null)
   }
 
-  // Filter market players based on search
-  const filteredPlayers = searchTerm && !hasSearched
-    ? marketPlayers.filter(p =>
-        p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        p.category.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        p.description.toLowerCase().includes(searchTerm.toLowerCase())
+  // Filter companies based on search
+  const filteredCompanies = searchTerm && !hasSearched
+    ? allCompanies.filter(c =>
+        c.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        c.business.industry?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        c.category.some(cat => cat.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        c.keywords.some(kw => kw.toLowerCase().includes(searchTerm.toLowerCase()))
       )
-    : marketPlayers
+    : allCompanies
+  
+  // Helper function to get category display for company
+  const getCategoryDisplay = (company: CompanyData): string => {
+    if (company.metrics.fleetSize) {
+      const size = company.metrics.fleetSize
+      if (size >= 3_000_000) return '3M+'
+      if (size >= 1_000_000) return '1M-3M'
+      if (size >= 500_000) return '500K-1M'
+      if (size >= 100_000) return '100K-500K'
+      if (size >= 50_000) return '50K-100K'
+      return '<50K'
+    }
+    return 'N/A'
+  }
+  
+  // Helper function to get color for company
+  const getCompanyColor = (index: number): string => {
+    const colors = ['blue', 'green', 'purple', 'orange', 'red', 'teal', 'indigo', 'slate', 'cyan']
+    return colors[index % colors.length]
+  }
 
   return (
     <div className="flex flex-col min-h-[calc(100vh-120px)] px-4 py-6">
@@ -233,53 +264,74 @@ export function SearchPage({ ticker }: SearchPageProps) {
           </div>
         )}
 
-        {/* Market Grid - Show when no search has been performed */}
+        {/* Companies Grid - Show when no search has been performed */}
         {!hasSearched && !loading && (
           <div className="mt-4">
             <h2 className="text-lg font-semibold text-gray-700 mb-4 text-center">
-              Market
+              Market ({filteredCompanies.length.toLocaleString()} Companies)
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {filteredPlayers.map((company) => {
-                const colors = colorClasses[company.color] || colorClasses.blue
-                return (
-                  <button
-                    key={company.name}
-                    onClick={() => handleCompanyClick(company.name)}
-                    className={`p-4 bg-white border ${colors.border} rounded-lg hover:shadow-md transition-all text-left group`}
-                  >
-                    <div className="flex items-start gap-3">
-                      <div className={`w-10 h-10 ${colors.bg} rounded-lg flex items-center justify-center flex-shrink-0`}>
-                        <span className={`font-bold text-sm ${colors.text}`}>
-                          {company.name.charAt(0)}
-                        </span>
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center justify-between gap-2">
-                          <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors truncate">
-                            {company.name}
-                          </h3>
-                        </div>
-                        <span className={`text-xs font-medium ${colors.text} ${colors.bg} px-2 py-0.5 rounded inline-block mt-1`}>
-                          {company.category}
-                        </span>
-                        <div className="mt-2 flex items-center gap-2 text-xs text-gray-500">
-                          <span className="flex items-center gap-1">
-                            <Truck className="w-3 h-3" />
-                            {company.units}
-                          </span>
-                          <span className="flex items-center gap-1">
-                            <MapPin className="w-3 h-3" />
-                            {company.region}
+            {datasetLoading ? (
+              <div className="flex flex-col items-center justify-center py-12">
+                <Loader2 className="w-8 h-8 animate-spin text-blue-600 mb-4" />
+                <p className="text-gray-600">Loading companies...</p>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                {filteredCompanies.map((company, index) => {
+                  const category = getCategoryDisplay(company)
+                  const colorKey = getCompanyColor(index)
+                  const colors = colorClasses[colorKey] || colorClasses.blue
+                  
+                  return (
+                    <button
+                      key={company.id}
+                      onClick={() => handleCompanyClick(company.id, company.name)}
+                      className={`p-4 bg-white border ${colors.border} rounded-lg hover:shadow-md transition-all text-left group`}
+                    >
+                      <div className="flex items-start gap-3">
+                        <div className={`w-10 h-10 ${colors.bg} rounded-lg flex items-center justify-center flex-shrink-0`}>
+                          <span className={`font-bold text-sm ${colors.text}`}>
+                            {company.name.charAt(0)}
                           </span>
                         </div>
-                        <p className="text-xs text-gray-500 mt-1 line-clamp-2">{company.description}</p>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center justify-between gap-2">
+                            <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors truncate">
+                              {company.name}
+                            </h3>
+                          </div>
+                          <span className={`text-xs font-medium ${colors.text} ${colors.bg} px-2 py-0.5 rounded inline-block mt-1`}>
+                            {category}
+                          </span>
+                          <div className="mt-2 flex items-center gap-2 text-xs text-gray-500">
+                            {company.metrics.fleetSize && (
+                              <span className="flex items-center gap-1">
+                                <Truck className="w-3 h-3" />
+                                {(company.metrics.fleetSize / 1000).toFixed(0)}K
+                              </span>
+                            )}
+                            {company.geography.headquarters && (
+                              <span className="flex items-center gap-1 truncate">
+                                <MapPin className="w-3 h-3" />
+                                {company.geography.headquarters.split(',')[0]}
+                              </span>
+                            )}
+                          </div>
+                          {company.business.industry && (
+                            <p className="text-xs text-gray-500 mt-1 line-clamp-2">
+                              {company.business.industry}
+                              {company.business.products && company.business.products.length > 0 && 
+                                ` • ${company.business.products.slice(0, 2).join(', ')}`
+                              }
+                            </p>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  </button>
-                )
-              })}
-            </div>
+                    </button>
+                  )
+                })}
+              </div>
+            )}
           </div>
         )}
 
