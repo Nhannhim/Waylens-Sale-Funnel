@@ -38,18 +38,11 @@ const navSections: NavSection[] = [
     items: [
       { id: "search", label: "Search", icon: <Search className="w-4 h-4" /> },
       { id: "overview", label: "Industry Overview", icon: <TrendingUp className="w-4 h-4" /> },
-      { id: "summary", label: "Companies", icon: <FileText className="w-4 h-4" /> },
       { id: "clients", label: "Clients", icon: <Building2 className="w-4 h-4" /> },
       { id: "news", label: "News", icon: <Newspaper className="w-4 h-4" /> },
       { id: "outreach", label: "Outreach", icon: <Phone className="w-4 h-4" /> },
     ],
     subItems: {
-      "summary": [
-        { id: "summary-tsp", label: "TSP", icon: <Building2 className="w-3 h-3" /> },
-        { id: "summary-reseller", label: "Reseller", icon: <Building2 className="w-3 h-3" /> },
-        { id: "summary-insurtech", label: "Insurtech", icon: <Building2 className="w-3 h-3" /> },
-        { id: "summary-database", label: "Database", icon: <Search className="w-3 h-3" /> },
-      ],
       "outreach": [
         { id: "outreach-newsletter", label: "Newsletter", icon: <Newspaper className="w-3 h-3" /> },
       ],
