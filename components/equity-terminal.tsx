@@ -8,6 +8,7 @@ import { NewsPage } from "./terminal/news-page"
 import { OutreachPage } from "./terminal/outreach-page"
 import { NewsletterPage } from "./terminal/newsletter-page"
 import { SearchPage } from "./terminal/search-page"
+import { CompanyTemplate } from "./terminal/company-template"
 
 export function EquityTerminal() {
   const [selectedTicker, setSelectedTicker] = useState("IOT")
@@ -38,6 +39,8 @@ export function EquityTerminal() {
         return <OutreachPage ticker={selectedTicker} />
       case "outreach-newsletter":
         return <NewsletterPage ticker={selectedTicker} />
+      case "outreach-company":
+        return <CompanyTemplate ticker={selectedTicker} />
       default:
         return <SearchPage ticker={selectedTicker} />
     }
