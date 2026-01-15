@@ -33,46 +33,16 @@ export function CompanyCharts({ company }: CompanyChartsProps) {
   ];
 
   return (
-    <div className="space-y-6">
-      {/* Key Metrics Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <MetricCard
-          icon={<DollarSign className="h-5 w-5" />}
-          title="Revenue"
-          value={company.metrics.revenue ? `$${(company.metrics.revenue / 1_000_000).toFixed(1)}M` : 'N/A'}
-          color="blue"
-        />
-        <MetricCard
-          icon={<Truck className="h-5 w-5" />}
-          title="Fleet Size"
-          value={fleetData.total ? `${(fleetData.total / 1000).toFixed(0)}K units` : 'N/A'}
-          color="green"
-        />
-        <MetricCard
-          icon={<Users className="h-5 w-5" />}
-          title="Employees"
-          value={company.metrics.employees ? company.metrics.employees.toLocaleString() : 'N/A'}
-          color="purple"
-        />
-        <MetricCard
-          icon={<Globe className="h-5 w-5" />}
-          title="Markets"
-          value={company.geography.markets.length ? `${company.geography.markets.length} regions` : 'N/A'}
-          color="orange"
-        />
-      </div>
-
-      {/* Charts Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Financial Overview */}
-        {financialData.length > 0 && (
-          <Card className="bg-white">
-            <CardHeader>
-              <CardTitle className="text-base font-semibold flex items-center gap-2">
-                <DollarSign className="h-4 w-4 text-blue-600" />
-                Financial Metrics
-              </CardTitle>
-            </CardHeader>
+    <>
+      {/* Financial Overview */}
+      {financialData.length > 0 && (
+        <Card className="bg-white border border-gray-200">
+          <CardHeader className="border-b border-gray-200">
+            <CardTitle className="text-base font-bold text-gray-900 flex items-center gap-2">
+              <DollarSign className="h-4 w-4 text-blue-600" />
+              Financial Overview
+            </CardTitle>
+          </CardHeader>
             <CardContent>
               <ResponsiveContainer width="100%" height={250}>
                 <BarChart data={financialData}>
@@ -103,15 +73,15 @@ export function CompanyCharts({ company }: CompanyChartsProps) {
           </Card>
         )}
 
-        {/* Vehicle Type Distribution */}
-        {fleetData.total > 0 && (
-          <Card className="bg-white">
-            <CardHeader>
-              <CardTitle className="text-base font-semibold flex items-center gap-2">
-                <Truck className="h-4 w-4 text-green-600" />
-                Vehicle Type Distribution
-              </CardTitle>
-            </CardHeader>
+      {/* Vehicle Type Distribution */}
+      {fleetData.total > 0 && (
+        <Card className="bg-white border border-gray-200">
+          <CardHeader className="border-b border-gray-200">
+            <CardTitle className="text-base font-bold text-gray-900 flex items-center gap-2">
+              <Truck className="h-4 w-4 text-green-600" />
+              Vehicle Type Distribution
+            </CardTitle>
+          </CardHeader>
             <CardContent>
               <ResponsiveContainer width="100%" height={250}>
                 <PieChart>
@@ -143,16 +113,15 @@ export function CompanyCharts({ company }: CompanyChartsProps) {
                   />
                 </PieChart>
               </ResponsiveContainer>
-            </CardContent>
-          </Card>
-        )}
-      </div>
+          </CardContent>
+        </Card>
+      )}
 
       {/* Global Presence Map */}
       {company.geography.markets.length > 0 && (
-        <Card className="bg-white">
-          <CardHeader>
-            <CardTitle className="text-base font-semibold flex items-center gap-2">
+        <Card className="bg-white border border-gray-200">
+          <CardHeader className="border-b border-gray-200">
+            <CardTitle className="text-base font-bold text-gray-900 flex items-center gap-2">
               <Globe className="h-4 w-4 text-orange-600" />
               Global Presence
             </CardTitle>
@@ -178,42 +147,10 @@ export function CompanyCharts({ company }: CompanyChartsProps) {
                 </div>
               )}
             </div>
-          </CardContent>
-        </Card>
-      )}
-    </div>
-  );
-}
-
-interface MetricCardProps {
-  icon: React.ReactNode;
-  title: string;
-  value: string;
-  color: 'blue' | 'green' | 'purple' | 'orange';
-}
-
-function MetricCard({ icon, title, value, color }: MetricCardProps) {
-  const colorClasses = {
-    blue: 'bg-blue-50 text-blue-600 border-blue-200',
-    green: 'bg-green-50 text-green-600 border-green-200',
-    purple: 'bg-purple-50 text-purple-600 border-purple-200',
-    orange: 'bg-orange-50 text-orange-600 border-orange-200',
-  };
-
-  return (
-    <Card className="bg-white">
-      <CardContent className="p-4">
-        <div className="flex items-start justify-between">
-          <div className="flex-1">
-            <p className="text-xs font-medium text-gray-600 mb-1">{title}</p>
-            <p className="text-xl font-bold text-gray-900">{value}</p>
-          </div>
-          <div className={`p-2 rounded-lg border ${colorClasses[color]}`}>
-            {icon}
-          </div>
-        </div>
-      </CardContent>
-    </Card>
+        </CardContent>
+      </Card>
+    )}
+    </>
   );
 }
 
@@ -224,9 +161,9 @@ export function ClientsSection({ company }: { company: CompanyData }) {
   if (customers.length === 0) return null;
 
   return (
-    <Card className="bg-white">
-      <CardHeader>
-        <CardTitle className="text-base font-semibold flex items-center gap-2">
+    <Card className="bg-white border border-gray-200">
+      <CardHeader className="border-b border-gray-200">
+        <CardTitle className="text-base font-bold text-gray-900 flex items-center gap-2">
           <Users className="h-4 w-4 text-purple-600" />
           Key Clients ({customers.length}+)
         </CardTitle>

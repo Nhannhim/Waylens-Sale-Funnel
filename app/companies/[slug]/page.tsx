@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { CompanyDetailPage } from '@/components/company-detail-page';
+import { CompanyDetailRedesign } from '@/components/company-detail-redesign';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: `${companyName} - Company Profile`,
-    description: `View detailed CSV data for ${companyName} including company metrics, products, partnerships, and customers.`,
+    description: `View detailed information for ${companyName} including company metrics, products, partnerships, and customers.`,
   };
 }
 
 export default async function Page({ params }: PageProps) {
   const { slug } = await params;
 
-  return <CompanyDetailPage companyId={slug} />;
+  return <CompanyDetailRedesign companyId={slug} />;
 }
