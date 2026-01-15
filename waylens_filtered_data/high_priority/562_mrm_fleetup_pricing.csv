@@ -1,5 +1,0 @@
-Company,Plan_Name,Monthly_Price_USD_Low,Monthly_Price_USD_High,Payment_Model,Features
-FleetUp,Compliance,25,25+,Hardware upfront or included in monthly fee,"ELD, IFTA state tax reporting, DVIR"
-FleetUp,Basic,19,19,Hardware upfront or included in monthly fee,"10-second GPS updates, trip history, driving alerts, vehicle alerts, mobile app"
-FleetUp,Advanced,19+,35,Hardware upfront or included in monthly fee,"Basic + reports, unlimited geofencing, enterprise mode, dashboards, fuel consumption, HOS-optimized dispatch"
-FleetUp,Professional,19+,35+,Hardware upfront or included in monthly fee,"Advanced + e-Maintenance, Driver Chat"
