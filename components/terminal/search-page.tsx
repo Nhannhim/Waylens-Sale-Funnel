@@ -114,10 +114,71 @@ export function SearchPage({ ticker }: SearchPageProps) {
   const [hasSearched, setHasSearched] = useState(false)
   const [allCompanies, setAllCompanies] = useState<CompanyData[]>([])
   
-  // Load all companies from dataset
+  // Load all companies from dataset and filter out non-companies
   useEffect(() => {
     if (dataset) {
-      setAllCompanies(dataset.companies)
+      const seenNames = new Set<string>()
+      
+      const realCompanies = dataset.companies.filter(c => {
+        const name = c.name
+        const nameLower = name.toLowerCase()
+        
+        // Skip if we've seen this name (handle duplicates)
+        if (seenNames.has(nameLower)) return false
+        
+        // Filter out anything containing these keywords (metrics, labels, data fields)
+        const invalidKeywords = [
+          'revenue', 'subscribers', 'employees', 'headquarters', 'founded', 
+          'year', 'percentage', 'share', 'rate', 'date', 'reference',
+          'business revenue', 'acquisition date', 'run rate', 'annualized',
+          'non-vehicle', 'commercial vehicle', 'other assets', 'brand launch',
+          'brand relaunch', 'adas launch', 'notable', 'partnerships', 'solution',
+          'technology', 'director', 'enterprise', 'carrier', ' oem'
+        ]
+        if (invalidKeywords.some(kw => nameLower.includes(kw))) {
+          return false
+        }
+        
+        // Filter out patterns that indicate data fields or divisions
+        const invalidPatterns = [
+          /^(fleet\s+management|fleet\s+business|oem\s+business)/i,
+          /\s+(revenue|subscribers|percentage|share|rate|date|solution|director|enterprise|carrier)(\s+|$)/i,
+          /(annual|monthly|bundled|contract|notable|partnerships)/i,
+          /^(incorporated|employees|founded|headquarters)$/i,
+          /\s+-\s+/i, // Excludes "Brand - Something"
+        ]
+        if (invalidPatterns.some(pattern => pattern.test(name))) {
+          return false
+        }
+        
+        // Only keep entries that have substantial fleet management data
+        const hasFleetData = c.metrics.fleetSize && c.metrics.fleetSize > 1000
+        
+        // Or are well-known major companies (exact names only)
+        const majorCompanies = [
+          'geotab', 'samsara', 'motive', 'lytx', 'verizon connect', 'trimble transportation',
+          'calamp', 'powerfleet', 'zonar systems', 'gps insight', 'fleet complete', 'gurtam',
+          'bridgestone mobility solutions', 'michelin connected fleet', 'teletrac navman', 'ituran',
+          'linxup', 'gps trackit', 'widetech', 'encontrack', 'pósitron', 'redgps',
+          'autotrac', '3dtracking', 'onixsat', 'scania', 'mix telematics', 'eroad',
+          'isaac instruments', 'sascar', 'intellishift', 'j.j. keller', 'platform science',
+          'forward thinking systems', 'omnilink', 'navixy', 'skybitz', 'dct',
+          'solera fleet solutions', 'trimble', 'verizon', 'at&t', 'comcast', 'fedex corporation',
+          'united parcel service', 'pepsico', 'autozone', 'johnson controls', 'cox enterprises',
+          'quanta services', 'qualcomm', 'fleeteye', 'fleethunt', 'navixy / squaregps'
+        ]
+        
+        const isMajorCompany = majorCompanies.includes(nameLower)
+        
+        if (isMajorCompany || hasFleetData) {
+          seenNames.add(nameLower)
+          return true
+        }
+        
+        return false
+      })
+      
+      setAllCompanies(realCompanies)
     }
   }, [dataset])
 
