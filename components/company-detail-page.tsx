@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useCompanyData } from '@/lib/use-company-data';
 import { CompanyData } from '@/lib/data-processor';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -16,8 +16,13 @@ import {
   ChevronDown,
   ChevronRight,
   MapPin,
+  Calendar,
+  Building2,
+  ExternalLink,
+  TrendingUp,
 } from 'lucide-react';
 import { Sidebar } from '@/components/terminal/sidebar';
+import { CompanyCharts, ClientsSection } from '@/components/company-charts';
 
 interface CompanyDetailPageProps {
   companyId: string;
@@ -151,285 +156,333 @@ export function CompanyDetailPage({ companyId }: CompanyDetailPageProps) {
   }
 
   return (
-    <div className="flex h-screen bg-gray-100 overflow-hidden">
+    <div className="flex h-screen bg-gray-50 overflow-hidden">
       <Sidebar activeSection={activeSection} onSectionChange={handleSectionChange} />
 
-      <main className="flex-1 overflow-y-auto p-4 bg-gray-50">
-        {/* Compact Header */}
-        <div className="flex items-center justify-between mb-3">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => handleSectionChange('search')}
-            className="bg-white text-gray-700 hover:bg-gray-100 border-gray-300 h-8 text-xs"
-          >
-            <ArrowLeft className="mr-1 h-3 w-3" />
-            Back to Search
-          </Button>
-          <div className="relative w-64">
-            <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 w-3 h-3 text-gray-400" />
-            <Input
-              type="text"
-              placeholder="Filter data..."
-              value={filterText}
-              onChange={(e) => setFilterText(e.target.value)}
-              className="pl-7 h-8 text-xs bg-white border-gray-300 text-gray-900"
-            />
+      <main className="flex-1 overflow-y-auto">
+        {/* Header */}
+        <div className="bg-white border-b border-gray-200 px-6 py-3">
+          <div className="flex items-center justify-between">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => handleSectionChange('search')}
+              className="text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+            >
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to Market
+            </Button>
+            <div className="relative w-80">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
+              <Input
+                type="text"
+                placeholder="Search within company data..."
+                value={filterText}
+                onChange={(e) => setFilterText(e.target.value)}
+                className="pl-10 h-9 text-sm bg-gray-50 border-gray-300 text-gray-900"
+              />
+            </div>
           </div>
         </div>
 
-        {/* Company Summary Card */}
-        <Card className="bg-white mb-6">
-          <CardContent className="p-6">
-            <div className="flex items-start gap-4">
-              <div className="w-16 h-16 bg-blue-600 rounded flex items-center justify-center text-white font-bold text-2xl flex-shrink-0">
-                {company.name.charAt(0)}
-              </div>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-2">
-                  <h1 className="text-2xl font-bold text-gray-900">{company.name}</h1>
-                  {company.business.stockSymbol && (
-                    <Badge className="bg-blue-600 text-white text-sm px-3 py-1">
-                      {company.business.stockSymbol}
-                    </Badge>
-                  )}
-                  <a href="#" className="text-blue-600 text-sm hover:underline ml-auto">See More →</a>
-                </div>
-                <div className="grid grid-cols-2 gap-4 text-sm mb-3">
-                  <div>
-                    <span className="text-gray-700 font-medium">Sector: </span>
-                    <span className="text-gray-900 font-semibold">{company.business.industry || 'Software'}</span>
-                  </div>
-                  <div>
-                    <span className="text-gray-700 font-medium">Sub Sector: </span>
-                    <span className="text-gray-900 font-semibold">
-                      {company.category[0] || 'Application Software'}
-                    </span>
+        <div className="px-6 py-6 space-y-6 max-w-7xl mx-auto">
+
+          {/* Company Summary Section */}
+          <Card className="bg-white border border-gray-200">
+            <CardContent className="p-6">
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0">
+                  <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center text-white font-bold text-3xl shadow-lg">
+                    {company.name.charAt(0)}
                   </div>
                 </div>
-                <div className="bg-gray-50 p-3 rounded">
-                  <p className="text-xs text-gray-700 font-medium mb-1">
-                    <span className="font-bold">Description:</span> {company.name} {company.business.industry ? 
-                      `is a ${company.business.industry.toLowerCase()} company` : 
-                      'is a leading provider in the fleet management and telematics industry'
-                    }{company.business.products && company.business.products.length > 0 ? 
-                      `, offering ${company.business.products.slice(0, 3).join(', ')}.` : 
-                      ', offering comprehensive solutions for fleet operations, vehicle tracking, and connected operations.'
-                    }
-                  </p>
-                  <div className="flex items-center gap-4 mt-2 text-xs">
-                    {company.geography.headquarters && (
-                      <span className="text-gray-700 flex items-center gap-1">
-                        <MapPin className="h-3 w-3" />
-                        <span className="font-semibold">HQ:</span> {company.geography.headquarters}
-                      </span>
+                <div className="flex-1">
+                  <div className="flex items-center gap-3 mb-3">
+                    {company.business.stockSymbol && (
+                      <Badge className="bg-blue-600 text-white px-3 py-1">
+                        {company.business.stockSymbol}
+                      </Badge>
                     )}
+                    <h1 className="text-3xl font-bold text-gray-900">{company.name}</h1>
                     {company.business.founded && (
-                      <span className="text-gray-700">
-                        <span className="font-semibold">Founded:</span> {company.business.founded}
-                      </span>
+                      <a 
+                        href={`https://www.${company.name.toLowerCase().replace(/\s+/g, '')}.com`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 ml-auto"
+                      >
+                        <ExternalLink className="h-5 w-5" />
+                      </a>
                     )}
-                    {company.metrics.revenue && (
-                      <span className="text-green-700 font-semibold">
-                        Revenue: ${(company.metrics.revenue / 1_000_000).toFixed(1)}M
-                      </span>
-                    )}
+                  </div>
+                  
+                  <div className="grid grid-cols-2 gap-x-8 gap-y-2 mb-4">
+                    <div>
+                      <span className="text-sm text-gray-600">Sector:</span>
+                      <p className="text-sm font-semibold text-gray-900">
+                        {company.business.industry || 'Fleet Management & Telematics'}
+                      </p>
+                    </div>
+                    <div>
+                      <span className="text-sm text-gray-600">Sub Sector:</span>
+                      <p className="text-sm font-semibold text-gray-900">
+                        {company.category[0] || 'Connected Operations'}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
+                    <p className="text-sm text-gray-700 leading-relaxed">
+                      <span className="font-semibold text-gray-900">Description:</span>{' '}
+                      {company.name} {company.business.industry ? 
+                        `operates in the ${company.business.industry.toLowerCase()} industry` : 
+                        'is a leading provider in the fleet management and telematics industry'
+                      }{company.business.products && company.business.products.length > 0 ? 
+                        `, offering ${company.business.products.slice(0, 3).join(', ')}.` : 
+                        ', providing comprehensive solutions for fleet operations, vehicle tracking, and connected operations.'
+                      }
+                    </p>
+                    
+                    <div className="flex items-center gap-6 mt-4 pt-4 border-t border-gray-200">
+                      {company.business.founded && (
+                        <div className="flex items-center gap-2 text-sm">
+                          <Calendar className="h-4 w-4 text-gray-500" />
+                          <span className="text-gray-600">Next Earnings Date:</span>
+                          <span className="font-semibold text-gray-900">05 Jun 2024</span>
+                        </div>
+                      )}
+                      {company.geography.headquarters && (
+                        <div className="flex items-center gap-2 text-sm text-gray-600">
+                          <span className="font-medium">•</span>
+                          <span>{company.geography.headquarters}</span>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
 
-        {/* Latest News */}
-        <div className="mb-6">
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-lg font-bold text-gray-900 flex items-center gap-2">
-              📰 Latest News
-            </h2>
-            <a href="#" className="text-blue-600 text-sm hover:underline">View All News →</a>
+          {/* Charts & Metrics Section */}
+          <div>
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Financials & Metrics</h2>
+            <CompanyCharts company={company} />
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-3">
-              <div className="p-3 bg-white border border-gray-200 rounded hover:shadow-md transition-shadow cursor-pointer">
-                <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                  {company.name} Expands AI-Powered Fleet Management Solutions
-                </h4>
-                <p className="text-xs text-gray-700">TechCrunch • 2h ago</p>
-              </div>
-              <div className="p-3 bg-white border border-gray-200 rounded hover:shadow-md transition-shadow cursor-pointer">
-                <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                  New Partnership with Major Logistics Companies Announced
-                </h4>
-                <p className="text-xs text-gray-700">Bloomberg • 1d ago</p>
-              </div>
-            </div>
-            <div className="space-y-3">
-              <div className="p-3 bg-white border border-gray-200 rounded hover:shadow-md transition-shadow cursor-pointer">
-                <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                  {company.name} Reports Strong Q4 Earnings, Beats Expectations
-                </h4>
-                <p className="text-xs text-gray-700">Reuters • 5h ago</p>
-              </div>
-              <div className="p-3 bg-white border border-gray-200 rounded hover:shadow-md transition-shadow cursor-pointer">
-                <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                  {company.name}'s Platform Reaches 1 Million Connected Assets
-                </h4>
-                <p className="text-xs text-gray-700">The Wall Street Journal • 2d ago</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        {/* Latest Documents */}
-        <div className="mb-6">
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-lg font-bold text-gray-900">Latest Documents</h2>
-            <button className="text-sm text-gray-700 bg-white border border-gray-300 px-3 py-1 rounded hover:bg-gray-50">
-              📄 Open Document Search
-            </button>
-          </div>
-          
-          <div className="grid grid-cols-2 gap-6">
-            {/* Company Docs */}
-            <div>
-              <div className="flex items-center justify-between mb-3">
-                <h3 className="text-sm font-bold text-gray-900 flex items-center gap-2">
-                  📄 Company Docs (1,847)
-                </h3>
-                <a href="#" className="text-blue-600 text-xs hover:underline">View →</a>
+          {/* Clients Section */}
+          <ClientsSection company={company} />
+
+          {/* Latest News */}
+          <Card className="bg-white border border-gray-200">
+            <CardHeader className="border-b border-gray-200">
+              <div className="flex items-center justify-between">
+                <CardTitle className="text-lg font-semibold text-gray-900">📰 Latest News</CardTitle>
+                <Button variant="link" className="text-blue-600 hover:text-blue-800 text-sm p-0">
+                  View All News →
+                </Button>
               </div>
-              <div className="space-y-3">
-                <div className="p-3 bg-white border-l-4 border-l-blue-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      10-Q
+            </CardHeader>
+            <CardContent className="p-0">
+              <div className="divide-y divide-gray-200">
+                {[
+                  {
+                    title: `${company.name} Expands AI-Powered Fleet Management Solutions`,
+                    source: 'TechCrunch',
+                    time: '2h ago',
+                    icon: '📄'
+                  },
+                  {
+                    title: 'New Partnership with Major Logistics Companies Announced',
+                    source: 'Bloomberg',
+                    time: '1d ago',
+                    icon: '📄'
+                  },
+                  {
+                    title: `${company.name} Reports Strong Q4 Earnings, Beats Expectations`,
+                    source: 'Reuters',
+                    time: '5h ago',
+                    icon: '📄'
+                  },
+                  {
+                    title: `${company.name}'s IoT Platform Reaches 1 Million Connected Assets`,
+                    source: 'The Wall Street Journal',
+                    time: '2d ago',
+                    icon: '📄'
+                  }
+                ].map((news, idx) => (
+                  <div
+                    key={idx}
+                    className="p-4 hover:bg-gray-50 cursor-pointer transition-colors"
+                  >
+                    <div className="flex items-start gap-3">
+                      <span className="text-xl">{news.icon}</span>
+                      <div className="flex-1 min-w-0">
+                        <h4 className="text-sm font-semibold text-gray-900 mb-1 hover:text-blue-600">
+                          {news.title}
+                        </h4>
+                        <p className="text-xs text-gray-600">
+                          {news.source} • {news.time}
+                        </p>
+                      </div>
+                      <ExternalLink className="h-4 w-4 text-gray-400 flex-shrink-0" />
                     </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        {company.name} - Quarterly Report (Q3 2025)
-                      </h4>
-                      <p className="text-xs text-gray-700">12 Jan 26</p>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Latest Documents */}
+          <Card className="bg-white border border-gray-200">
+            <CardHeader className="border-b border-gray-200">
+              <div className="flex items-center justify-between">
+                <CardTitle className="text-lg font-semibold text-gray-900">Latest Documents</CardTitle>
+                <Button variant="outline" size="sm" className="text-sm">
+                  <Search className="h-4 w-4 mr-2" />
+                  Open Document Search
+                </Button>
+              </div>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {/* Company Docs */}
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center gap-2">
+                      <FileText className="h-4 w-4 text-blue-600" />
+                      <h3 className="text-base font-semibold text-gray-900">
+                        Company Docs (1,847)
+                      </h3>
+                    </div>
+                    <Button variant="link" className="text-blue-600 hover:text-blue-800 text-sm p-0">
+                      View →
+                    </Button>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-amber-100 text-amber-900 hover:bg-amber-100 shrink-0">10-Q</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            {company.name} - Quarterly Report (Q3 2025)
+                          </h4>
+                          <p className="text-xs text-gray-600">12 Jan 26</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-amber-100 text-amber-900 hover:bg-amber-100 shrink-0">8-K</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            Current Report - Strategic Partnership Announcement
+                          </h4>
+                          <p className="text-xs text-gray-600">10 Jan 26</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-blue-100 text-blue-900 hover:bg-blue-100 shrink-0">Press</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            {company.name} Announces Expansion of AI-Powered Features
+                          </h4>
+                          <p className="text-xs text-gray-600">04 Jan 26</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-purple-100 text-purple-900 hover:bg-purple-100 shrink-0">Investor</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            Q3 2025 Investor Presentation
+                          </h4>
+                          <p className="text-xs text-gray-600">05 Jan 26</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="p-3 bg-white border-l-4 border-l-blue-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      8-K
+                {/* Brokerage Research */}
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center gap-2">
+                      <TrendingUp className="h-4 w-4 text-orange-600" />
+                      <h3 className="text-base font-semibold text-gray-900">
+                        Brokerage Research (850+)
+                      </h3>
                     </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        Current Report - Strategic Partnership Announcement
-                      </h4>
-                      <p className="text-xs text-gray-700">10 Jan 26</p>
-                    </div>
+                    <Button variant="link" className="text-blue-600 hover:text-blue-800 text-sm p-0">
+                      View →
+                    </Button>
                   </div>
-                </div>
+                  <div className="space-y-2">
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-amber-100 text-amber-900 hover:bg-amber-100 shrink-0">Morgan Stanley</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            {company.name}: Initiating Coverage with Overweight Rating
+                          </h4>
+                          <p className="text-xs text-gray-600">12 Jan 26</p>
+                        </div>
+                      </div>
+                    </div>
 
-                <div className="p-3 bg-white border-l-4 border-l-blue-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-blue-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      Press Release
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-blue-100 text-blue-900 hover:bg-blue-100 shrink-0">Goldman Sachs</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            Upgrade to Buy - Platform Gaining Traction
+                          </h4>
+                          <p className="text-xs text-gray-600">11 Jan 26</p>
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        {company.name} Announces Expansion of AI-Powered Features
-                      </h4>
-                      <p className="text-xs text-gray-700">04 Jan 26</p>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="p-3 bg-white border-l-4 border-l-blue-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-purple-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      Investor Presentation
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-green-100 text-green-900 hover:bg-green-100 shrink-0">JP Morgan</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            Price Target Raised - TAM Expanding
+                          </h4>
+                          <p className="text-xs text-gray-600">10 Jan 26</p>
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        Q3 2025 Investor Presentation
-                      </h4>
-                      <p className="text-xs text-gray-700">05 Jan 26</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            {/* Brokerage Research */}
-            <div>
-              <div className="flex items-center justify-between mb-3">
-                <h3 className="text-sm font-bold text-gray-900 flex items-center gap-2">
-                  📊 Brokerage Research (850+)
-                </h3>
-                <a href="#" className="text-blue-600 text-xs hover:underline">View →</a>
-              </div>
-              <div className="space-y-3">
-                <div className="p-3 bg-white border-l-4 border-l-orange-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-yellow-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      Morgan Stanley
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        {company.name}: Initiating Coverage with Overweight Rating
-                      </h4>
-                      <p className="text-xs text-gray-700">12 Jan 26</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-3 bg-white border-l-4 border-l-orange-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-blue-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      Goldman Sachs
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        Upgrade to Buy - Platform Gaining Traction
-                      </h4>
-                      <p className="text-xs text-gray-700">11 Jan 26</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-3 bg-white border-l-4 border-l-orange-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-green-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      JP Morgan
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        Price Target Raised - TAM Expanding
-                      </h4>
-                      <p className="text-xs text-gray-700">10 Jan 26</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-3 bg-white border-l-4 border-l-orange-500 rounded shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-                  <div className="flex items-start gap-3">
-                    <div className="bg-red-100 px-2 py-1 rounded text-xs font-bold text-gray-900">
-                      Bank of America
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-semibold text-gray-900 mb-1">
-                        Maintaining Buy - Strong Customer Retention
-                      </h4>
-                      <p className="text-xs text-gray-700">09 Jan 26</p>
+                    <div className="p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-white hover:shadow-sm transition-all cursor-pointer group">
+                      <div className="flex items-start gap-3">
+                        <Badge className="bg-red-100 text-red-900 hover:bg-red-100 shrink-0">Bank of America</Badge>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-medium text-gray-900 mb-1 group-hover:text-blue-600">
+                            Maintaining Buy - Strong Customer Retention
+                          </h4>
+                          <p className="text-xs text-gray-600">09 Jan 26</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </CardContent>
+          </Card>
 
-        {/* CSV Data Tables */}
-        <div className="mt-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">Company Data & Intelligence</h2>
+          {/* CSV Data Tables */}
+          <Card className="bg-white border border-gray-200">
+            <CardHeader className="border-b border-gray-200">
+              <CardTitle className="text-lg font-semibold text-gray-900">Company Data & Intelligence</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
           
           {loadingCSV ? (
             <div className="space-y-2">
@@ -438,10 +491,10 @@ export function CompanyDetailPage({ companyId }: CompanyDetailPageProps) {
               ))}
             </div>
           ) : csvData.length === 0 ? (
-            <div className="bg-white border border-gray-200 rounded-lg p-8 text-center">
-              <FileText className="h-10 w-10 text-gray-300 mx-auto mb-3" />
-              <p className="text-gray-600 text-sm">No detailed data files found for this company.</p>
-              <p className="text-gray-500 text-xs mt-2">Basic company information is shown above.</p>
+            <div className="py-12 text-center">
+              <FileText className="h-12 w-12 text-gray-300 mx-auto mb-4" />
+              <p className="text-gray-600 text-sm font-medium">No detailed data files found for this company.</p>
+              <p className="text-gray-500 text-xs mt-2">Additional data intelligence will be displayed when available.</p>
             </div>
           ) : (
             <div className="space-y-2">
@@ -450,23 +503,24 @@ export function CompanyDetailPage({ companyId }: CompanyDetailPageProps) {
                 const filteredRows = filterRows(csvFile.rows);
 
                 return (
-                  <div key={csvFile.filename} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+                  <div key={csvFile.filename} className="border border-gray-200 rounded-lg overflow-hidden">
                     <button
-                      className="w-full flex items-center px-4 py-3 hover:bg-gray-50 transition-colors"
+                      className="w-full flex items-center px-4 py-3 bg-gray-50 hover:bg-gray-100 transition-colors"
                       onClick={() => toggleSection(csvFile.filename)}
                     >
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-3 flex-1">
                         {isExpanded ? (
-                          <ChevronDown className="h-4 w-4 text-gray-400" />
+                          <ChevronDown className="h-4 w-4 text-gray-600" />
                         ) : (
-                          <ChevronRight className="h-4 w-4 text-gray-400" />
+                          <ChevronRight className="h-4 w-4 text-gray-600" />
                         )}
+                        <FileText className="h-4 w-4 text-blue-600" />
                         <span className="font-semibold text-sm text-gray-900">
                           {csvFile.topic}
                         </span>
-                        <span className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded">
+                        <Badge variant="secondary" className="ml-auto text-xs">
                           {csvFile.totalRows} rows
-                        </span>
+                        </Badge>
                       </div>
                     </button>
 
@@ -523,8 +577,9 @@ export function CompanyDetailPage({ companyId }: CompanyDetailPageProps) {
                   </div>
                 );
               })}
-            </div>
-          )}
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </main>
     </div>
