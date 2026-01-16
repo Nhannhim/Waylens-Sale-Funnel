@@ -3232,47 +3232,6 @@
       "rowCount": 5
     },
     {
-      "filename": "401_mrm_competitive_landscape.csv",
-      "filepath": "waylens_filtered_data/high_priority/401_mrm_competitive_landscape.csv",
-      "number": 401,
-      "company": null,
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "landscape"
-      ],
-      "columns": [
-        "Competitive Factor",
-        "Description",
-        "Impact",
-        "Trend"
-      ],
-      "rowCount": 19
-    },
-    {
-      "filename": "402_mrm_local_fleet_market_growth_data.csv",
-      "filepath": "waylens_filtered_data/high_priority/402_mrm_local_fleet_market_growth_data.csv",
-      "number": 402,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "local",
-        "fleet",
-        "market",
-        "growth",
-        "data"
-      ],
-      "columns": [
-        "Metric",
-        "Value",
-        "Year",
-        "Notes"
-      ],
-      "rowCount": 7
-    },
-    {
       "filename": "403_mrm_pest_control_largest_companies.csv",
       "filepath": "waylens_filtered_data/high_priority/403_mrm_pest_control_largest_companies.csv",
       "number": 403,
@@ -3292,27 +3251,6 @@
         "Revenue_2020",
         "Fleet_Vehicles",
         "Data_Source"
-      ],
-      "rowCount": 5
-    },
-    {
-      "filename": "403_mrm_trucking_market_growth_data.csv",
-      "filepath": "waylens_filtered_data/high_priority/403_mrm_trucking_market_growth_data.csv",
-      "number": 403,
-      "company": null,
-      "topic": "market",
-      "keywords": [
-        "mrm",
-        "trucking",
-        "market",
-        "growth",
-        "data"
-      ],
-      "columns": [
-        "Metric",
-        "Value",
-        "Year",
-        "Notes"
       ],
       "rowCount": 5
     },
@@ -3361,27 +3299,6 @@
       "rowCount": 3
     },
     {
-      "filename": "406_mrm_market_drivers_barriers.csv",
-      "filepath": "waylens_filtered_data/high_priority/406_mrm_market_drivers_barriers.csv",
-      "number": 406,
-      "company": null,
-      "topic": "market",
-      "keywords": [
-        "mrm",
-        "market",
-        "drivers",
-        "barriers"
-      ],
-      "columns": [
-        "Type",
-        "Factor",
-        "Description",
-        "Impact Level",
-        "Trend"
-      ],
-      "rowCount": 27
-    },
-    {
       "filename": "407_mrm_armored_car_technology_deployments.csv",
       "filepath": "waylens_filtered_data/high_priority/407_mrm_armored_car_technology_deployments.csv",
       "number": 407,
@@ -3402,48 +3319,6 @@
         "Notes"
       ],
       "rowCount": 2
-    },
-    {
-      "filename": "407_mrm_video_driver_behavior_market_growth.csv",
-      "filepath": "waylens_filtered_data/high_priority/407_mrm_video_driver_behavior_market_growth.csv",
-      "number": 407,
-      "company": null,
-      "topic": "video",
-      "keywords": [
-        "mrm",
-        "video",
-        "driver",
-        "behavior",
-        "market",
-        "growth"
-      ],
-      "columns": [
-        "Metric",
-        "Value",
-        "Year",
-        "Notes"
-      ],
-      "rowCount": 12
-    },
-    {
-      "filename": "409_mrm_key_success_factors.csv",
-      "filepath": "waylens_filtered_data/high_priority/409_mrm_key_success_factors.csv",
-      "number": 409,
-      "company": null,
-      "topic": null,
-      "keywords": [
-        "mrm",
-        "key",
-        "success",
-        "factors"
-      ],
-      "columns": [
-        "Success Factor",
-        "Description",
-        "Importance",
-        "Impact on Business"
-      ],
-      "rowCount": 30
     },
     {
       "filename": "410_mrm_local_fleet_detailed_projections.csv",
@@ -3469,48 +3344,6 @@
       "rowCount": 6
     },
     {
-      "filename": "410_mrm_vertical_markets_overview.csv",
-      "filepath": "waylens_filtered_data/high_priority/410_mrm_vertical_markets_overview.csv",
-      "number": 410,
-      "company": null,
-      "topic": "vertical",
-      "keywords": [
-        "mrm",
-        "vertical",
-        "markets",
-        "overview"
-      ],
-      "columns": [
-        "Vertical Market",
-        "Description",
-        "Unique Requirements",
-        "Market Size",
-        "Penetration Level"
-      ],
-      "rowCount": 30
-    },
-    {
-      "filename": "411_mrm_fleet_categories_summary.csv",
-      "filepath": "waylens_filtered_data/high_priority/411_mrm_fleet_categories_summary.csv",
-      "number": 411,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "categories",
-        "summary"
-      ],
-      "columns": [
-        "Fleet Category",
-        "Vehicle Count",
-        "Description",
-        "MRM Penetration",
-        "Key Applications"
-      ],
-      "rowCount": 16
-    },
-    {
       "filename": "411_mrm_limousine_largest_fleets.csv",
       "filepath": "waylens_filtered_data/high_priority/411_mrm_limousine_largest_fleets.csv",
       "number": 411,
@@ -3530,26 +3363,6 @@
         "Year"
       ],
       "rowCount": 10
-    },
-    {
-      "filename": "411_mrm_trucking_sector_revenue_projections.csv",
-      "filepath": "waylens_filtered_data/high_priority/411_mrm_trucking_sector_revenue_projections.csv",
-      "number": 411,
-      "company": null,
-      "topic": "revenue",
-      "keywords": [
-        "mrm",
-        "trucking",
-        "sector",
-        "revenue",
-        "projections"
-      ],
-      "columns": [
-        "Year",
-        "Revenue",
-        "Notes"
-      ],
-      "rowCount": 9
     },
     {
       "filename": "412_mrm_school_bus_industry_overview.csv",
@@ -3641,29 +3454,6 @@
         "Notes"
       ],
       "rowCount": 2
-    },
-    {
-      "filename": "415_mrm_supplier_categories_pages_1_25.csv",
-      "filepath": "waylens_filtered_data/high_priority/415_mrm_supplier_categories_pages_1_25.csv",
-      "number": 415,
-      "company": null,
-      "topic": null,
-      "keywords": [
-        "mrm",
-        "supplier",
-        "categories",
-        "pages",
-        "1",
-        "25"
-      ],
-      "columns": [
-        "Supplier Category",
-        "Section Start Page",
-        "Description",
-        "Key Characteristics",
-        "Market Segment"
-      ],
-      "rowCount": 24
     },
     {
       "filename": "415_mrm_us_fleet_market_breakdown.csv",
@@ -3773,27 +3563,6 @@
         "Year"
       ],
       "rowCount": 10
-    },
-    {
-      "filename": "418_mrm_fleet_categories_market_size.csv",
-      "filepath": "waylens_filtered_data/high_priority/418_mrm_fleet_categories_market_size.csv",
-      "number": 418,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "categories",
-        "market",
-        "size"
-      ],
-      "columns": [
-        "Fleet Category",
-        "Sub-Category",
-        "Estimated Fleet Vehicles",
-        "Notes"
-      ],
-      "rowCount": 31
     },
     {
       "filename": "419_mrm_motorcoach_largest_operators.csv",
@@ -4168,50 +3937,6 @@
       "rowCount": 10
     },
     {
-      "filename": "444_mrm_competitive_intelligence_technology_vendors.csv",
-      "filepath": "waylens_filtered_data/high_priority/444_mrm_competitive_intelligence_technology_vendors.csv",
-      "number": 444,
-      "company": null,
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "intelligence",
-        "technology",
-        "vendors"
-      ],
-      "columns": [
-        "Technology_Provider",
-        "Solution_Type",
-        "Target_Markets",
-        "Notable_Customers",
-        "Key_Features"
-      ],
-      "rowCount": 23
-    },
-    {
-      "filename": "445_mrm_market_trends_challenges.csv",
-      "filepath": "waylens_filtered_data/high_priority/445_mrm_market_trends_challenges.csv",
-      "number": 445,
-      "company": null,
-      "topic": "market",
-      "keywords": [
-        "mrm",
-        "market",
-        "trends",
-        "challenges"
-      ],
-      "columns": [
-        "Industry_Segment",
-        "Trend_or_Challenge",
-        "Impact",
-        "Year",
-        "Source",
-        "Details"
-      ],
-      "rowCount": 28
-    },
-    {
       "filename": "447_mrm_trucking_industry_workforce_statistics.csv",
       "filepath": "waylens_filtered_data/high_priority/447_mrm_trucking_industry_workforce_statistics.csv",
       "number": 447,
@@ -4360,51 +4085,6 @@
       "rowCount": 5
     },
     {
-      "filename": "450_mrm_largest_us_truckload_carriers.csv",
-      "filepath": "waylens_filtered_data/high_priority/450_mrm_largest_us_truckload_carriers.csv",
-      "number": 450,
-      "company": null,
-      "topic": null,
-      "keywords": [
-        "mrm",
-        "largest",
-        "us",
-        "truckload",
-        "carriers"
-      ],
-      "columns": [
-        "Rank",
-        "Company",
-        "2017_Revenues",
-        "Trucks",
-        "Tractors",
-        "Total_Trucks_and_Tractors",
-        "Source_Report",
-        "Report_Year"
-      ],
-      "rowCount": 5
-    },
-    {
-      "filename": "451_mrm_supplier_categories_overview.csv",
-      "filepath": "waylens_filtered_data/high_priority/451_mrm_supplier_categories_overview.csv",
-      "number": 451,
-      "company": null,
-      "topic": "overview",
-      "keywords": [
-        "mrm",
-        "supplier",
-        "categories",
-        "overview"
-      ],
-      "columns": [
-        "Category",
-        "Subcategory",
-        "Description",
-        "Notes"
-      ],
-      "rowCount": 20
-    },
-    {
       "filename": "451_mrm_top_500_private_trucking_fleets_by_category.csv",
       "filepath": "waylens_filtered_data/high_priority/451_mrm_top_500_private_trucking_fleets_by_category.csv",
       "number": 451,
@@ -4430,53 +4110,6 @@
         "Source"
       ],
       "rowCount": 4
-    },
-    {
-      "filename": "452_mrm_geotab_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/452_mrm_geotab_company_profile.csv",
-      "number": 452,
-      "company": "geotab",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "geotab",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Metric",
-        "Value",
-        "Time_Period",
-        "Source",
-        "Notes"
-      ],
-      "rowCount": 24
-    },
-    {
-      "filename": "452_mrm_largest_ltl_general_freight_carriers.csv",
-      "filepath": "waylens_filtered_data/high_priority/452_mrm_largest_ltl_general_freight_carriers.csv",
-      "number": 452,
-      "company": null,
-      "topic": null,
-      "keywords": [
-        "mrm",
-        "largest",
-        "ltl",
-        "general",
-        "freight",
-        "carriers"
-      ],
-      "columns": [
-        "Rank",
-        "Company",
-        "Trucks_Tractors",
-        "2020_Revenues",
-        "Source_Report",
-        "Report_Year",
-        "Notes"
-      ],
-      "rowCount": 5
     },
     {
       "filename": "452_mrm_largest_private_trucking_fleet_operators.csv",
@@ -4596,83 +4229,6 @@
       "rowCount": 5
     },
     {
-      "filename": "454_mrm_top_500_private_trucking_fleets_by_category.csv",
-      "filepath": "waylens_filtered_data/high_priority/454_mrm_top_500_private_trucking_fleets_by_category.csv",
-      "number": 454,
-      "company": null,
-      "topic": "fleets",
-      "keywords": [
-        "mrm",
-        "top",
-        "500",
-        "private",
-        "trucking",
-        "fleets",
-        "by",
-        "category"
-      ],
-      "columns": [
-        "Category",
-        "Total_Vehicles",
-        "Total_Trucks",
-        "Tractors",
-        "Trailers",
-        "Source_Report",
-        "Report_Year"
-      ],
-      "rowCount": 4
-    },
-    {
-      "filename": "455_mrm_largest_us_private_trucking_fleet_operators.csv",
-      "filepath": "waylens_filtered_data/high_priority/455_mrm_largest_us_private_trucking_fleet_operators.csv",
-      "number": 455,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "largest",
-        "us",
-        "private",
-        "trucking",
-        "fleet",
-        "operators"
-      ],
-      "columns": [
-        "Rank",
-        "Company",
-        "Total_Vehicles",
-        "Total_Trucks",
-        "Tractors",
-        "Trailers",
-        "Source_Report",
-        "Report_Year"
-      ],
-      "rowCount": 5
-    },
-    {
-      "filename": "455_mrm_verizon_connect_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/455_mrm_verizon_connect_company_profile.csv",
-      "number": 455,
-      "company": "verizon",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "verizon",
-        "connect",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Event",
-        "Date",
-        "Value",
-        "Details",
-        "Source"
-      ],
-      "rowCount": 22
-    },
-    {
       "filename": "456_mrm_ambulance_major_companies.csv",
       "filepath": "waylens_filtered_data/high_priority/456_mrm_ambulance_major_companies.csv",
       "number": 456,
@@ -4691,55 +4247,6 @@
         "Year",
         "Notes",
         "Location"
-      ],
-      "rowCount": 5
-    },
-    {
-      "filename": "456_mrm_verizon_connect_products_pricing.csv",
-      "filepath": "waylens_filtered_data/high_priority/456_mrm_verizon_connect_products_pricing.csv",
-      "number": 456,
-      "company": "verizon",
-      "topic": "products",
-      "keywords": [
-        "mrm",
-        "verizon",
-        "connect",
-        "products",
-        "pricing"
-      ],
-      "columns": [
-        "Product",
-        "Launch_Date",
-        "Key_Features",
-        "Target_Market",
-        "Pricing_Notes"
-      ],
-      "rowCount": 20
-    },
-    {
-      "filename": "457_mrm_largest_us_petroleum_gas_fleet_operators.csv",
-      "filepath": "waylens_filtered_data/high_priority/457_mrm_largest_us_petroleum_gas_fleet_operators.csv",
-      "number": 457,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "largest",
-        "us",
-        "petroleum",
-        "gas",
-        "fleet",
-        "operators"
-      ],
-      "columns": [
-        "Rank",
-        "Company",
-        "Total_Vehicles",
-        "Trucks",
-        "Tractors",
-        "Trailers",
-        "Source_Report",
-        "Report_Year"
       ],
       "rowCount": 5
     },
@@ -4765,28 +4272,6 @@
       "rowCount": 15
     },
     {
-      "filename": "457_mrm_samsara_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/457_mrm_samsara_company_profile.csv",
-      "number": 457,
-      "company": "samsara",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "samsara",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Event_Metric",
-        "Date",
-        "Value",
-        "Details",
-        "Source"
-      ],
-      "rowCount": 28
-    },
-    {
       "filename": "458_mrm_samsara_products_customers.csv",
       "filepath": "waylens_filtered_data/high_priority/458_mrm_samsara_products_customers.csv",
       "number": 458,
@@ -4806,50 +4291,6 @@
         "Notes"
       ],
       "rowCount": 56
-    },
-    {
-      "filename": "459_mrm_fleet_complete_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/459_mrm_fleet_complete_company_profile.csv",
-      "number": 459,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "complete",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Event_Metric",
-        "Date",
-        "Value",
-        "Details",
-        "Source"
-      ],
-      "rowCount": 20
-    },
-    {
-      "filename": "459_mrm_government_fleet_statistics.csv",
-      "filepath": "waylens_filtered_data/high_priority/459_mrm_government_fleet_statistics.csv",
-      "number": 459,
-      "company": "webfleet",
-      "topic": "government",
-      "keywords": [
-        "mrm",
-        "government",
-        "fleet",
-        "statistics"
-      ],
-      "columns": [
-        "Category",
-        "Level",
-        "Total_Vehicles",
-        "Year",
-        "Source"
-      ],
-      "rowCount": 19
     },
     {
       "filename": "460_mrm_federal_government_largest_fleets.csv",
@@ -4963,27 +4404,6 @@
       "rowCount": 14
     },
     {
-      "filename": "464_mrm_government_fleet_statistics.csv",
-      "filepath": "waylens_filtered_data/high_priority/464_mrm_government_fleet_statistics.csv",
-      "number": 464,
-      "company": "webfleet",
-      "topic": "government",
-      "keywords": [
-        "mrm",
-        "government",
-        "fleet",
-        "statistics"
-      ],
-      "columns": [
-        "Government_Level",
-        "Total_Vehicles",
-        "Year",
-        "Source",
-        "Notes"
-      ],
-      "rowCount": 5
-    },
-    {
       "filename": "464_mrm_largest_car_rental_fleets.csv",
       "filepath": "waylens_filtered_data/high_priority/464_mrm_largest_car_rental_fleets.csv",
       "number": 464,
@@ -5005,30 +4425,6 @@
         "Brands"
       ],
       "rowCount": 3
-    },
-    {
-      "filename": "465_mrm_largest_us_federal_government_fleets.csv",
-      "filepath": "waylens_filtered_data/high_priority/465_mrm_largest_us_federal_government_fleets.csv",
-      "number": 465,
-      "company": null,
-      "topic": "government",
-      "keywords": [
-        "mrm",
-        "largest",
-        "us",
-        "federal",
-        "government",
-        "fleets"
-      ],
-      "columns": [
-        "Rank",
-        "Agency",
-        "Vehicles",
-        "Fiscal_Year",
-        "Source_Report",
-        "Report_Year"
-      ],
-      "rowCount": 10
     },
     {
       "filename": "465_mrm_rental_car_telematics_deployments.csv",
@@ -5210,52 +4606,6 @@
       "rowCount": 4
     },
     {
-      "filename": "473_mrm_largest_us_car_rental_fleets.csv",
-      "filepath": "waylens_filtered_data/high_priority/473_mrm_largest_us_car_rental_fleets.csv",
-      "number": 473,
-      "company": "descartes",
-      "topic": "fleets",
-      "keywords": [
-        "mrm",
-        "largest",
-        "us",
-        "car",
-        "rental",
-        "fleets"
-      ],
-      "columns": [
-        "Rank",
-        "Company",
-        "Estimated_US_Fleet_Size",
-        "Year",
-        "Source_Report",
-        "Report_Year",
-        "Brands_Included"
-      ],
-      "rowCount": 3
-    },
-    {
-      "filename": "474_mrm_industry_associations_trucking.csv",
-      "filepath": "waylens_filtered_data/high_priority/474_mrm_industry_associations_trucking.csv",
-      "number": 474,
-      "company": null,
-      "topic": "industry",
-      "keywords": [
-        "mrm",
-        "industry",
-        "associations",
-        "trucking"
-      ],
-      "columns": [
-        "Association_Name",
-        "Location",
-        "Website",
-        "Market_Segment",
-        "Services"
-      ],
-      "rowCount": 5
-    },
-    {
       "filename": "474_mrm_rental_fleet_telematics_deployments.csv",
       "filepath": "waylens_filtered_data/high_priority/474_mrm_rental_fleet_telematics_deployments.csv",
       "number": 474,
@@ -5278,72 +4628,6 @@
         "Notes"
       ],
       "rowCount": 4
-    },
-    {
-      "filename": "478_mrm_mrm_technology_adoption_rates.csv",
-      "filepath": "waylens_filtered_data/high_priority/478_mrm_mrm_technology_adoption_rates.csv",
-      "number": 478,
-      "company": null,
-      "topic": "technology",
-      "keywords": [
-        "mrm",
-        "mrm",
-        "technology",
-        "adoption",
-        "rates"
-      ],
-      "columns": [
-        "Market_Segment",
-        "Adoption_Rate",
-        "Year",
-        "Notes",
-        "Source"
-      ],
-      "rowCount": 20
-    },
-    {
-      "filename": "479_mrm_major_technology_providers_competitive_intelligence.csv",
-      "filepath": "waylens_filtered_data/high_priority/479_mrm_major_technology_providers_competitive_intelligence.csv",
-      "number": 479,
-      "company": null,
-      "topic": "technology",
-      "keywords": [
-        "mrm",
-        "major",
-        "technology",
-        "providers",
-        "competitive",
-        "intelligence"
-      ],
-      "columns": [
-        "Company",
-        "Technology_Platform",
-        "Key_Customers",
-        "Market_Segment",
-        "Notes"
-      ],
-      "rowCount": 22
-    },
-    {
-      "filename": "480_mrm_market_drivers_trends.csv",
-      "filepath": "waylens_filtered_data/high_priority/480_mrm_market_drivers_trends.csv",
-      "number": 480,
-      "company": null,
-      "topic": "market",
-      "keywords": [
-        "mrm",
-        "market",
-        "drivers",
-        "trends"
-      ],
-      "columns": [
-        "Category",
-        "Trend",
-        "Impact",
-        "Year",
-        "Source"
-      ],
-      "rowCount": 23
     },
     {
       "filename": "480_mrm_satellite_network_operators.csv",
@@ -5413,27 +4697,6 @@
       "rowCount": 19
     },
     {
-      "filename": "484_mrm_industry_associations_trucking.csv",
-      "filepath": "waylens_filtered_data/high_priority/484_mrm_industry_associations_trucking.csv",
-      "number": 484,
-      "company": null,
-      "topic": "industry",
-      "keywords": [
-        "mrm",
-        "industry",
-        "associations",
-        "trucking"
-      ],
-      "columns": [
-        "Association_Name",
-        "Location",
-        "Website",
-        "Market_Segment",
-        "Notes"
-      ],
-      "rowCount": 4
-    },
-    {
       "filename": "486_mrm_industry_associations_government.csv",
       "filepath": "waylens_filtered_data/high_priority/486_mrm_industry_associations_government.csv",
       "number": 486,
@@ -5475,51 +4738,6 @@
       "rowCount": 4
     },
     {
-      "filename": "491_mrm_competitive_intelligence_telematics_providers.csv",
-      "filepath": "waylens_filtered_data/high_priority/491_mrm_competitive_intelligence_telematics_providers.csv",
-      "number": 491,
-      "company": "mix_telematics",
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "intelligence",
-        "telematics",
-        "providers"
-      ],
-      "columns": [
-        "Provider",
-        "Customer_Example",
-        "Market_Segment",
-        "Technology",
-        "Deployment_Size",
-        "Competitive_Position"
-      ],
-      "rowCount": 19
-    },
-    {
-      "filename": "492_mrm_market_adoption_rates_summary.csv",
-      "filepath": "waylens_filtered_data/high_priority/492_mrm_market_adoption_rates_summary.csv",
-      "number": 492,
-      "company": null,
-      "topic": "market",
-      "keywords": [
-        "mrm",
-        "market",
-        "adoption",
-        "rates",
-        "summary"
-      ],
-      "columns": [
-        "Market_Segment",
-        "Adoption_Rate",
-        "Year",
-        "Trend",
-        "Notes"
-      ],
-      "rowCount": 13
-    },
-    {
       "filename": "494_mrm_iridium_construction_equipment_partnerships.csv",
       "filepath": "waylens_filtered_data/high_priority/494_mrm_iridium_construction_equipment_partnerships.csv",
       "number": 494,
@@ -5540,232 +4758,6 @@
         "Source_Page"
       ],
       "rowCount": 5
-    },
-    {
-      "filename": "496_mrm_calamp_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/496_mrm_calamp_company_profile.csv",
-      "number": 496,
-      "company": "calamp",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "calamp",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Data_Point",
-        "Value",
-        "Year",
-        "Source_Page"
-      ],
-      "rowCount": 78
-    },
-    {
-      "filename": "497_mrm_supplier_categories_pages_101_125.csv",
-      "filepath": "waylens_filtered_data/high_priority/497_mrm_supplier_categories_pages_101_125.csv",
-      "number": 497,
-      "company": null,
-      "topic": null,
-      "keywords": [
-        "mrm",
-        "supplier",
-        "categories",
-        "pages",
-        "101",
-        "125"
-      ],
-      "columns": [
-        "Category",
-        "Subcategory",
-        "Description",
-        "Source_Page"
-      ],
-      "rowCount": 17
-    },
-    {
-      "filename": "498_mrm_geotab_company_profile_detailed.csv",
-      "filepath": "waylens_filtered_data/high_priority/498_mrm_geotab_company_profile_detailed.csv",
-      "number": 498,
-      "company": "geotab",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "geotab",
-        "company",
-        "profile",
-        "detailed"
-      ],
-      "columns": [
-        "Category",
-        "Metric",
-        "Value",
-        "Time_Period",
-        "Source_Page"
-      ],
-      "rowCount": 19
-    },
-    {
-      "filename": "499_mrm_fleet_management_market_summary_100k_units.csv",
-      "filepath": "waylens_filtered_data/high_priority/499_mrm_fleet_management_market_summary_100k_units.csv",
-      "number": 499,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "management",
-        "market",
-        "summary",
-        "100k",
-        "units"
-      ],
-      "columns": [
-        "Company",
-        "Target_Markets",
-        "Est_UIS_Nov_2018",
-        "Est_UIS_Jul_2021",
-        "Geographic_Scope",
-        "Monthly_Pricing_Low",
-        "Monthly_Pricing_High",
-        "Contract_Terms",
-        "Source_Page"
-      ],
-      "rowCount": 15
-    },
-    {
-      "filename": "499_mrm_geotab_products_and_devices.csv",
-      "filepath": "waylens_filtered_data/high_priority/499_mrm_geotab_products_and_devices.csv",
-      "number": 499,
-      "company": "geotab",
-      "topic": "products",
-      "keywords": [
-        "mrm",
-        "geotab",
-        "products",
-        "and",
-        "devices"
-      ],
-      "columns": [
-        "Product",
-        "Type",
-        "Features",
-        "Launch_Date",
-        "Source_Page"
-      ],
-      "rowCount": 16
-    },
-    {
-      "filename": "500_mrm_geotab_software_platform_packages.csv",
-      "filepath": "waylens_filtered_data/high_priority/500_mrm_geotab_software_platform_packages.csv",
-      "number": 500,
-      "company": "geotab",
-      "topic": null,
-      "keywords": [
-        "mrm",
-        "geotab",
-        "software",
-        "platform",
-        "packages"
-      ],
-      "columns": [
-        "Package",
-        "Availability",
-        "Features",
-        "Monthly_Price",
-        "Source_Page"
-      ],
-      "rowCount": 6
-    },
-    {
-      "filename": "501_mrm_fleetilla_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/501_mrm_fleetilla_company_profile.csv",
-      "number": 501,
-      "company": null,
-      "topic": "fleetilla",
-      "keywords": [
-        "mrm",
-        "fleetilla",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Data_Point",
-        "Value",
-        "Year",
-        "Source_Page"
-      ],
-      "rowCount": 66
-    },
-    {
-      "filename": "501_mrm_geotab_acquisitions_growth.csv",
-      "filepath": "waylens_filtered_data/high_priority/501_mrm_geotab_acquisitions_growth.csv",
-      "number": 501,
-      "company": "geotab",
-      "topic": "acquisitions",
-      "keywords": [
-        "mrm",
-        "geotab",
-        "acquisitions",
-        "growth"
-      ],
-      "columns": [
-        "Acquisition",
-        "Date",
-        "Target_Company",
-        "Market_Focus",
-        "Units_in_Service",
-        "Revenue",
-        "Source_Page"
-      ],
-      "rowCount": 6
-    },
-    {
-      "filename": "502_mrm_geotab_government_contracts.csv",
-      "filepath": "waylens_filtered_data/high_priority/502_mrm_geotab_government_contracts.csv",
-      "number": 502,
-      "company": "geotab",
-      "topic": "government",
-      "keywords": [
-        "mrm",
-        "geotab",
-        "government",
-        "contracts"
-      ],
-      "columns": [
-        "Contract",
-        "Awarding_Agency",
-        "Date",
-        "Scope",
-        "Vehicles",
-        "Duration",
-        "Source_Page"
-      ],
-      "rowCount": 4
-    },
-    {
-      "filename": "502_mrm_rhino_fleet_tracking_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/502_mrm_rhino_fleet_tracking_profile.csv",
-      "number": 502,
-      "company": "rhino",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "rhino",
-        "fleet",
-        "tracking",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Data_Point",
-        "Value",
-        "Year",
-        "Source_Page"
-      ],
-      "rowCount": 59
     },
     {
       "filename": "503_mrm_verizon_connect_company_history.csv",
@@ -5836,98 +4828,6 @@
       "rowCount": 13
     },
     {
-      "filename": "506_mrm_samsara_company_funding_history.csv",
-      "filepath": "waylens_filtered_data/high_priority/506_mrm_samsara_company_funding_history.csv",
-      "number": 506,
-      "company": "samsara",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "samsara",
-        "company",
-        "funding",
-        "history"
-      ],
-      "columns": [
-        "Funding_Round",
-        "Date",
-        "Amount_USD",
-        "Lead_Investors",
-        "Valuation_USD",
-        "Total_Raised_USD",
-        "Source_Page"
-      ],
-      "rowCount": 8
-    },
-    {
-      "filename": "507_mrm_samsara_company_operations.csv",
-      "filepath": "waylens_filtered_data/high_priority/507_mrm_samsara_company_operations.csv",
-      "number": 507,
-      "company": "samsara",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "samsara",
-        "company",
-        "operations"
-      ],
-      "columns": [
-        "Metric",
-        "Value",
-        "Time_Period",
-        "Source_Page"
-      ],
-      "rowCount": 9
-    },
-    {
-      "filename": "508_mrm_samsara_products_technology.csv",
-      "filepath": "waylens_filtered_data/high_priority/508_mrm_samsara_products_technology.csv",
-      "number": 508,
-      "company": "samsara",
-      "topic": "products",
-      "keywords": [
-        "mrm",
-        "samsara",
-        "products",
-        "technology"
-      ],
-      "columns": [
-        "Product_Service",
-        "Type",
-        "Features",
-        "Launch_Date",
-        "Source_Page"
-      ],
-      "rowCount": 12
-    },
-    {
-      "filename": "508_mrm_video_telematics_adoption.csv",
-      "filepath": "waylens_filtered_data/high_priority/508_mrm_video_telematics_adoption.csv",
-      "number": 508,
-      "company": "mix_telematics",
-      "topic": "video",
-      "keywords": [
-        "mrm",
-        "video",
-        "telematics",
-        "adoption"
-      ],
-      "columns": [
-        "Company",
-        "Video_Solution_Name",
-        "Launch_Year",
-        "Camera_Types",
-        "AI_Capabilities",
-        "Processing_Location",
-        "Max_Cameras_Per_Vehicle",
-        "Key_Features",
-        "In_Cab_Alerts",
-        "Driver_Coaching",
-        "Source_Page"
-      ],
-      "rowCount": 13
-    },
-    {
       "filename": "509_mrm_samsara_market_segments.csv",
       "filepath": "waylens_filtered_data/high_priority/509_mrm_samsara_market_segments.csv",
       "number": 509,
@@ -5946,72 +4846,6 @@
         "Source_Page"
       ],
       "rowCount": 11
-    },
-    {
-      "filename": "510_mrm_samsara_growth_metrics.csv",
-      "filepath": "waylens_filtered_data/high_priority/510_mrm_samsara_growth_metrics.csv",
-      "number": 510,
-      "company": "samsara",
-      "topic": "metrics",
-      "keywords": [
-        "mrm",
-        "samsara",
-        "growth",
-        "metrics"
-      ],
-      "columns": [
-        "Metric",
-        "Value",
-        "Time_Period",
-        "Growth_Rate",
-        "Source_Page"
-      ],
-      "rowCount": 7
-    },
-    {
-      "filename": "510_mrm_vertical_market_specialization.csv",
-      "filepath": "waylens_filtered_data/high_priority/510_mrm_vertical_market_specialization.csv",
-      "number": 510,
-      "company": null,
-      "topic": "vertical",
-      "keywords": [
-        "mrm",
-        "vertical",
-        "market",
-        "specialization"
-      ],
-      "columns": [
-        "Company",
-        "Vertical_Market",
-        "Specialization_Level",
-        "Unique_Features",
-        "Market_Share_Indicator",
-        "Source_Page"
-      ],
-      "rowCount": 25
-    },
-    {
-      "filename": "511_mrm_competitive_intelligence_summary.csv",
-      "filepath": "waylens_filtered_data/high_priority/511_mrm_competitive_intelligence_summary.csv",
-      "number": 511,
-      "company": null,
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "intelligence",
-        "summary"
-      ],
-      "columns": [
-        "Category",
-        "Key_Finding",
-        "Quantitative_Data",
-        "Companies_Affected",
-        "Market_Implication",
-        "Year",
-        "Source_Page"
-      ],
-      "rowCount": 25
     },
     {
       "filename": "511_mrm_samsara_partnerships_customers.csv",
@@ -6056,49 +4890,6 @@
       "rowCount": 4
     },
     {
-      "filename": "513_mrm_fleet_complete_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/513_mrm_fleet_complete_company_profile.csv",
-      "number": 513,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "complete",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Metric",
-        "Value",
-        "Time_Period",
-        "Source_Page"
-      ],
-      "rowCount": 10
-    },
-    {
-      "filename": "514_mrm_fleet_complete_acquisitions.csv",
-      "filepath": "waylens_filtered_data/high_priority/514_mrm_fleet_complete_acquisitions.csv",
-      "number": 514,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "complete",
-        "acquisitions"
-      ],
-      "columns": [
-        "Acquisition",
-        "Region",
-        "Date",
-        "Market_Focus",
-        "Source_Page"
-      ],
-      "rowCount": 5
-    },
-    {
       "filename": "515_mrm_fleet_complete_distribution_partners.csv",
       "filepath": "waylens_filtered_data/high_priority/515_mrm_fleet_complete_distribution_partners.csv",
       "number": 515,
@@ -6118,49 +4909,6 @@
         "Source_Page"
       ],
       "rowCount": 11
-    },
-    {
-      "filename": "516_mrm_fleet_complete_products.csv",
-      "filepath": "waylens_filtered_data/high_priority/516_mrm_fleet_complete_products.csv",
-      "number": 516,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "complete",
-        "products"
-      ],
-      "columns": [
-        "Product",
-        "Type",
-        "Features",
-        "Launch_Date",
-        "Source_Page"
-      ],
-      "rowCount": 8
-    },
-    {
-      "filename": "517_mrm_fleet_complete_market_position.csv",
-      "filepath": "waylens_filtered_data/high_priority/517_mrm_fleet_complete_market_position.csv",
-      "number": 517,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "complete",
-        "market",
-        "position"
-      ],
-      "columns": [
-        "Metric",
-        "Value",
-        "Geography",
-        "Time_Period",
-        "Source_Page"
-      ],
-      "rowCount": 4
     },
     {
       "filename": "520_mrm_orbcomm_fleet_solutions.csv",
@@ -6268,27 +5016,6 @@
       "rowCount": 8
     },
     {
-      "filename": "540_mrm_greenroad_customers.csv",
-      "filepath": "waylens_filtered_data/high_priority/540_mrm_greenroad_customers.csv",
-      "number": 540,
-      "company": "greenroad",
-      "topic": "customers",
-      "keywords": [
-        "mrm",
-        "greenroad",
-        "customers"
-      ],
-      "columns": [
-        "Company",
-        "Customer_Name",
-        "Country",
-        "Industry",
-        "Fleet_Type",
-        "Year"
-      ],
-      "rowCount": 9
-    },
-    {
       "filename": "541_mrm_clearpathgps_customers.csv",
       "filepath": "waylens_filtered_data/high_priority/541_mrm_clearpathgps_customers.csv",
       "number": 541,
@@ -6331,27 +5058,6 @@
       "rowCount": 12
     },
     {
-      "filename": "546_mrm_platform_science_customers.csv",
-      "filepath": "waylens_filtered_data/high_priority/546_mrm_platform_science_customers.csv",
-      "number": 546,
-      "company": "platform_science",
-      "topic": "customers",
-      "keywords": [
-        "mrm",
-        "platform",
-        "science",
-        "customers"
-      ],
-      "columns": [
-        "Company",
-        "Customer_Name",
-        "Customer_Type",
-        "Industry",
-        "Notes"
-      ],
-      "rowCount": 8
-    },
-    {
       "filename": "547_mrm_trimble_transportation_overview.csv",
       "filepath": "waylens_filtered_data/high_priority/547_mrm_trimble_transportation_overview.csv",
       "number": 547,
@@ -6372,26 +5078,6 @@
         "Notes"
       ],
       "rowCount": 18
-    },
-    {
-      "filename": "548_mrm_trimble_acquisitions.csv",
-      "filepath": "waylens_filtered_data/high_priority/548_mrm_trimble_acquisitions.csv",
-      "number": 548,
-      "company": "trimble",
-      "topic": "acquisitions",
-      "keywords": [
-        "mrm",
-        "trimble",
-        "acquisitions"
-      ],
-      "columns": [
-        "Company",
-        "Acquisition_Target",
-        "Date",
-        "Purpose",
-        "Notes"
-      ],
-      "rowCount": 5
     },
     {
       "filename": "550_mrm_zubie_customers.csv",
@@ -6457,26 +5143,6 @@
       "rowCount": 6
     },
     {
-      "filename": "554_mrm_keeptruckin_customers.csv",
-      "filepath": "waylens_filtered_data/high_priority/554_mrm_keeptruckin_customers.csv",
-      "number": 554,
-      "company": "keeptruckin",
-      "topic": "customers",
-      "keywords": [
-        "mrm",
-        "keeptruckin",
-        "customers"
-      ],
-      "columns": [
-        "Company",
-        "Customer_Name",
-        "Industry",
-        "Year",
-        "Notes"
-      ],
-      "rowCount": 11
-    },
-    {
       "filename": "555_mrm_cheetah_customers.csv",
       "filepath": "waylens_filtered_data/high_priority/555_mrm_cheetah_customers.csv",
       "number": 555,
@@ -6494,52 +5160,6 @@
         "Customer_Type"
       ],
       "rowCount": 9
-    },
-    {
-      "filename": "555_mrm_teletrac_navman_company_data.csv",
-      "filepath": "waylens_filtered_data/high_priority/555_mrm_teletrac_navman_company_data.csv",
-      "number": 555,
-      "company": "teletrac",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "teletrac",
-        "navman",
-        "company",
-        "data"
-      ],
-      "columns": [
-        "Company",
-        "Category",
-        "Metric",
-        "Value",
-        "Year",
-        "Currency",
-        "Notes"
-      ],
-      "rowCount": 22
-    },
-    {
-      "filename": "556_mrm_teletrac_navman_target_markets.csv",
-      "filepath": "waylens_filtered_data/high_priority/556_mrm_teletrac_navman_target_markets.csv",
-      "number": 556,
-      "company": "teletrac",
-      "topic": "markets",
-      "keywords": [
-        "mrm",
-        "teletrac",
-        "navman",
-        "target",
-        "markets"
-      ],
-      "columns": [
-        "Company",
-        "Market_Segment",
-        "Priority_Level",
-        "Description",
-        "Year"
-      ],
-      "rowCount": 8
     },
     {
       "filename": "558_mrm_vecima_customers.csv",
@@ -6561,95 +5181,6 @@
       "rowCount": 5
     },
     {
-      "filename": "560_mrm_fleetup_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/560_mrm_fleetup_company_profile.csv",
-      "number": 560,
-      "company": null,
-      "topic": "fleetup",
-      "keywords": [
-        "mrm",
-        "fleetup",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Company",
-        "Founded",
-        "Headquarters",
-        "Phone",
-        "Website",
-        "Contact_Name",
-        "Contact_Title",
-        "Employees",
-        "Office_Locations"
-      ],
-      "rowCount": 1
-    },
-    {
-      "filename": "561_mrm_fleetup_market_data.csv",
-      "filepath": "waylens_filtered_data/high_priority/561_mrm_fleetup_market_data.csv",
-      "number": 561,
-      "company": null,
-      "topic": "fleetup",
-      "keywords": [
-        "mrm",
-        "fleetup",
-        "market",
-        "data"
-      ],
-      "columns": [
-        "Company",
-        "Units_in_Service_US",
-        "Network_Technology_3G_Percent",
-        "Network_Technology_2G_Support",
-        "Primary_Focus",
-        "Target_Markets"
-      ],
-      "rowCount": 1
-    },
-    {
-      "filename": "562_mrm_fleetup_pricing.csv",
-      "filepath": "waylens_filtered_data/high_priority/562_mrm_fleetup_pricing.csv",
-      "number": 562,
-      "company": null,
-      "topic": "fleetup",
-      "keywords": [
-        "mrm",
-        "fleetup",
-        "pricing"
-      ],
-      "columns": [
-        "Company",
-        "Plan_Name",
-        "Monthly_Price_USD_Low",
-        "Monthly_Price_USD_High",
-        "Payment_Model",
-        "Features"
-      ],
-      "rowCount": 4
-    },
-    {
-      "filename": "563_mrm_fleetup_product_launches.csv",
-      "filepath": "waylens_filtered_data/high_priority/563_mrm_fleetup_product_launches.csv",
-      "number": 563,
-      "company": null,
-      "topic": "fleetup",
-      "keywords": [
-        "mrm",
-        "fleetup",
-        "product",
-        "launches"
-      ],
-      "columns": [
-        "Company",
-        "Product_Name",
-        "Launch_Date",
-        "Description",
-        "Technology_Type"
-      ],
-      "rowCount": 4
-    },
-    {
       "filename": "564_mrm_fleetup_customers.csv",
       "filepath": "waylens_filtered_data/high_priority/564_mrm_fleetup_customers.csv",
       "number": 564,
@@ -6666,27 +5197,6 @@
         "Industry"
       ],
       "rowCount": 5
-    },
-    {
-      "filename": "565_mrm_fleetup_covid_impact.csv",
-      "filepath": "waylens_filtered_data/high_priority/565_mrm_fleetup_covid_impact.csv",
-      "number": 565,
-      "company": null,
-      "topic": "fleetup",
-      "keywords": [
-        "mrm",
-        "fleetup",
-        "covid",
-        "impact"
-      ],
-      "columns": [
-        "Company",
-        "Impact_Type",
-        "Time_Period",
-        "Impact_Description",
-        "Outcome"
-      ],
-      "rowCount": 1
     },
     {
       "filename": "566_mrm_cyntrx_customers.csv",
@@ -6727,29 +5237,6 @@
       "rowCount": 7
     },
     {
-      "filename": "570_mrm_fleet_management_suppliers_summary.csv",
-      "filepath": "waylens_filtered_data/high_priority/570_mrm_fleet_management_suppliers_summary.csv",
-      "number": 570,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "fleet",
-        "management",
-        "suppliers",
-        "summary"
-      ],
-      "columns": [
-        "Company",
-        "Target_Markets",
-        "Units_Nov_2018",
-        "Units_Dec_2020",
-        "Pricing_Range_USD",
-        "Notes"
-      ],
-      "rowCount": 9
-    },
-    {
       "filename": "570_mrm_vnomics_customers.csv",
       "filepath": "waylens_filtered_data/high_priority/570_mrm_vnomics_customers.csv",
       "number": 570,
@@ -6786,169 +5273,6 @@
         "Industry"
       ],
       "rowCount": 4
-    },
-    {
-      "filename": "576_mrm_competitive_landscape_summary.csv",
-      "filepath": "waylens_filtered_data/high_priority/576_mrm_competitive_landscape_summary.csv",
-      "number": 576,
-      "company": null,
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "landscape",
-        "summary"
-      ],
-      "columns": [
-        "Company",
-        "Units_In_Service_2018",
-        "Units_In_Service_2021",
-        "Growth",
-        "Primary_Target_Market",
-        "Key_Differentiator",
-        "Ownership"
-      ],
-      "rowCount": 14
-    },
-    {
-      "filename": "585_mrm_competitive_positioning_map.csv",
-      "filepath": "waylens_filtered_data/high_priority/585_mrm_competitive_positioning_map.csv",
-      "number": 585,
-      "company": null,
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "positioning",
-        "map"
-      ],
-      "columns": [
-        "Company",
-        "Market_Position",
-        "Primary_Differentiator",
-        "Target_Fleet_Size",
-        "Price_Position",
-        "Technology_Approach",
-        "Go_To_Market_Strategy"
-      ],
-      "rowCount": 14
-    },
-    {
-      "filename": "585_mrm_usa_fleet_solutions_company_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/585_mrm_usa_fleet_solutions_company_profile.csv",
-      "number": 585,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "usa",
-        "fleet",
-        "solutions",
-        "company",
-        "profile"
-      ],
-      "columns": [
-        "Company",
-        "Founded",
-        "Owner",
-        "Related_Business",
-        "Headquarters",
-        "Phone",
-        "Website",
-        "Contact_Name",
-        "Contact_Title",
-        "Employees",
-        "Exclusive_Partner"
-      ],
-      "rowCount": 1
-    },
-    {
-      "filename": "586_mrm_usa_fleet_partnership_history.csv",
-      "filepath": "waylens_filtered_data/high_priority/586_mrm_usa_fleet_partnership_history.csv",
-      "number": 586,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "usa",
-        "fleet",
-        "partnership",
-        "history"
-      ],
-      "columns": [
-        "Company",
-        "Partner",
-        "Partnership_Start",
-        "Partnership_End",
-        "Product",
-        "End_Reason"
-      ],
-      "rowCount": 3
-    },
-    {
-      "filename": "587_mrm_usa_fleet_market_data.csv",
-      "filepath": "waylens_filtered_data/high_priority/587_mrm_usa_fleet_market_data.csv",
-      "number": 587,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "usa",
-        "fleet",
-        "market",
-        "data"
-      ],
-      "columns": [
-        "Company",
-        "Units_in_Service",
-        "Average_Customer_Size_Units",
-        "Primary_Customer_Types",
-        "Network_Technology",
-        "State_Contract",
-        "State_Contract_Details"
-      ],
-      "rowCount": 1
-    },
-    {
-      "filename": "588_mrm_usa_fleet_target_markets.csv",
-      "filepath": "waylens_filtered_data/high_priority/588_mrm_usa_fleet_target_markets.csv",
-      "number": 588,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "usa",
-        "fleet",
-        "target",
-        "markets"
-      ],
-      "columns": [
-        "Company",
-        "Market_Segment",
-        "Priority"
-      ],
-      "rowCount": 6
-    },
-    {
-      "filename": "589_mrm_usa_fleet_covid_impact.csv",
-      "filepath": "waylens_filtered_data/high_priority/589_mrm_usa_fleet_covid_impact.csv",
-      "number": 589,
-      "company": "webfleet",
-      "topic": "fleet",
-      "keywords": [
-        "mrm",
-        "usa",
-        "fleet",
-        "covid",
-        "impact"
-      ],
-      "columns": [
-        "Company",
-        "Impact_Level",
-        "Reason",
-        "Customer_Type"
-      ],
-      "rowCount": 1
     },
     {
       "filename": "594_mrm_assured_techmatics_customers.csv",
@@ -6989,115 +5313,6 @@
       "rowCount": 5
     },
     {
-      "filename": "621_mrm_automile_customers.csv",
-      "filepath": "waylens_filtered_data/high_priority/621_mrm_automile_customers.csv",
-      "number": 621,
-      "company": null,
-      "topic": "customers",
-      "keywords": [
-        "mrm",
-        "automile",
-        "customers"
-      ],
-      "columns": [
-        "Company",
-        "Customer_Name",
-        "Industry",
-        "Location"
-      ],
-      "rowCount": 10
-    },
-    {
-      "filename": "622_mrm_webfleet_company_history.csv",
-      "filepath": "waylens_filtered_data/high_priority/622_mrm_webfleet_company_history.csv",
-      "number": 622,
-      "company": "webfleet",
-      "topic": "webfleet",
-      "keywords": [
-        "mrm",
-        "webfleet",
-        "company",
-        "history"
-      ],
-      "columns": [
-        "Company",
-        "Original_Name",
-        "Founded_Acquired",
-        "Acquirer",
-        "Acquisition_Date",
-        "Renamed_To",
-        "Rename_Date",
-        "Current_Owner",
-        "Current_Owner_Acquisition",
-        "Current_Name",
-        "Employees",
-        "Global_Units_Parent"
-      ],
-      "rowCount": 1
-    },
-    {
-      "filename": "623_mrm_webfleet_brand_evolution.csv",
-      "filepath": "waylens_filtered_data/high_priority/623_mrm_webfleet_brand_evolution.csv",
-      "number": 623,
-      "company": "webfleet",
-      "topic": "webfleet",
-      "keywords": [
-        "mrm",
-        "webfleet",
-        "brand",
-        "evolution"
-      ],
-      "columns": [
-        "Company",
-        "Brand_Name",
-        "Time_Period",
-        "Parent_Company",
-        "Notes"
-      ],
-      "rowCount": 4
-    },
-    {
-      "filename": "624_mrm_webfleet_acquisitions.csv",
-      "filepath": "waylens_filtered_data/high_priority/624_mrm_webfleet_acquisitions.csv",
-      "number": 624,
-      "company": "webfleet",
-      "topic": "webfleet",
-      "keywords": [
-        "mrm",
-        "webfleet",
-        "acquisitions"
-      ],
-      "columns": [
-        "Company",
-        "Acquired_Company",
-        "Acquisition_Year",
-        "Country",
-        "Strategic_Rationale"
-      ],
-      "rowCount": 4
-    },
-    {
-      "filename": "625_mrm_webfleet_geographic_coverage.csv",
-      "filepath": "waylens_filtered_data/high_priority/625_mrm_webfleet_geographic_coverage.csv",
-      "number": 625,
-      "company": "webfleet",
-      "topic": "webfleet",
-      "keywords": [
-        "mrm",
-        "webfleet",
-        "geographic",
-        "coverage"
-      ],
-      "columns": [
-        "Company",
-        "Region",
-        "Countries_Count",
-        "Key_Countries",
-        "Market_Position_Europe"
-      ],
-      "rowCount": 1
-    },
-    {
       "filename": "626_mrm_webfleet_hardware_products.csv",
       "filepath": "waylens_filtered_data/high_priority/626_mrm_webfleet_hardware_products.csv",
       "number": 626,
@@ -7120,28 +5335,6 @@
       "rowCount": 4
     },
     {
-      "filename": "627_mrm_webfleet_market_positioning.csv",
-      "filepath": "waylens_filtered_data/high_priority/627_mrm_webfleet_market_positioning.csv",
-      "number": 627,
-      "company": "webfleet",
-      "topic": "webfleet",
-      "keywords": [
-        "mrm",
-        "webfleet",
-        "market",
-        "positioning"
-      ],
-      "columns": [
-        "Company",
-        "Market_Position",
-        "Geographic_Scope",
-        "Units_in_Service_Estimate",
-        "Growth_Strategy",
-        "Solution_Components"
-      ],
-      "rowCount": 1
-    },
-    {
       "filename": "634_mrm_tenna_customers.csv",
       "filepath": "waylens_filtered_data/high_priority/634_mrm_tenna_customers.csv",
       "number": 634,
@@ -7158,48 +5351,6 @@
         "Details"
       ],
       "rowCount": 4
-    },
-    {
-      "filename": "635_mrm_video_driver_behavior_market_overview.csv",
-      "filepath": "waylens_filtered_data/high_priority/635_mrm_video_driver_behavior_market_overview.csv",
-      "number": 635,
-      "company": null,
-      "topic": "video",
-      "keywords": [
-        "mrm",
-        "video",
-        "driver",
-        "behavior",
-        "market",
-        "overview"
-      ],
-      "columns": [
-        "Category",
-        "Insight",
-        "Details"
-      ],
-      "rowCount": 10
-    },
-    {
-      "filename": "636_mrm_lytx_company_overview.csv",
-      "filepath": "waylens_filtered_data/high_priority/636_mrm_lytx_company_overview.csv",
-      "number": 636,
-      "company": "lytx",
-      "topic": "company",
-      "keywords": [
-        "mrm",
-        "lytx",
-        "company",
-        "overview"
-      ],
-      "columns": [
-        "Category",
-        "Metric",
-        "Value",
-        "Year",
-        "Notes"
-      ],
-      "rowCount": 24
     },
     {
       "filename": "637_mrm_lytx_investors_acquisitions.csv",
@@ -7221,68 +5372,6 @@
         "Valuation"
       ],
       "rowCount": 7
-    },
-    {
-      "filename": "638_mrm_lytx_product_portfolio.csv",
-      "filepath": "waylens_filtered_data/high_priority/638_mrm_lytx_product_portfolio.csv",
-      "number": 638,
-      "company": "lytx",
-      "topic": null,
-      "keywords": [
-        "mrm",
-        "lytx",
-        "product",
-        "portfolio"
-      ],
-      "columns": [
-        "Product",
-        "Launch_Year",
-        "Description",
-        "Key_Features",
-        "Performance"
-      ],
-      "rowCount": 8
-    },
-    {
-      "filename": "639_mrm_government_fleet_market_overview.csv",
-      "filepath": "waylens_filtered_data/high_priority/639_mrm_government_fleet_market_overview.csv",
-      "number": 639,
-      "company": "webfleet",
-      "topic": "government",
-      "keywords": [
-        "mrm",
-        "government",
-        "fleet",
-        "market",
-        "overview"
-      ],
-      "columns": [
-        "Category",
-        "Topic",
-        "Details",
-        "Source"
-      ],
-      "rowCount": 2
-    },
-    {
-      "filename": "639_mrm_lytx_technology_capabilities.csv",
-      "filepath": "waylens_filtered_data/high_priority/639_mrm_lytx_technology_capabilities.csv",
-      "number": 639,
-      "company": "lytx",
-      "topic": "technology",
-      "keywords": [
-        "mrm",
-        "lytx",
-        "technology",
-        "capabilities"
-      ],
-      "columns": [
-        "Technology",
-        "Capability",
-        "Performance_Metric",
-        "Details"
-      ],
-      "rowCount": 12
     },
     {
       "filename": "640_mrm_lytx_customers.csv",
@@ -7343,69 +5432,6 @@
         "Hardware_Type"
       ],
       "rowCount": 1
-    },
-    {
-      "filename": "642_mrm_vertical_markets_overview.csv",
-      "filepath": "waylens_filtered_data/high_priority/642_mrm_vertical_markets_overview.csv",
-      "number": 642,
-      "company": null,
-      "topic": "vertical",
-      "keywords": [
-        "mrm",
-        "vertical",
-        "markets",
-        "overview"
-      ],
-      "columns": [
-        "Category",
-        "Topic",
-        "Details",
-        "Source"
-      ],
-      "rowCount": 2
-    },
-    {
-      "filename": "643_mrm_powerfleet_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/643_mrm_powerfleet_profile.csv",
-      "number": 643,
-      "company": "powerfleet",
-      "topic": "powerfleet",
-      "keywords": [
-        "mrm",
-        "powerfleet",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Metric",
-        "Value",
-        "Details",
-        "Year",
-        "Source"
-      ],
-      "rowCount": 46
-    },
-    {
-      "filename": "645_mrm_fleetmind_solutions_profile.csv",
-      "filepath": "waylens_filtered_data/high_priority/645_mrm_fleetmind_solutions_profile.csv",
-      "number": 645,
-      "company": null,
-      "topic": "fleetmind",
-      "keywords": [
-        "mrm",
-        "fleetmind",
-        "solutions",
-        "profile"
-      ],
-      "columns": [
-        "Category",
-        "Metric",
-        "Value",
-        "Details",
-        "Year",
-        "Source"
-      ],
-      "rowCount": 41
     },
     {
       "filename": "645_mrm_omnitracs_smartdrive_customers.csv",
@@ -7805,29 +5831,6 @@
         "Notes"
       ],
       "rowCount": 3
-    },
-    {
-      "filename": "662_mrm_public_transit_market_overview.csv",
-      "filepath": "waylens_filtered_data/high_priority/662_mrm_public_transit_market_overview.csv",
-      "number": 662,
-      "company": null,
-      "topic": "market",
-      "keywords": [
-        "mrm",
-        "public",
-        "transit",
-        "market",
-        "overview"
-      ],
-      "columns": [
-        "Market_Segment",
-        "Common_Terminology",
-        "System_Components",
-        "Typical_System_Cost",
-        "Funding_Source",
-        "Competition_Characteristics"
-      ],
-      "rowCount": 1
     },
     {
       "filename": "666_mrm_conduent_pricing_deployments.csv",
@@ -8718,28 +6721,6 @@
       "rowCount": 6
     },
     {
-      "filename": "706_mrm_competitive_intelligence_trailers.csv",
-      "filepath": "waylens_filtered_data/high_priority/706_mrm_competitive_intelligence_trailers.csv",
-      "number": 706,
-      "company": null,
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "intelligence",
-        "trailers"
-      ],
-      "columns": [
-        "Category",
-        "Company",
-        "Competitive Position",
-        "Strengths",
-        "Market Share Indicators",
-        "Differentiation"
-      ],
-      "rowCount": 19
-    },
-    {
       "filename": "707_mrm_clevest_customers.csv",
       "filepath": "waylens_filtered_data/high_priority/707_mrm_clevest_customers.csv",
       "number": 707,
@@ -8922,28 +6903,6 @@
       "rowCount": 19
     },
     {
-      "filename": "714_mrm_competitive_positioning_summary.csv",
-      "filepath": "waylens_filtered_data/high_priority/714_mrm_competitive_positioning_summary.csv",
-      "number": 714,
-      "company": null,
-      "topic": "competitive",
-      "keywords": [
-        "mrm",
-        "competitive",
-        "positioning",
-        "summary"
-      ],
-      "columns": [
-        "Company",
-        "Market Position",
-        "Key Differentiators",
-        "Competitive Advantages",
-        "Target Market Focus",
-        "Estimated Market Share Notes"
-      ],
-      "rowCount": 12
-    },
-    {
       "filename": "714_mrm_workwave_deployment.csv",
       "filepath": "waylens_filtered_data/high_priority/714_mrm_workwave_deployment.csv",
       "number": 714,
@@ -8990,7 +6949,6 @@
     "greenroad",
     "gurtam",
     "ituran",
-    "keeptruckin",
     "linxup",
     "lytx",
     "mix_telematics",
@@ -9005,7 +6963,6 @@
     "platform_science",
     "powerfleet",
     "project44",
-    "rhino",
     "samsara",
     "solera",
     "teletrac",
@@ -9029,15 +6986,12 @@
     "fleethunt",
     "fleetilla",
     "fleetmetriks",
-    "fleetmind",
     "fleets",
     "fleetup",
     "golfleet",
     "government",
     "industry",
     "market",
-    "markets",
-    "metrics",
     "operators",
     "overview",
     "partners",
@@ -9048,7 +7002,6 @@
     "products",
     "profile",
     "profiles",
-    "revenue",
     "technology",
     "telematics",
     "vertical",
@@ -9056,5 +7009,5 @@
     "video",
     "webfleet"
   ],
-  "generatedAt": "2026-01-14T22:51:27.555Z"
+  "generatedAt": "2026-01-15T22:38:36.818Z"
 }
