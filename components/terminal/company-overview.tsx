@@ -1,6 +1,6 @@
 "use client"
 
-import { Target, TrendingUp, Building2, Truck, Radio } from "lucide-react"
+import { Target, TrendingUp, Building2, Truck, Radio, Info } from "lucide-react"
 import { 
   PieChart, 
   Pie, 
@@ -90,9 +90,9 @@ export function CompanyOverview({ ticker }: CompanyOverviewProps) {
         
         <p className="text-sm text-gray-700 leading-relaxed mb-6">
           The global telematics market encompasses vehicle tracking, fleet management, and connected operations solutions. 
-          With over 450 million commercial vehicles worldwide, the market is experiencing rapid digitization driven by regulatory 
-          requirements, operational efficiency demands, and IoT technology advancement. The market has achieved 28% penetration 
-          with 126 million connected vehicles globally, growing at a 15.8% CAGR as businesses increasingly adopt real-time 
+          With over <strong>450 million</strong> commercial vehicles worldwide, the market is experiencing rapid digitization driven by regulatory 
+          requirements, operational efficiency demands, and IoT technology advancement. The market has achieved <strong>28%</strong> penetration 
+          with <strong>126 million</strong> connected vehicles globally, growing at a <strong>15.8%</strong> CAGR as businesses increasingly adopt real-time 
           monitoring, predictive maintenance, and data-driven decision making capabilities.
         </p>
 
@@ -133,7 +133,7 @@ export function CompanyOverview({ ticker }: CompanyOverviewProps) {
 
         <p className="text-sm text-gray-700 leading-relaxed mb-6">
           The United States represents the largest and most mature telematics market globally, accounting for 75% of the 
-          addressable market. With 338 million commercial vehicles and 94 million fleet operators, the US market demonstrates 
+          addressable market. With <strong>338 million</strong> commercial vehicles and <strong>94 million</strong> fleet operators, the US market demonstrates 
           strong adoption of fleet management technologies driven by ELD mandates, insurance requirements, and operational 
           efficiency initiatives. The market is characterized by diverse verticals from transportation and logistics to 
           construction and field services, each with unique telematics requirements and adoption patterns.
@@ -463,6 +463,57 @@ export function CompanyOverview({ ticker }: CompanyOverviewProps) {
             </div>
             <div className="text-3xl font-bold text-blue-900 mb-2">+35%</div>
             <div className="text-xs text-gray-600">Year-over-Year</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Data Sources & References */}
+      <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg border border-gray-300 p-6">
+        <div className="flex items-center gap-2 mb-4">
+          <Info className="w-5 h-5 text-gray-700" />
+          <h3 className="text-lg font-semibold text-gray-900">Data Sources & Methodology</h3>
+        </div>
+        
+        <div className="space-y-3">
+          <div className="bg-white border border-gray-200 rounded-lg p-4">
+            <div className="text-sm font-bold text-gray-900 mb-2">Primary Research Source</div>
+            <div className="text-sm text-gray-700 leading-relaxed">
+              <strong>Waylens Market Research Database</strong> — Comprehensive fleet telematics market analysis compiled from 690 proprietary CSV data files 
+              covering fleet operators, competitive intelligence, customer references, and market statistics. 
+              Data collected and validated Q4 2023 through Q2 2024.
+            </div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-3">
+              <div className="text-xs font-bold text-gray-900 mb-2">External Data Sources:</div>
+              <ul className="text-xs text-gray-700 space-y-1">
+                <li>• OICA Global Vehicle Database (2024)</li>
+                <li>• US DOT Federal Highway Administration</li>
+                <li>• IoT Analytics Market Research Reports</li>
+                <li>• US Census Bureau Business Statistics</li>
+                <li>• Markets and Markets Industry Reports</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white border border-gray-200 rounded-lg p-3">
+              <div className="text-xs font-bold text-gray-900 mb-2">Internal Analysis:</div>
+              <ul className="text-xs text-gray-700 space-y-1">
+                <li>• 419 High Priority Dataset Files</li>
+                <li>• Fleet Management Vendor Analysis</li>
+                <li>• Growth Metrics & Financial Comparisons</li>
+                <li>• Vertical Market Segmentation Studies</li>
+                <li>• Customer Reference & Deployment Data</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="p-3 bg-blue-50 border border-blue-200 rounded text-xs text-gray-700">
+            <strong>Data Location:</strong> All supporting datasets are located in <code className="bg-gray-200 px-1.5 py-0.5 rounded font-mono">waylens_filtered_data/high_priority/</code> and 
+            <code className="bg-gray-200 px-1.5 py-0.5 rounded font-mono ml-1">medium_priority/</code> directories. 
+            Key files include: <code className="bg-gray-200 px-1.5 py-0.5 rounded font-mono">07_us_fleet_by_gwv.csv</code>, 
+            <code className="bg-gray-200 px-1.5 py-0.5 rounded font-mono">02_fleet_management_vendors.csv</code>, and 
+            <code className="bg-gray-200 px-1.5 py-0.5 rounded font-mono">62_growth_metrics_comparison.csv</code>.
           </div>
         </div>
       </div>

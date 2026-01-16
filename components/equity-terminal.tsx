@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Sidebar } from "./terminal/sidebar"
 import { CompanyOverview } from "./terminal/company-overview"
 import { ClientsPage } from "./terminal/clients-page"
+import { ProspectsPage } from "./terminal/prospects-page"
 import { NewsPage } from "./terminal/news-page"
 import { OutreachPage } from "./terminal/outreach-page"
 import { NewsletterPage } from "./terminal/newsletter-page"
@@ -34,6 +35,8 @@ export function EquityTerminal() {
         return <SearchPage ticker={selectedTicker} />
       case "overview":
         return <CompanyOverview ticker={selectedTicker} />
+      case "prospects":
+        return <ProspectsPage ticker={selectedTicker} />
       case "summary-tsp":
         return <TSPPage ticker={selectedTicker} />
       case "summary-reseller":

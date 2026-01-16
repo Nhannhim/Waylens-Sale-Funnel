@@ -79,6 +79,29 @@ const recentCampaigns = [
 
 export function NewsletterPage({ ticker }: NewsletterPageProps) {
   const [isDragging, setIsDragging] = useState(false)
+  const [uploadedFiles, setUploadedFiles] = useState(uploadedMaterials)
+  const [showClientSelector, setShowClientSelector] = useState(false)
+  const [selectedClients, setSelectedClients] = useState<string[]>([])
+
+  const handleFileUpload = (files: FileList | null) => {
+    if (!files) return
+    
+    const newFiles = Array.from(files).map(file => ({
+      name: file.name,
+      type: file.type.includes('pdf') ? 'Marketing' : file.type.includes('sheet') ? 'Sales Tool' : 'Sales',
+      size: `${(file.size / 1024 / 1024).toFixed(2)} MB`,
+      date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    }))
+    
+    setUploadedFiles([...newFiles, ...uploadedFiles])
+    setShowClientSelector(true)
+  }
+
+  const availableClients = [
+    "DHL Supply Chain", "Sysco Corporation", "Crown Castle", "Republic Services",
+    "Walmart", "Amazon Logistics", "FedEx", "UPS", "Target", "Home Depot",
+    "Coca-Cola", "PepsiCo", "Kroger", "Costco", "Lowe's"
+  ]
 
   return (
     <div className="space-y-4">
@@ -113,7 +136,7 @@ export function NewsletterPage({ ticker }: NewsletterPageProps) {
           onDrop={(e) => {
             e.preventDefault()
             setIsDragging(false)
-            // Handle file upload here
+            handleFileUpload(e.dataTransfer.files)
           }}
         >
           <Upload className="w-12 h-12 text-gray-400 mx-auto mb-4" />
@@ -123,20 +146,88 @@ export function NewsletterPage({ ticker }: NewsletterPageProps) {
           <p className="text-sm text-gray-600 mb-4">
             or click to browse from your computer
           </p>
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-            <Upload className="w-4 h-4 mr-2" />
-            Choose Files
-          </Button>
+          <label htmlFor="file-upload">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white cursor-pointer">
+              <Upload className="w-4 h-4 mr-2" />
+              Choose Files
+            </Button>
+          </label>
+          <input
+            id="file-upload"
+            type="file"
+            multiple
+            accept=".pdf,.docx,.pptx,.xlsx,.png,.jpg,.jpeg"
+            className="hidden"
+            onChange={(e) => handleFileUpload(e.target.files)}
+          />
           <p className="text-xs text-gray-500 mt-3">
             Supported formats: PDF, DOCX, PPTX, XLSX, PNG, JPG (Max 10MB)
           </p>
         </div>
 
+        {/* Client Selector Modal */}
+        {showClientSelector && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={() => setShowClientSelector(false)}>
+            <div className="bg-white rounded-lg border-2 border-blue-300 p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Select Target Clients</h3>
+              <p className="text-sm text-gray-600 mb-4">Choose which clients should receive this newsletter</p>
+              
+              <div className="grid grid-cols-2 gap-2 mb-6">
+                {availableClients.map((client, idx) => (
+                  <label
+                    key={idx}
+                    className={`flex items-center gap-3 p-3 border-2 rounded-lg cursor-pointer transition-all ${
+                      selectedClients.includes(client)
+                        ? 'border-blue-500 bg-blue-50'
+                        : 'border-gray-300 bg-white hover:border-blue-300'
+                    }`}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={selectedClients.includes(client)}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSelectedClients([...selectedClients, client])
+                        } else {
+                          setSelectedClients(selectedClients.filter(c => c !== client))
+                        }
+                      }}
+                      className="w-4 h-4 text-blue-600"
+                    />
+                    <span className="text-sm font-medium text-gray-900">{client}</span>
+                  </label>
+                ))}
+              </div>
+
+              <div className="flex gap-3">
+                <Button 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                  onClick={() => {
+                    setShowClientSelector(false)
+                    // Process newsletter sending
+                    alert(`Newsletter will be sent to ${selectedClients.length} clients: ${selectedClients.join(', ')}`)
+                  }}
+                  disabled={selectedClients.length === 0}
+                >
+                  <Send className="w-4 h-4 mr-2" />
+                  Send to {selectedClients.length} Client{selectedClients.length !== 1 ? 's' : ''}
+                </Button>
+                <Button 
+                  variant="outline"
+                  onClick={() => setShowClientSelector(false)}
+                >
+                  Cancel
+                </Button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Uploaded Files */}
         <div className="mt-6">
-          <h4 className="text-sm font-semibold text-gray-900 mb-3">Recently Uploaded</h4>
+          <h4 className="text-sm font-semibold text-gray-900 mb-3">Recently Uploaded ({uploadedFiles.length} files)</h4>
           <div className="space-y-2">
-            {uploadedMaterials.map((file, idx) => (
+            {uploadedFiles.map((file, idx) => (
               <div key={idx} className="flex items-center justify-between p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-colors">
                 <div className="flex items-center gap-3">
                   <FileText className="w-5 h-5 text-blue-600" />

@@ -38,6 +38,7 @@ const navSections: NavSection[] = [
     items: [
       { id: "search", label: "Search", icon: <Search className="w-4 h-4" /> },
       { id: "overview", label: "Industry Overview", icon: <TrendingUp className="w-4 h-4" /> },
+      { id: "prospects", label: "Prospects", icon: <Building2 className="w-4 h-4" /> },
       { id: "clients", label: "Clients", icon: <Building2 className="w-4 h-4" /> },
       { id: "news", label: "News", icon: <Newspaper className="w-4 h-4" /> },
       { id: "outreach", label: "Outreach", icon: <Phone className="w-4 h-4" /> },
