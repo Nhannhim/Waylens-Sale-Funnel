@@ -23,9 +23,9 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 4500000,
+        "fleetSize": 3700000,
         "fleetSizeRange": "enterprise",
-        "revenue": 357,
+        "revenue": 491000000,
         "revenueRange": "micro",
         "employees": 230,
         "customers": 8001000
@@ -41,17 +41,17 @@
           "Brazil"
         ],
         "region": [],
-        "headquarters": "Oakville Ontario Canada"
+        "headquarters": "Oakville, Ontario, Canada"
       },
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Public",
+        "ownership": "Independent (Private)",
         "stockSymbol": "Private",
         "founded": 2000
       },
       "financials": {
-        "revenue": 357,
+        "revenue": 491000000,
         "growth_rate": 14
       },
       "relationships": {
@@ -183,7 +183,7 @@
         "employees": 2500,
         "revenue": 30000000000,
         "revenueRange": "enterprise",
-        "fleetSize": 1600000,
+        "fleetSize": 2000000,
         "fleetSizeRange": "enterprise"
       },
       "geography": {
@@ -199,7 +199,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Public",
+        "ownership": "Verizon (Public)",
         "stockSymbol": "Verizon Business Group"
       },
       "financials": {
@@ -260,7 +260,7 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 500000000,
+        "fleetSize": 3000000,
         "fleetSizeRange": "enterprise",
         "revenue": 1000000000,
         "revenueRange": "enterprise",
@@ -274,21 +274,22 @@
           "Mexico"
         ],
         "region": [],
-        "headquarters": "San Francisco"
+        "headquarters": "US"
       },
       "business": {
         "vertical": [],
         "products": [
           "Video Telematics"
         ],
-        "ownership": "Public",
+        "ownership": "Independent (Public: IOT)",
         "stockSymbol": "NYSE: IOT",
         "founded": 2015
       },
       "financials": {
         "revenue": 1000000000,
         "growth_rate": 44,
-        "ebitda": -239000000
+        "ebitda": -239000000,
+        "arr": 500000000
       },
       "relationships": {
         "customers": [],
@@ -355,7 +356,7 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 1000000,
+        "fleetSize": 1200000,
         "fleetSizeRange": "enterprise",
         "revenue": 295000000,
         "revenueRange": "large"
@@ -372,7 +373,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Public",
+        "ownership": "Independent (Public: CAMP)",
         "stockSymbol": "Acquired 2024"
       },
       "financials": {
@@ -436,7 +437,7 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 1000000,
+        "fleetSize": 1100000,
         "fleetSizeRange": "enterprise",
         "revenue": 562000000,
         "revenueRange": "large"
@@ -456,7 +457,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Public",
+        "ownership": "Solera Holdings",
         "stockSymbol": "Private (Vista Equity)"
       },
       "financials": {
@@ -495,7 +496,7 @@
         "private-company"
       ],
       "metrics": {
-        "fleetSize": 900000,
+        "fleetSize": 800000,
         "fleetSizeRange": "very-large",
         "employees": 600,
         "valuation": 1.5,
@@ -629,7 +630,7 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 750000,
+        "fleetSize": 700000,
         "fleetSizeRange": "very-large",
         "revenue": 300000000,
         "revenueRange": "large",
@@ -644,14 +645,14 @@
           "Canada"
         ],
         "region": [],
-        "headquarters": "San Francisco"
+        "headquarters": "US"
       },
       "business": {
         "vertical": [],
         "products": [
           "ELD"
         ],
-        "ownership": "Public",
+        "ownership": "Private",
         "stockSymbol": "Private (Unicorn)",
         "founded": 2013
       },
@@ -696,7 +697,9 @@
         "transportation",
         "being acquired by platform science"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 650000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -755,7 +758,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 680000,
+        "fleetSize": 600000,
         "fleetSizeRange": "very-large"
       },
       "geography": {
@@ -809,7 +812,7 @@
         "bridgestone (tire oem)"
       ],
       "metrics": {
-        "fleetSize": 440000,
+        "fleetSize": 550000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -858,7 +861,7 @@
         "michelin (tire oem)"
       ],
       "metrics": {
-        "fleetSize": 430000,
+        "fleetSize": 520000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -899,7 +902,9 @@
         "complete",
         "recently acquired by powerfleet"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 500000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -943,7 +948,9 @@
         "systems",
         "continental (tire/auto oem)"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 480000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -988,7 +995,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 300000,
+        "fleetSize": 450000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1001,7 +1008,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1041,9 +1048,9 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 280000,
+        "fleetSize": 450000,
         "fleetSizeRange": "large",
-        "revenue": 285,
+        "revenue": 134000000,
         "revenueRange": "micro",
         "marketCap": 786000000,
         "employees": 1800,
@@ -1058,16 +1065,16 @@
           "Argentina"
         ],
         "region": [],
-        "headquarters": "New Jersey"
+        "headquarters": "US"
       },
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Public",
+        "ownership": "Independent (Public: AIOT)",
         "stockSymbol": "NASDAQ: PWFL"
       },
       "financials": {
-        "revenue": 285,
+        "revenue": 134000000,
         "growth_rate": -1,
         "ebitda": 7000000
       },
@@ -1117,7 +1124,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 213000,
+        "fleetSize": 400000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1134,7 +1141,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1161,7 +1168,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 380000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -1195,7 +1204,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 200000,
+        "fleetSize": 350000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1207,7 +1216,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1239,7 +1248,7 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 200000,
+        "fleetSize": 320000,
         "fleetSizeRange": "large",
         "revenue": 320000000,
         "revenueRange": "large",
@@ -1297,7 +1306,7 @@
       ],
       "metrics": {
         "employees": 8400,
-        "fleetSize": 200000,
+        "fleetSize": 300000,
         "fleetSizeRange": "large",
         "customers": 40000
       },
@@ -1314,7 +1323,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Vontier",
+        "ownership": "Verizon",
         "founded": 1988
       },
       "financials": {},
@@ -1427,7 +1436,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 170000,
+        "fleetSize": 270000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1440,7 +1449,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1473,7 +1482,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 160000,
+        "fleetSize": 250000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1488,7 +1497,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1524,7 +1533,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 160000,
+        "fleetSize": 240000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1541,7 +1550,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1571,7 +1580,7 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 155000,
+        "fleetSize": 230000,
         "fleetSizeRange": "large",
         "revenue": 60000000,
         "revenueRange": "medium"
@@ -1587,7 +1596,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Public",
+        "ownership": "Private",
         "stockSymbol": "Private"
       },
       "financials": {
@@ -1623,7 +1632,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 150000,
+        "fleetSize": 220000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1638,7 +1647,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1662,17 +1671,24 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "revenue": 45000000
+      },
       "geography": {
         "markets": [],
-        "region": []
+        "region": [],
+        "headquarters": "Brazil"
       },
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Private"
+        "ownership": "Private",
+        "stockSymbol": "Private"
       },
-      "financials": {},
+      "financials": {
+        "revenue": 45000000,
+        "growth_rate": 14
+      },
       "relationships": {
         "customers": [],
         "partners": [],
@@ -1727,7 +1743,7 @@
         "independent"
       ],
       "metrics": {
-        "fleetSize": 140000,
+        "fleetSize": 190000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1739,7 +1755,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Independent"
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -1770,7 +1786,7 @@
         "scania (oem)"
       ],
       "metrics": {
-        "fleetSize": 133000,
+        "fleetSize": 180000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -1785,7 +1801,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Scania (OEM)"
+        "ownership": "Traton Group (VW)"
       },
       "financials": {},
       "relationships": {
@@ -1809,7 +1825,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 95000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -1843,7 +1861,9 @@
         "logic",
         "kore wireless"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 90000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -1875,7 +1895,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 85000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -1911,7 +1933,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 80000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -1944,7 +1968,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 75000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -1975,7 +2001,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 70000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -2009,7 +2037,9 @@
         "powerfleet",
         "powerfleet (recently acquired)"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 65000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -2043,7 +2073,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 60000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -2074,7 +2106,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 55000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -2108,7 +2142,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 50000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -2142,7 +2178,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 48000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -2180,7 +2218,9 @@
         "private",
         "private-company"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 45000
+      },
       "geography": {
         "markets": [],
         "region": []
@@ -3927,7 +3967,7 @@
         "publicly-traded"
       ],
       "metrics": {
-        "fleetSize": 348000,
+        "fleetSize": 500000,
         "fleetSizeRange": "large",
         "revenue": 103000000,
         "revenueRange": "medium"
@@ -3944,7 +3984,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Public",
+        "ownership": "Recently acquired by Powerfleet",
         "stockSymbol": "Acquired by Powerfleet 2024"
       },
       "financials": {
@@ -3978,7 +4018,7 @@
         "continental (automotive)"
       ],
       "metrics": {
-        "fleetSize": 340000,
+        "fleetSize": 480000,
         "fleetSizeRange": "large"
       },
       "geography": {
@@ -3991,7 +4031,7 @@
       "business": {
         "vertical": [],
         "products": [],
-        "ownership": "Continental (Automotive)"
+        "ownership": "Continental (Tire/Auto OEM)"
       },
       "financials": {},
       "relationships": {
@@ -10166,16 +10206,27 @@
       "keywords": [
         "powerfleet"
       ],
-      "metrics": {},
+      "metrics": {
+        "revenue": 134000000,
+        "fleetSize": 450000,
+        "marketCap": 786000000
+      },
       "geography": {
         "markets": [],
-        "region": []
+        "region": [],
+        "headquarters": "US"
       },
       "business": {
         "vertical": [],
-        "products": []
+        "products": [],
+        "stockSymbol": "NASDAQ: PWFL",
+        "ownership": "Independent (Public: AIOT)"
       },
-      "financials": {},
+      "financials": {
+        "revenue": 134000000,
+        "growth_rate": -1,
+        "ebitda": 7000000
+      },
       "relationships": {
         "customers": [],
         "partners": [],
@@ -10532,14 +10583,17 @@
       "keywords": [
         "intellishift"
       ],
-      "metrics": {},
+      "metrics": {
+        "fleetSize": 85000
+      },
       "geography": {
         "markets": [],
         "region": []
       },
       "business": {
         "vertical": [],
-        "products": []
+        "products": [],
+        "ownership": "Private"
       },
       "financials": {},
       "relationships": {
@@ -15593,16 +15647,25 @@
         "calamp",
         "corp."
       ],
-      "metrics": {},
+      "metrics": {
+        "revenue": 295000000,
+        "fleetSize": 1200000
+      },
       "geography": {
         "markets": [],
-        "region": []
+        "region": [],
+        "headquarters": "US"
       },
       "business": {
         "vertical": [],
-        "products": []
+        "products": [],
+        "stockSymbol": "Acquired 2024",
+        "ownership": "Independent (Public: CAMP)"
       },
-      "financials": {},
+      "financials": {
+        "revenue": 295000000,
+        "ebitda": 18000000
+      },
       "relationships": {
         "customers": [],
         "partners": [],
@@ -24117,7 +24180,8 @@
         "latam"
       ],
       "metrics": {
-        "fleetSizeRange": "small"
+        "fleetSizeRange": "small",
+        "revenue": 155000000
       },
       "geography": {
         "markets": [
@@ -24126,7 +24190,7 @@
         "region": [
           "LATAM"
         ],
-        "headquarters": "LATAM"
+        "headquarters": "Brazil"
       },
       "business": {
         "industry": "TSP",
@@ -24134,9 +24198,13 @@
           "TSP"
         ],
         "products": [],
-        "ownership": "Private"
+        "ownership": "Private",
+        "stockSymbol": "Michelin subsidiary"
       },
-      "financials": {},
+      "financials": {
+        "revenue": 155000000,
+        "growth_rate": 5
+      },
       "relationships": {
         "customers": [],
         "partners": [],
