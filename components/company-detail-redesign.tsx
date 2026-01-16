@@ -637,10 +637,15 @@ export function CompanyDetailRedesign({ companyId }: CompanyDetailPageProps) {
                       <span className="text-xs font-bold text-orange-900">AI Financial Analysis</span>
                     </div>
                     <p className="text-xs text-gray-800 leading-relaxed">
-                      <strong>Key Finding:</strong> Company shows strong revenue momentum with consistent quarter-over-quarter growth (+87% from Q1'23 to Q4'24). 
-                      However, <strong className="text-red-700">not yet profitable</strong> - operating with -$239M EBITDA as the company invests heavily in R&D, sales, and market expansion. 
-                      The 72% gross margin is healthy for SaaS, but high operating expenses (82% of revenue) indicate aggressive growth strategy. 
-                      <strong className="text-blue-700">Break-even expected as scale improves</strong> and customer acquisition costs normalize.
+                      <strong>Key Finding:</strong> {company.name} {revenueGrowth > 20 ? 'demonstrates strong' : 'shows steady'} revenue momentum with {revenueGrowth.toFixed(0)}% year-over-year growth. 
+                      {isProfitable ? (
+                        <>The company is <strong className="text-green-700">profitable</strong> with positive EBITDA of ${(Math.abs(ebitdaFY24) / 1_000_000).toFixed(0)}M, indicating strong operational efficiency and market fit. 
+                        The {(grossMargin * 100).toFixed(0)}% gross margin demonstrates {grossMargin > 0.70 ? 'excellent' : 'solid'} pricing power and cost management.</>
+                      ) : (
+                        <>Currently <strong className="text-red-700">investing in growth</strong> with negative EBITDA of ${(Math.abs(ebitdaFY24) / 1_000_000).toFixed(0)}M as the company prioritizes market expansion and R&D. 
+                        The {(grossMargin * 100).toFixed(0)}% gross margin is healthy, with <strong className="text-blue-700">profitability expected as scale improves</strong>.</>
+                      )}
+                      {company.metrics.fleetSize && company.metrics.fleetSize > 1000000 && ` With ${(company.metrics.fleetSize / 1_000_000).toFixed(1)}M+ connected assets, the platform shows strong market adoption.`}
                     </p>
                   </div>
                 </div>
