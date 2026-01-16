@@ -9,6 +9,9 @@ import { OutreachPage } from "./terminal/outreach-page"
 import { NewsletterPage } from "./terminal/newsletter-page"
 import { SearchPage } from "./terminal/search-page"
 import { CompanyTemplate } from "./terminal/company-template"
+import { TSPPage } from "./terminal/tsp-page"
+import { InsurtechPage } from "./terminal/insurtech-page"
+import { CompanyDatabase } from "./terminal/company-database"
 
 export function EquityTerminal() {
   const [selectedTicker, setSelectedTicker] = useState("IOT")
@@ -31,6 +34,14 @@ export function EquityTerminal() {
         return <SearchPage ticker={selectedTicker} />
       case "overview":
         return <CompanyOverview ticker={selectedTicker} />
+      case "summary-tsp":
+        return <TSPPage ticker={selectedTicker} />
+      case "summary-reseller":
+        return <TSPPage ticker={selectedTicker} />
+      case "summary-insurtech":
+        return <InsurtechPage ticker={selectedTicker} />
+      case "summary-database":
+        return <CompanyDatabase />
       case "clients":
         return <ClientsPage ticker={selectedTicker} />
       case "news":

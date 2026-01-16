@@ -45,7 +45,6 @@ const navSections: NavSection[] = [
     subItems: {
       "outreach": [
         { id: "outreach-newsletter", label: "Newsletter", icon: <Newspaper className="w-3 h-3" /> },
-        { id: "outreach-company", label: "Company Template", icon: <Building2 className="w-3 h-3" /> },
       ],
     },
   },
@@ -55,7 +54,7 @@ export function Sidebar({ activeSection, onSectionChange }: SidebarProps) {
   const [expandedSections, setExpandedSections] = useState<string[]>([
     "MAIN",
   ])
-  const [expandedItems, setExpandedItems] = useState<string[]>(["summary", "outreach"])
+  const [expandedItems, setExpandedItems] = useState<string[]>(["outreach"])
   const [isHovered, setIsHovered] = useState(false)
 
   const toggleSection = (title: string) => {

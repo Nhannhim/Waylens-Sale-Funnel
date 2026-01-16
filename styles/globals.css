@@ -123,3 +123,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Next.js dev tools portal positioning */
+nextjs-portal {
+  left: -14px !important;
+  top: 34px !important;
+}
