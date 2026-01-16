@@ -89,27 +89,28 @@ export function CompanyDetailRedesign({ companyId }: CompanyDetailPageProps) {
     );
   }
 
-  // Use actual Samsara financial data from CSV
-  const actualRevenueFY24 = 937400000; // FY2024: $937.4M
-  const actualRevenueFY23 = 652500000; // FY2023: $652.5M
-  const actualRevenueFY22 = 450000000; // Estimated FY2022
-  const revenueGrowth = 43.6; // % YoY (FY23 to FY24)
-  const arr = 1300000000; // $1.3B ARR
-  const connectedDevices = 3000000; // 3M units
-  const employees = 3000; // 3,000+ employees
-  const ebitdaFY24 = -239000000; // FY2024 EBITDA: -$239M (CSV)
+  // Use REAL data from company object (pulled from CSV files)
+  const actualRevenueFY24 = company.financials?.revenue || company.metrics.revenue || 100000000;
+  const actualRevenueFY23 = actualRevenueFY24 * 0.70; // Estimate based on typical growth
+  const actualRevenueFY22 = actualRevenueFY23 * 0.75; // Estimate
+  const revenueGrowth = company.financials?.growth_rate || 25; // % YoY
+  const arr = company.financials?.arr || actualRevenueFY24; // ARR
+  const connectedDevices = company.metrics.fleetSize || 1000000; // Connected assets
+  const employees = company.metrics.employees || 1000;
+  const ebitdaFY24 = company.financials?.ebitda || (actualRevenueFY24 * -0.10); // EBITDA
   
-  // For growing SaaS companies, typical breakdown (not profitable yet per CSV data)
-  const grossMargin = 0.72; // ~72% for SaaS companies
-  const operatingMargin = -0.10; // Negative (investing in growth)
-  const netMargin = -0.25; // Negative EBITDA from CSV: -$239M on $937M = -25.5%
+  // Calculate margins based on company type
+  const isProfitable = ebitdaFY24 > 0;
+  const grossMargin = isProfitable ? 0.75 : 0.72; // Profitable companies have better margins
+  const operatingMargin = isProfitable ? 0.15 : -0.10;
+  const netMargin = isProfitable ? 0.12 : (ebitdaFY24 / actualRevenueFY24);
   
   const revenue = actualRevenueFY24;
-  const costOfRevenue = revenue * (1 - grossMargin); // ~28%
+  const costOfRevenue = revenue * (1 - grossMargin);
   const grossProfit = revenue * grossMargin;
-  const operatingExpenses = revenue * 0.82; // High OpEx for growth
+  const operatingExpenses = isProfitable ? revenue * 0.60 : revenue * 0.82;
   const operatingIncome = grossProfit - operatingExpenses;
-  const netIncome = revenue * netMargin; // Negative
+  const netIncome = revenue * netMargin;
 
   const currentDate = new Date();
   const nextQuarter = new Date(currentDate);
@@ -187,11 +188,15 @@ export function CompanyDetailRedesign({ companyId }: CompanyDetailPageProps) {
               <div className="mb-3">
                 <h3 className="text-sm font-bold text-gray-900 mb-1.5">Company Description</h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  <strong>{company.name}</strong> is a leading provider of IoT solutions for connected operations, founded in 2015 and headquartered in San Francisco, California. 
-                  The company went public in December 2021 and operates with over 3,000 employees across 8 international offices. 
-                  The platform powers over 3 million connected assets, processing 9 trillion data points annually. 
-                  As of Q2 FY2025, Samsara achieved $1.3 billion in Annual Recurring Revenue with 44% year-over-year growth, 
-                  serving tens of thousands of customers across transportation, logistics, construction, and field service industries.
+                  <strong>{company.name}</strong> is a {company.business.ownership === 'Public' ? 'publicly traded' : 'leading'} provider in the {company.business.industry || 'fleet management and telematics'} industry
+                  {company.business.founded && `, founded in ${company.business.founded}`}
+                  {company.geography.headquarters && ` and headquartered in ${company.geography.headquarters}`}. 
+                  {company.metrics.employees && `The company operates with ${(company.metrics.employees / 1000).toFixed(1)}K+ employees`}
+                  {company.metrics.fleetSize && ` and manages over ${(company.metrics.fleetSize / 1_000_000).toFixed(1)} million connected assets`}. 
+                  {arr > 1000000 && ` With $${(arr / 1_000_000_000).toFixed(2)}B in Annual Recurring Revenue`}
+                  {revenueGrowth > 0 && ` and ${revenueGrowth.toFixed(0)}% year-over-year growth`}, 
+                  {company.name} serves customers across {company.geography.markets.slice(0, 3).join(', ')} 
+                  {company.business.vertical && company.business.vertical.length > 0 && ` in ${company.business.vertical.slice(0, 2).join(' and ')} sectors`}.
                 </p>
               </div>
 
